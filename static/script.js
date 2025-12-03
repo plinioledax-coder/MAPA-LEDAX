@@ -1,7 +1,7 @@
 // =========================
 // CONFIGURAÇÕES DO BACKEND
 // =========================
-const API = "http://localhost:8000";
+const API = "https://mapa-ledax.onrender.com";
 // =========================
 // VARIÁVEIS GLOBAIS
 // =========================
@@ -771,7 +771,7 @@ document.getElementById("toggleClusters").onchange = () => {
   // Carrega os filtros de dados (Rede, Funil, etc)
   await preencherFiltrosIniciais();
 
-  geoJSONestados = await fetch("http://localhost:8000/static/brasil_estados.geojson")
+  geoJSONestados = await fetch("https://mapa-ledax.onrender.com/static/brasil_estados.geojson")
     .then(r => r.json())
     .catch(err => console.error("Erro ao carregar GeoJSON:", err));
 })();
