@@ -11,6 +11,10 @@ from typing import Optional, List # Mantido para compatibilidade
 
 app = FastAPI(title="LEDAX MAPA API")
 
+# -------------------------------
+# 1. Configurações Iniciais
+# -------------------------------
+
 # CORS - libera acesso ao front
 app.add_middleware(
     CORSMiddleware,
@@ -19,6 +23,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Monta o diretório 'static'
+# Arquivos estáticos serão servidos em /static/
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Dependency
@@ -28,6 +34,17 @@ def get_db():
         yield db
     finally:
         db.close()
+
+# -------------------------------
+# 2. ENDPOINT RAIZ (/) - SERVIR O MAPA HTML
+# -------------------------------
+@app.get("/", response_class=FileResponse)
+async def serve_map_index():
+    """
+    Serve o arquivo index.html que contém o mapa, na rota raiz (/).
+    """
+    # Assumimos que o index.html está em 'static/index.html'
+    return FileResponse("static/index.html")
 
 # Função auxiliar para aplicar todos os filtros em uma query base
 def apply_filters_to_query(query, rede, tipo_cliente, funil, representante, regiao, responsavel, data_inicio, data_fim, busca_texto):
