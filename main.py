@@ -1,13 +1,14 @@
 # main.py
-from fastapi import FastAPI, Depends, Query
+from fastapi import FastAPI, Depends, Query # Removido HTTPException e status
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
 from database import SessionLocal
 from models import Cliente
 from fastapi.staticfiles import StaticFiles
-from datetime import date 
-from typing import Optional, List # Mantido para compatibilidade
+from fastapi.responses import FileResponse # ✅ CORRIGIDO: Importado para servir o HTML
+from datetime import date
+from typing import Optional, List
 
 app = FastAPI(title="LEDAX MAPA API")
 
@@ -50,31 +51,26 @@ async def serve_map_index():
 def apply_filters_to_query(query, rede, tipo_cliente, funil, representante, regiao, responsavel, data_inicio, data_fim, busca_texto):
     
     # -----------------------------
-    # 1. Filtros de Seleção Múltipla (Todos agora usam .in_() se houver valores)
+    # 1. Filtros de Seleção Múltipla (usando .in_())
     # -----------------------------
-    # Se a variável for uma lista (com itens), aplica o filtro IN
     
     if rede:
-        # Simplificado: o in_() funciona se 'rede' for uma lista
         query = query.filter(Cliente.rede.in_(rede)) 
         
     if tipo_cliente:
-        # Simplificado
         query = query.filter(Cliente.tipo_cliente.in_(tipo_cliente))
         
     if funil:
-        # Simplificado
         query = query.filter(Cliente.funil.in_(funil))
         
-    # Filtros de Seleção que ERAM ÚNICA, AGORA MÚLTIPLA (USANDO .in_())
     if representante:
-        query = query.filter(Cliente.representante.in_(representante)) # 🚨 CORRIGIDO para .in_()
+        query = query.filter(Cliente.representante.in_(representante))
         
     if regiao:
-        query = query.filter(Cliente.regiao.in_(regiao)) # 🚨 CORRIGIDO para .in_()
+        query = query.filter(Cliente.regiao.in_(regiao))
         
     if responsavel:
-        query = query.filter(Cliente.responsavel.in_(responsavel)) # 🚨 CORRIGIDO para .in_()
+        query = query.filter(Cliente.responsavel.in_(responsavel))
 
     # Filtros de Data
     if data_inicio:
@@ -112,7 +108,6 @@ def get_filtros(
     rede: Optional[List[str]] = Query(None),
     tipo_cliente: Optional[List[str]] = Query(None),
     funil: Optional[List[str]] = Query(None),
-    # 🚨 CORRIGIDO para List[str]
     representante: Optional[List[str]] = Query(None),
     regiao: Optional[List[str]] = Query(None),
     responsavel: Optional[List[str]] = Query(None),
@@ -121,7 +116,7 @@ def get_filtros(
     data_fim: Optional[date] = Query(None),
     
     # Adiciona o campo de busca aqui para afetar a cascata
-    busca_texto: Optional[str] = Query(None), 
+    busca_texto: Optional[str] = Query(None),    
     db: Session = Depends(get_db)
 ):
     
@@ -144,7 +139,7 @@ def get_filtros(
         "representante": uniq_filtered("representante"),
         "regiao": uniq_filtered("regiao"),
         "responsavel": uniq_filtered("responsavel"),
-        "regional": [], 
+        "regional": [],    
     }
 
 
