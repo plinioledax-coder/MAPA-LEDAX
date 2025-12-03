@@ -1,0 +1,3649 @@
+{
+  "LOCAL::AV. NOSSA SRA. DO CARMO, 1650, BELO HORIZONTE - MG, 30330-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Nossa Sra. do Carmo, 1650, Belo Horizonte - MG, 30330-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AL MONTE CARLO S/N": {
+    "lat": -20.7793454,
+    "lon": -49.2604081,
+    "query": "AL MONTE CARLO S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA ALASCA, 554, NOVA LIMA - MG, 34007-134": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Alasca, 554, Nova Lima - MG, 34007-134",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DOUTOR JOÃO PINHEIRO, 4845, CAETÉ - MG": {
+    "lat": -19.8974239,
+    "lon": -43.6681885,
+    "query": "Av. Doutor João Pinheiro, 4845, Caeté - MG",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ESTRADA DA IASA, S/N, SALVADOR - BA, 41290-180": {
+    "lat": -12.9058018,
+    "lon": -38.4634881,
+    "query": "Estrada da Iasa, S/N, Salvador - BA, 41290-180",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. FERNANDO GOMES OLIVEIRA, S/N, ITABUNA - BA, 45601-554": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Fernando Gomes Oliveira, S/N, Itabuna - BA, 45601-554",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AL SALVADOR 1057": {
+    "lat": -12.9765628,
+    "lon": -38.4568269,
+    "query": "AL SALVADOR 1057",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ESTRADA DA IASA, S/N, PIRAJÁ, SALVADOR - BA": {
+    "lat": -12.9058018,
+    "lon": -38.4634881,
+    "query": "Estrada da Iasa, S/N, Pirajá, Salvador - BA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA RUI BARBOSA, 832, CRUZ DAS ALMAS - BA, 44380-000": {
+    "lat": -12.6627253,
+    "lon": -39.1006389,
+    "query": "Rua Rui Barbosa, 832, Cruz das Almas - BA, 44380-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ROBERTO SANTOS, S/N, SANTA MARIA DA VITÓRIA - BA": {
+    "lat": -13.3772687,
+    "lon": -44.1824984,
+    "query": "Av. Roberto Santos, S/N, Santa Maria da Vitória - BA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA BR-110, KM 3, ZONA RURAL, ALAGOINHAS - BA": {
+    "lat": null,
+    "lon": null,
+    "query": "Rodovia BR-110, Km 3, Zona Rural, Alagoinhas - BA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ALAMEDA DA BARRA, S/N, ITACIMIRIM, CAMAÇARI - BA, 42840-692": {
+    "lat": null,
+    "lon": null,
+    "query": "Alameda da Barra, S/N, Itacimirim, Camaçari - BA, 42840-692",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::ALAMEDA DA BARRA S/N": {
+    "lat": -23.8145184,
+    "lon": -45.530766,
+    "query": "ALAMEDA DA BARRA S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. PE-60, KM 15, IPOJUCA - PE, 55590-795": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. PE-60, Km 15, Ipojuca - PE, 55590-795",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::ALAMEDA DOS ARAPANES 1441": {
+    "lat": -23.6090201,
+    "lon": -46.6692622,
+    "query": "ALAMEDA DOS ARAPANES 1441",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AL. GABRIEL MONTEIRO DA SILVA, 1, SÃO PAULO - SP, 01441-001": {
+    "lat": -23.562476,
+    "lon": -46.6743194,
+    "query": "Al. Gabriel Monteiro da Silva, 1, São Paulo - SP, 01441-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AL. MINISTRO ROCHA AZEVEDO, 1136, JARDIM PAULISTA, SÃO PAULO - SP, 01410-000": {
+    "lat": -23.5663962,
+    "lon": -46.6648917,
+    "query": "Al. Ministro Rocha Azevedo, 1136, Jardim Paulista, São Paulo - SP, 01410-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AL. MINISTRO ROCHA AZEVEDO, 1136, CERQUEIRA CÉSAR, SÃO PAULO - SP, 01410-02": {
+    "lat": null,
+    "lon": null,
+    "query": "Al. Ministro Rocha Azevedo, 1136, Cerqueira César, São Paulo - SP, 01410-02",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::ALAMEDA MINISTRO ROCHA AZEVEDO 1136": {
+    "lat": -23.5663962,
+    "lon": -46.6648917,
+    "query": "ALAMEDA MINISTRO ROCHA AZEVEDO 1136",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::ALAMEDA SALVADOR 1057": {
+    "lat": -12.9765628,
+    "lon": -38.4568269,
+    "query": "ALAMEDA SALVADOR 1057",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ÁREA INDUSTRIAL, S/N, INDUSTRIAL, TELÊMACO BORBA - PR, 84261-020": {
+    "lat": null,
+    "lon": null,
+    "query": "Área Industrial, S/N, Industrial, Telêmaco Borba - PR, 84261-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AREA INDUSTRIAL S/N": {
+    "lat": -25.3531962,
+    "lon": -49.0682641,
+    "query": "AREA INDUSTRIAL S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. 04, 37, VILA GENIPARANA, SÃO LUÍS - MA, 65058-859": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. 04, 37, Vila Geniparana, São Luís - MA, 65058-859",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV 04 000133": {
+    "lat": -23.1827844,
+    "lon": -45.9503959,
+    "query": "AV 04 000133",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. 7 DE SETEMBRO, 3100, CENTRO, CONCEIÇÃO DO ARAGUAIA – PA, 68540-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. 7 de Setembro, 3100, Centro, Conceição do Araguaia – PA, 68540-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV 07 DE SETEMBRO 3100": {
+    "lat": -11.9392747,
+    "lon": -61.9925871,
+    "query": "AV 07 DE SETEMBRO 3100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ACM, S/N, PRAIA DO FORTE, MATA DE SÃO JOÃO – BA, 48280-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. ACM, S/N, Praia do Forte, Mata de São João – BA, 48280-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ACM 0": {
+    "lat": -12.9893056,
+    "lon": -38.4714558,
+    "query": "AV ACM 0",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ADÉLIA FRANCO, 3735, INÁCIO BARBOSA, ARACAJU – SE, 49040-020": {
+    "lat": -10.9427963,
+    "lon": -37.0678241,
+    "query": "Av. Adélia Franco, 3735, Inácio Barbosa, Aracaju – SE, 49040-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ADHEMAR DE BARROS, 392, SALVADOR – BA, 40170-110": {
+    "lat": -13.0037629,
+    "lon": -38.5078305,
+    "query": "Av. Adhemar de Barros, 392, Salvador – BA, 40170-110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ADHEMAR DE BARROS, 392, ONDINA, SALVADOR – BA, 40170-110": {
+    "lat": -13.0037629,
+    "lon": -38.5078305,
+    "query": "Av. Adhemar de Barros, 392, Ondina, Salvador – BA, 40170-110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALEXANDRE COSTA, 1, RESIDENCIAL TROPICAL PRANCHA 02, AÇAILÂNDIA – MA, 65930-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Alexandre Costa, 1, Residencial Tropical Prancha 02, Açailândia – MA, 65930-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ALEXANDRE COSTA 01": {
+    "lat": -4.963967,
+    "lon": -47.462528,
+    "query": "AV ALEXANDRE COSTA 01",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALPHAVILLE, LOTE 03, ALPHAVILLE I, SALVADOR – BA, 41701-015": {
+    "lat": -12.8289893,
+    "lon": -38.2729715,
+    "query": "Av. Alphaville, Lote 03, Alphaville I, Salvador – BA, 41701-015",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALPHAVILLE, LOTE 03, EDIF. ALPHAVILLE SALVADOR, LOJA TÉRREO, ALPHAVILLE I, SALVADOR – BA, 41701-015": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Alphaville, Lote 03, Edif. Alphaville Salvador, Loja Térreo, Alphaville I, Salvador – BA, 41701-015",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ALPHAVILLE L. 03": {
+    "lat": -22.8543868,
+    "lon": -47.0189901,
+    "query": "AV ALPHAVILLE L. 03",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AMÉLIA AMADO, 296, SANTO ANTÔNIO, ITABUNA – BA, 45600-934": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Amélia Amado, 296, Santo Antônio, Itabuna – BA, 45600-934",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV AMELIA AMADO 296": {
+    "lat": -14.7902477,
+    "lon": -39.288112,
+    "query": "AV AMELIA AMADO 296",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANANIAS PAULINO, 1009, JARDIM AMÉRICA, CABEDELO – PB, 58102-655": {
+    "lat": -7.0768685,
+    "lon": -34.8485358,
+    "query": "Av. Ananias Paulino, 1009, Jardim América, Cabedelo – PB, 58102-655",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANANIAS PAULINO, 1009, JARDIM ALFA, CABEDELO – PB, 58102-655": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ananias Paulino, 1009, Jardim Alfa, Cabedelo – PB, 58102-655",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ANANIAS PAULINO 1009": {
+    "lat": -7.0768685,
+    "lon": -34.8485358,
+    "query": "AV ANANIAS PAULINO 1009",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANANIAS PAULINO, 1009, QUADRA 06 LOTE 03, JARDIM AMÉRICA, CABEDELO – PB, 58102-655": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ananias Paulino, 1009, Quadra 06 Lote 03, Jardim América, Cabedelo – PB, 58102-655",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANÍSIO HADDAD, 6889, PARQUE ESTORIL, SÃO JOSÉ DO RIO PRETO – SP": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Anísio Haddad, 6889, Parque Estoril, São José do Rio Preto – SP",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ANISIO HADDAD 6889": {
+    "lat": -20.8398026,
+    "lon": -49.4009667,
+    "query": "AV ANISIO HADDAD 6889",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTONIA ROSA FIORAVANTI, 3270, JARDIM ROSINA, MAUÁ – SP": {
+    "lat": -23.6630564,
+    "lon": -46.4600985,
+    "query": "Av. Antonia Rosa Fioravanti, 3270, Jardim Rosina, Mauá – SP",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTÔNIO BOLONHA, 1155, CENTRO, VARGEM GRANDE DO SUL – SP, 13880-000": {
+    "lat": -21.8310748,
+    "lon": -46.8990919,
+    "query": "Av. Antônio Bolonha, 1155, Centro, Vargem Grande do Sul – SP, 13880-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTÔNIO CABRAL DE SOUZA, 1660, MARANGUAPE I, PAULISTA – PE, 53444-360": {
+    "lat": -7.947631,
+    "lon": -34.870484,
+    "query": "Av. Antônio Cabral de Souza, 1660, Maranguape I, Paulista – PE, 53444-360",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OCTÁVIO MANGABEIRA, 15, ARMAÇÃO, SALVADOR – BA, 41750-240": {
+    "lat": -12.9919307,
+    "lon": -38.4389034,
+    "query": "Av. Octávio Mangabeira, 15, Armação, Salvador – BA, 41750-240",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE DUTRA, BR-116, KM 839, S/N, AIRTON SENA, VITÓRIA DA CONQUISTA – BA, 45045-970": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Presidente Dutra, BR-116, Km 839, S/N, Airton Sena, Vitória da Conquista – BA, 45045-970",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ANTONIO CARLOS MAGALHAES 2487": {
+    "lat": -12.9896825,
+    "lon": -38.4736984,
+    "query": "AV ANTONIO CARLOS MAGALHAES 2487",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ESTRADA UNA, 222, SÃO FRANCISCO, ILHÉUS – BA, 45659-222": {
+    "lat": null,
+    "lon": null,
+    "query": "Estrada Una, 222, São Francisco, Ilhéus – BA, 45659-222",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA BR-415, KM 24, SALOBRINHO, ILHÉUS – BA, 45662-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rodovia BR-415, Km 24, Salobrinho, Ilhéus – BA, 45662-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OTÁVIO MANGABEIRA, 16, ARMAÇÃO, SALVADOR – BA, 41750-240": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Otávio Mangabeira, 16, Armação, Salvador – BA, 41750-240",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTÔNIO CARLOS MAGALHÃES, 4197, PITUBA, SALVADOR – BA, 41800-700": {
+    "lat": -12.9964594,
+    "lon": -38.4662863,
+    "query": "Av. Antônio Carlos Magalhães, 4197, Pituba, Salvador – BA, 41800-700",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. VALE DO MATATU, 210, COSME DE FARIAS, SALVADOR – BA, 40255-135": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Vale do Matatu, 210, Cosme de Farias, Salvador – BA, 40255-135",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ANTONIO CARLOS MAGALHAES 4197": {
+    "lat": -12.7848626,
+    "lon": -38.3980771,
+    "query": "AV ANTONIO CARLOS MAGALHAES 4197",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::LADEIRA DO AQUIDABÃ, 8, SANTO ANTÔNIO, SALVADOR – BA, 40301-500": {
+    "lat": -12.9677779,
+    "lon": -38.5048387,
+    "query": "Ladeira do Aquidabã, 8, Santo Antônio, Salvador – BA, 40301-500",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTÔNIO CARLOS MAGALHÃES, 5863, SANTA TERESA, SALVADOR – BA, 40265-200": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Antônio Carlos Magalhães, 5863, Santa Teresa, Salvador – BA, 40265-200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ANTONIO CARLOS MAGALHAES 5863": {
+    "lat": -10.6782145,
+    "lon": -39.0532026,
+    "query": "AV ANTONIO CARLOS MAGALHAES 5863",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTÔNIO LEMOS, 1060, LOJA, CENTRO, SANTA IZABEL DO PARÁ – PA, 68790-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Antônio Lemos, 1060, Loja, Centro, Santa Izabel do Pará – PA, 68790-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ANTONIO LEMOS 1060": {
+    "lat": -20.5726865,
+    "lon": -46.9278021,
+    "query": "AV ANTONIO LEMOS 1060",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ANTÔNIO TRAJANO DOS SANTOS, 1060, CENTRO, TRÊS LAGOAS – MS, 79601-970": {
+    "lat": -20.7833844,
+    "lon": -51.7038435,
+    "query": "Av. Antônio Trajano dos Santos, 1060, Centro, Três Lagoas – MS, 79601-970",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA APROVADA, 329, RIVIERA DE SÃO LOURENÇO, BERTIOGA – SP, 11250-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Aprovada, 329, Riviera de São Lourenço, Bertioga – SP, 11250-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV APROVADA 329": {
+    "lat": -23.9438112,
+    "lon": -46.3765895,
+    "query": "AV APROVADA 329",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ARAPONGAS, 669, CENTRO, ARAPONGAS – PR, —": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Arapongas, 669, Centro, Arapongas – PR, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ARAPONGAS 669": {
+    "lat": -25.4510433,
+    "lon": -49.3907909,
+    "query": "AV ARAPONGAS 669",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ARICANDUVA, 5555, ARICANDUVA, SÃO PAULO – SP, 03527-000": {
+    "lat": -23.5659937,
+    "lon": -46.504011,
+    "query": "Av. Aricanduva, 5555, Aricanduva, São Paulo – SP, 03527-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ARTÊMIA PIRES FREITAS, S/N, FEIRA DE SANTANA – BA, —": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Artêmia Pires Freitas, S/N, Feira de Santana – BA, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ARTEMIA PIRES FREITAS S/N": {
+    "lat": null,
+    "lon": null,
+    "query": "AV ARTEMIA PIRES FREITAS S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::FEIRA DE SANTANA - BA": {
+    "lat": -12.1996493,
+    "lon": -38.9682883,
+    "query": "FEIRA DE SANTANA - BA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ARTÊMIA PIRES FREITAS, S/N, SIM, FEIRA DE SANTANA – BA, 44085-370": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Artêmia Pires Freitas, S/N, SIM, Feira de Santana – BA, 44085-370",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ASSIS CHATEAUBRIAND, 3581, DISTRITO INDUSTRIAL, CAMPINA GRANDE – PB, 58411-450": {
+    "lat": -7.2604547,
+    "lon": -35.8874276,
+    "query": "Av. Assis Chateaubriand, 3581, Distrito Industrial, Campina Grande – PB, 58411-450",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. BA-530 (VIA CETREL/ATLÂNTICA), S/N, POLO INDUSTRIAL, CAMAÇARI – BA, 42816-901": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. BA-530 (Via Cetrel/Atlântica), S/N, Polo Industrial, Camaçari – BA, 42816-901",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ATLANTICA, S/N": {
+    "lat": -3.1271441,
+    "lon": -59.9953527,
+    "query": "AV ATLANTICA, S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::VIA COPEC, S/N, POLO INDUSTRIAL, CAMAÇARI – BA, —": {
+    "lat": null,
+    "lon": null,
+    "query": "Via Copec, S/N, Polo Industrial, Camaçari – BA, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. BA-530 (VIA CETREL/ATLÂNTICA), S/N, POLO INDUSTRIAL, CAMAÇARI – BA, —": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. BA-530 (Via Cetrel/Atlântica), S/N, Polo Industrial, Camaçari – BA, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AUTAZ MIRIM, 8755, NOVO ALEIXO, MANAUS – AM, 69099-045": {
+    "lat": -3.0403814,
+    "lon": -59.9439489,
+    "query": "Av. Autaz Mirim, 8755, Novo Aleixo, Manaus – AM, 69099-045",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AUTOMÓVEL CLUB, S/N, QUADRA 23 LOTE 20, VILA SANTA CRUZ, DUQUE DE CAXIAS – RJ, 25255-030": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Automóvel Club, S/N, Quadra 23 Lote 20, Vila Santa Cruz, Duque de Caxias – RJ, 25255-030",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV AUTOMOVEL CLUB S/N": {
+    "lat": null,
+    "lon": null,
+    "query": "AV AUTOMOVEL CLUB S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::DUQUE DE CAXIAS - RJ": {
+    "lat": -22.7751126,
+    "lon": -43.2958146,
+    "query": "DUQUE DE CAXIAS - RJ",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::VILA SANTA CRUZ, S/N, DUQUE DE CAXIAS – RJ, 25255-030": {
+    "lat": null,
+    "lon": null,
+    "query": "Vila Santa Cruz, S/N, Duque de Caxias – RJ, 25255-030",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BRASIL, S/N, DESTERRO, ABREU E LIMA – PE, 53570-165": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Brasil, S/N, Desterro, Abreu e Lima – PE, 53570-165",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV AV. BRASIL 0": {
+    "lat": -26.1198726,
+    "lon": -49.465797,
+    "query": "AV AV. BRASIL 0",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALAGOAS, S/N, CENTRO, UPIRANGA – PA, 68580-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Alagoas, S/N, Centro, Upiranga – PA, 68580-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV AVENIDA ALAGOAS SN": {
+    "lat": -29.0987146,
+    "lon": -49.5268371,
+    "query": "AV AVENIDA ALAGOAS SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DUQUE DE CAXIAS, 298, CENTRO, JARDIM – MS, —": {
+    "lat": -21.4853121,
+    "lon": -56.149593,
+    "query": "Av. Duque de Caxias, 298, Centro, Jardim – MS, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AYRTON SENNA, 6000, JACAREPAGUÁ, RIO DE JANEIRO – RJ, —": {
+    "lat": -22.9592262,
+    "lon": -43.3556061,
+    "query": "Av. Ayrton Senna, 6000, Jacarepaguá, Rio de Janeiro – RJ, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AYRTON SENNA, 6000, LOTE 2 PAL 48959, JACAREPAGUÁ, RIO DE JANEIRO – RJ, —": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ayrton Senna, 6000, Lote 2 PAL 48959, Jacarepaguá, Rio de Janeiro – RJ, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV AYRTON SENNA 06000": {
+    "lat": -22.9725143,
+    "lon": -43.362814,
+    "query": "AV AYRTON SENNA 06000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AYRTON SENNA, 6000, LOTE 2 PAL 48959, JACAREPAGUÁ, RIO DE JANEIRO – RJ, 22775-005": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ayrton Senna, 6000, Lote 2 PAL 48959, Jacarepaguá, Rio de Janeiro – RJ, 22775-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AYRTON SENNA, 6000, JACAREPAGUÁ, RIO DE JANEIRO – RJ, 22775-005": {
+    "lat": -22.9592262,
+    "lon": -43.3556061,
+    "query": "Av. Ayrton Senna, 6000, Jacarepaguá, Rio de Janeiro – RJ, 22775-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BABACULÂNDIA, 671, VILA LOBÃO, IMPERATRIZ – MA, 65910-000": {
+    "lat": -5.5187898,
+    "lon": -47.4677739,
+    "query": "Av. Babaculândia, 671, Vila Lobão, Imperatriz – MA, 65910-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BANDEIRANTES, 2432, CENTRO, RONDONÓPOLIS – MT, 78700-905": {
+    "lat": -16.4741547,
+    "lon": -54.640163,
+    "query": "Av. Bandeirantes, 2432, Centro, Rondonópolis – MT, 78700-905",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BARRETO DE MENEZES, 434, CAJUEIRO SECO, JABOATÃO DOS GUARARAPES – PE, 54330-000": {
+    "lat": -8.1709953,
+    "lon": -34.9191149,
+    "query": "Av. Barreto de Menezes, 434, Cajueiro Seco, Jaboatão dos Guararapes – PE, 54330-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BARRETO DE MENEZES, 800, LOJA 05, PIEDADE, JABOATÃO DOS GUARARAPES – PE, 54410-100": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Barreto de Menezes, 800, Loja 05, Piedade, Jaboatão dos Guararapes – PE, 54410-100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV BARRETO DE MENEZES 800": {
+    "lat": -8.1692546,
+    "lon": -34.9185332,
+    "query": "AV BARRETO DE MENEZES 800",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BENJAMIN HARRIS HUNNICUTT, S/N, GUARULHOS – SP, 07124-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Benjamin Harris Hunnicutt, S/N, Guarulhos – SP, 07124-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV BENJAMIN H HUNNICUTT S/N": {
+    "lat": null,
+    "lon": null,
+    "query": "AV BENJAMIN H HUNNICUTT S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::GUARULHOS - SP": {
+    "lat": -23.4588843,
+    "lon": -46.5090214,
+    "query": "GUARULHOS - SP",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BR-14, S/N, QUADRA 23 LOTE 01E, PARQUE REAL DE GOIÂNIA, APARECIDA DE GOIÂNIA – GO, 74910-096": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. BR-14, S/N, Quadra 23 Lote 01E, Parque Real de Goiânia, Aparecida de Goiânia – GO, 74910-096",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV BR-14 S/N": {
+    "lat": 41.114654,
+    "lon": -8.213309,
+    "query": "AV BR-14 S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA 25 DE MARÇO, S/N, PARQUE TREMENDÃO, GOIÂNIA – GO, —": {
+    "lat": -16.60339,
+    "lon": -49.3239365,
+    "query": "Rua 25 de Março, S/N, Parque Tremendão, Goiânia – GO, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BRASIL, 2251, VASCO DA GAMA, RIO DE JANEIRO – RJ, —": {
+    "lat": -22.8871773,
+    "lon": -43.230725,
+    "query": "Av. Brasil, 2251, Vasco da Gama, Rio de Janeiro – RJ, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BRASIL, 19201, COELHO NETO, RIO DE JANEIRO – RJ, 21530-001": {
+    "lat": -22.8335712,
+    "lon": -43.3574475,
+    "query": "Av. Brasil, 19201, Coelho Neto, Rio de Janeiro – RJ, 21530-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. BRASIL, 19201, COELHO NETO, RIO DE JANEIRO – RJ, —": {
+    "lat": -22.8335712,
+    "lon": -43.3574475,
+    "query": "Av. Brasil, 19201, Coelho Neto, Rio de Janeiro – RJ, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BRASIL, 19001, IRAJÁ, RIO DE JANEIRO – RJ, 21530-001": {
+    "lat": -22.8236145,
+    "lon": -43.3300796,
+    "query": "Avenida Brasil, 19001, Irajá, Rio de Janeiro – RJ, 21530-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA DAS CONTENDAS, 1807, CHÁCARA CAMPESTRE, CONTAGEM – MG, 32184-010": {
+    "lat": -19.8558704,
+    "lon": -44.0669655,
+    "query": "Rua das Contendas, 1807, Chácara Campestre, Contagem – MG, 32184-010",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. C-205, 22, JARDIM AMÉRICA, GOIÂNIA – GO, 74270-020": {
+    "lat": -16.6966589,
+    "lon": -49.284392,
+    "query": "Av. C-205, 22, Jardim América, Goiânia – GO, 74270-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. C-205, 22, QUADRA 31 LOTE 02/20/03/04/05/06/07/16/17, JARDIM AMÉRICA, GOIÂNIA – GO, 74270-020": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. C-205, 22, Quadra 31 Lote 02/20/03/04/05/06/07/16/17, Jardim América, Goiânia – GO, 74270-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV C 205 22": {
+    "lat": -16.6997765,
+    "lon": -49.2850693,
+    "query": "AV C 205 22",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CAPITÃO MANOEL DE OLIVEIRA CARVALHO, 529, CENTRO, IBIÚNA – SP, —": {
+    "lat": -23.657622,
+    "lon": -47.2151171,
+    "query": "Av. Capitão Manoel de Oliveira Carvalho, 529, Centro, Ibiúna – SP, —",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CARLOS PEREIRA DE MELO, 3506, BOA VISTA – RR, 69313-630": {
+    "lat": 2.837079,
+    "lon": -60.7347391,
+    "query": "Av. Carlos Pereira de Melo, 3506, Boa Vista – RR, 69313-630",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CAXANGÁ, 3942 – IPUTINGA, RECIFE – PE, 50731-005": {
+    "lat": -8.0385559,
+    "lon": -34.9424058,
+    "query": "Av. Caxangá, 3942 – Iputinga, Recife – PE, 50731-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CAXANGÁ, 3942, RECIFE - PE, 50731-005": {
+    "lat": -8.0438415,
+    "lon": -34.9331924,
+    "query": "Av. Caxangá, 3942, Recife - PE, 50731-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CEL. COLARES MOREIRA, S/N, SÃO LUÍS - MA, 65075-441": {
+    "lat": -2.5009314,
+    "lon": -44.2883255,
+    "query": "Av. Cel. Colares Moreira, s/n, São Luís - MA, 65075-441",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CEL. IGOMER DE BARROS, 720, CLÁUDIO - MG, 35530-000": {
+    "lat": -20.447963,
+    "lon": -44.7682156,
+    "query": "Av. Cel. Igomer de Barros, 720, Cláudio - MG, 35530-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA CAETANO MOURA, 50, FEDERAÇÃO, SALVADOR – BA, 40910-900": {
+    "lat": -12.9967481,
+    "lon": -38.5072893,
+    "query": "Rua Caetano Moura, 50, Federação, Salvador – BA, 40910-900",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTENÁRIO, 532, NAZARÉ, JACOBINA – BA, 44700-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Centenário, 532, Nazaré, Jacobina – BA, 44700-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV CENTENARIO 532": {
+    "lat": -23.3214923,
+    "lon": -52.1128753,
+    "query": "AV CENTENARIO 532",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, DAS FLORES, ITAPIPOCA – CE, 62504-142": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Das Flores, Itapipoca – CE, 62504-142",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV CENTRAL S/N": {
+    "lat": -29.3668279,
+    "lon": -50.8603991,
+    "query": "AV CENTRAL S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, CANECÃO, SANTA INÊS – MA, 65306-320": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Canecão, Santa Inês – MA, 65306-320",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, CANAA, SANTA INÊS – MA, 65300-001": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Canaa, Santa Inês – MA, 65300-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, ALTAMIRA, BARRA DO CORDA – MA, 65950-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Altamira, Barra do Corda – MA, 65950-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ESTR. DO BENGUÍ, 386, PARQUE VERDE, BELÉM – PA, 66630-280": {
+    "lat": -1.3699231,
+    "lon": -48.4474162,
+    "query": "Estr. do Benguí, 386, Parque Verde, Belém – PA, 66630-280",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::TRAVESSA SANTOS DUMONT, QUADRA 182 LOTE 80, PADRE LUIZ, BRAGANÇA – PA, 68600-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Travessa Santos Dumont, Quadra 182 Lote 80, Padre Luiz, Bragança – PA, 68600-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, DISTRITO INDUSTRIAL, JUAZEIRO – BA, 48909-725": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Distrito Industrial, Juazeiro – BA, 48909-725",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CASTELO BRANCO, 1, FOMENTO, PINHEIRO – MA, 65200-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Castelo Branco, 1, Fomento, Pinheiro – MA, 65200-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA VICENTE SIEBRA, 3279, DAS FLORES, ITAPIPOCA – CE, 62504-142": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Vicente Siebra, 3279, Das Flores, Itapipoca – CE, 62504-142",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. MA-014, KM 168 Nº 3, AEROPORTO, SÃO BENTO – MA, 65235-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. MA-014, Km 168 nº 3, Aeroporto, São Bento – MA, 65235-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA PROJETADA, KM 12 – GALPÃO, PEDRINHAS – MA, 00000-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Projetada, Km 12 – Galpão, Pedrinhas – MA, 00000-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LULÚ RODRIGUES, 11, BARRA DO CORDA – MA, 65950-000": {
+    "lat": -5.50978,
+    "lon": -45.2303951,
+    "query": "Av. Lulú Rodrigues, 11, Barra do Corda – MA, 65950-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, SETOR BAHIA SUL, TEIXEIRA DE FREITAS – BA, 45986-330": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Setor Bahia Sul, Teixeira de Freitas – BA, 45986-330",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA CORONEL PEDRO BÓGEA, 209 QUADRA 03 LOTE 18 SALA 18, —, —, 00000-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Coronel Pedro Bógea, 209 Quadra 03 Lote 18 Sala 18, —, —, 00000-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, PEDRINHAS, SÃO LUÍS – MA, 65095-603": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Pedrinhas, São Luís – MA, 65095-603",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, BOA VISTA, ILHÉUS – BA, 45652-565": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Boa Vista, Ilhéus – BA, 45652-565",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LULU RODRIGUES, 11, ALTAMIRA, BARRA DO CORDA – MA, 65950-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Lulu Rodrigues, 11, Altamira, Barra do Corda – MA, 65950-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MILTON SANTOS, ÁREA A Nº 1904, BOA VISTA, ILHÉUS – BA, 45652-656": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Milton Santos, Área A nº 1904, Boa Vista, Ilhéus – BA, 45652-656",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. MA-014, KM 168 Nº 03, AEROPORTO, SÃO BENTO – MA, 65235-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. MA-014, Km 168 nº 03, Aeroporto, São Bento – MA, 65235-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE GETÚLIO VARGAS, 7979, SETOR BAHIA SUL, TEIXEIRA DE FREITAS – BA, 45986-330": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Presidente Getúlio Vargas, 7979, Setor Bahia Sul, Teixeira de Freitas – BA, 45986-330",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CENTRAL, S/N, FOMENTO, PINHEIRO – MA, 65200-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Central, s/n, Fomento, Pinheiro – MA, 65200-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CASTELO BRANCO, 2790, LARANJEIRAS, SANTA INÊS – MA, 65300-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Castelo Branco, 2790, Laranjeiras, Santa Inês – MA, 65300-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CÉSAR BORGES, S/N, JEQUIÉ – BA, 45203-830": {
+    "lat": -13.8593025,
+    "lon": -40.075697,
+    "query": "Av. César Borges, s/n, Jequié – BA, 45203-830",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. AFONSO PENA, 3132, BRASIL, UBERLÂNDIA – MG, 38400-710": {
+    "lat": -18.8993048,
+    "lon": -48.2636911,
+    "query": "Av. Afonso Pena, 3132, Brasil, Uberlândia – MG, 38400-710",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOÃO NAVES DE ÁVILA, 1331, TIBERY, UBERLÂNDIA – MG, 38408-902": {
+    "lat": -18.9093948,
+    "lon": -48.2603493,
+    "query": "Av. João Naves de Ávila, 1331, Tibery, Uberlândia – MG, 38408-902",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CHANC. OSVALDO ARANHA, 1110, JOSÉ CONRADO DE ARAÚJO, ARACAJU – SE, 49085-100": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Chanc. Osvaldo Aranha, 1110, José Conrado de Araújo, Aracaju – SE, 49085-100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV CHANC OSVALDO ARANHA 1110": {
+    "lat": null,
+    "lon": null,
+    "query": "AV CHANC OSVALDO ARANHA 1110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::ARACAJU - SE": {
+    "lat": -10.9698459,
+    "lon": -37.0362509,
+    "query": "ARACAJU - SE",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. COMENDADOR GUSTAVO PAIVA, 5945, CRUZ DAS ALMAS, MACEIÓ – AL, 57038-000": {
+    "lat": -9.6268083,
+    "lon": -35.6984925,
+    "query": "Av. Comendador Gustavo Paiva, 5945, Cruz das Almas, Maceió – AL, 57038-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CÔNSUL ASSAF TRAD, 1694, MATA DO JACINTO, CAMPO GRANDE – MS, 79033-005": {
+    "lat": -20.430094,
+    "lon": -54.5906929,
+    "query": "Av. Cônsul Assaf Trad, 1694, Mata do Jacinto, Campo Grande – MS, 79033-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CÔNSUL ASSAF TRAD, S/N, MATA DO JACINTO, CAMPO GRANDE – MS, 79033-005": {
+    "lat": -20.4285619,
+    "lon": -54.5892643,
+    "query": "Av. Cônsul Assaf Trad, s/n, Mata do Jacinto, Campo Grande – MS, 79033-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CÔNSUL ASSAF TRAD, 3671 LOJA 02, CORONEL ANTONINO, CAMPO GRANDE – MS, 79013-545": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Cônsul Assaf Trad, 3671 Loja 02, Coronel Antonino, Campo Grande – MS, 79013-545",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV CONSUL ASSAF TRAD 3671": {
+    "lat": -20.4196208,
+    "lon": -54.5832558,
+    "query": "AV CONSUL ASSAF TRAD 3671",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CRISTIANO MACHADO, 3800, —, BELO HORIZONTE – MG, 31160-342": {
+    "lat": -19.8168865,
+    "lon": -43.9477104,
+    "query": "Av. Cristiano Machado, 3800, —, Belo Horizonte – MG, 31160-342",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DÁCIO OLIVEIRA, 1101, RANCHO ALEGRE, CAETITÉ – BA, 46400-000": {
+    "lat": -14.0629117,
+    "lon": -42.4973607,
+    "query": "Av. Dácio Oliveira, 1101, Rancho Alegre, Caetité – BA, 46400-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ENG. EMILIANO MACIEIRA, 20 KM 12, PEDRINHAS, SÃO LUÍS – MA, 65095-603": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Eng. Emiliano Macieira, 20 Km 12, Pedrinhas, São Luís – MA, 65095-603",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DANIEL DE LA TOUCHE 73": {
+    "lat": -2.5018764,
+    "lon": -44.2402346,
+    "query": "AV DANIEL DE LA TOUCHE 73",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DANIEL DE LA TOUCHE, 73-A, COHAMA, SÃO LUÍS – MA, 65073-780": {
+    "lat": -2.5032946,
+    "lon": -44.2404823,
+    "query": "Av. Daniel de La Touche, 73-A, Cohama, São Luís – MA, 65073-780",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AEROPORTO SANTOS DUMONT, —, RIO DE JANEIRO – RJ, 00000-000": {
+    "lat": -22.9104541,
+    "lon": -43.1641922,
+    "query": "Aeroporto Santos Dumont, —, Rio de Janeiro – RJ, 00000-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DAS AMÉRICAS, 4245, BARRA DA TIJUCA, RIO DE JANEIRO – RJ, 22631-004": {
+    "lat": -22.9998618,
+    "lon": -43.3618838,
+    "query": "Av. das Américas, 4245, Barra da Tijuca, Rio de Janeiro – RJ, 22631-004",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DAS AMÉRICAS, 16100 ANEXO I, RECREIO DOS BANDEIRANTES, RIO DE JANEIRO – RJ, 22790-704": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. das Américas, 16100 Anexo I, Recreio dos Bandeirantes, Rio de Janeiro – RJ, 22790-704",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DAS AMERICAS 16100": {
+    "lat": -22.9901266,
+    "lon": -43.6014736,
+    "query": "AV DAS AMERICAS 16100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DAS NAÇÕES UNIDAS PORTARIA 2, 22002, —, SÃO PAULO – SP, 04795-915": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. das Nações Unidas Portaria 2, 22002, —, São Paulo – SP, 04795-915",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DAS NACOES UNIDAS 22002": {
+    "lat": -23.6204519,
+    "lon": -46.7006298,
+    "query": "AV DAS NACOES UNIDAS 22002",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DEP. RAIMUNDO DE SÁ URTIGA, 2869, BOMBA, PICOS – PI, 64601-382": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Dep. Raimundo de Sá Urtiga, 2869, Bomba, Picos – PI, 64601-382",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DEPUTADO RAIMUNDO DE SA URTIGA 2869": {
+    "lat": null,
+    "lon": null,
+    "query": "AV DEPUTADO RAIMUNDO DE SA URTIGA 2869",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::PICOS - PI": {
+    "lat": -7.0749132,
+    "lon": -41.4743602,
+    "query": "PICOS - PI",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DES. DR. EDUARDO CUNHA DE ABREU, 1455, VILA MUNICIPAL, CARAPICUÍBA – SP, 06328-330": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Des. Dr. Eduardo Cunha de Abreu, 1455, Vila Municipal, Carapicuíba – SP, 06328-330",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DESEMBARGADOR DOUTOR EDUARDO CUNHA DE ABREU 1455": {
+    "lat": -23.5231651,
+    "lon": -46.828827,
+    "query": "AV DESEMBARGADOR DOUTOR EDUARDO CUNHA DE ABREU 1455",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DO FAROL, S/N, PRAIA DO FORTE, MATA DE SÃO JOÃO – BA, 48280-000": {
+    "lat": -12.5777098,
+    "lon": -38.0137687,
+    "query": "Av. Do Farol, s/n, Praia do Forte, Mata de São João – BA, 48280-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOV. JOSÉ LINDOSO, 3007, PARQUE DEZ DE NOVEMBRO, MANAUS – AM, 69055-010": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Gov. José Lindoso, 3007, Parque Dez de Novembro, Manaus – AM, 69055-010",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DO FAROL S/N": {
+    "lat": -20.0035327,
+    "lon": -44.0161574,
+    "query": "AV DO FAROL S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DOM PEDRO I, 195, JARDIM TEREJEBA, GUARUJÁ – SP, 11440-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Dom Pedro I, 195, Jardim Terejeba, Guarujá – SP, 11440-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DOM PEDRO I 1383": {
+    "lat": -3.0796539,
+    "lon": -60.046753,
+    "query": "AV DOM PEDRO I 1383",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DOM PEDRO I 195": {
+    "lat": -23.9882946,
+    "lon": -46.248464,
+    "query": "AV DOM PEDRO I 195",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DOS ARNALDOS, 2301, JARDIM RESIDENCIAL PÔR DO SOL, FERNANDÓPOLIS – SP, 15600-348": {
+    "lat": -20.2913347,
+    "lon": -50.2564687,
+    "query": "Av. dos Arnaldos, 2301, Jardim Residencial Pôr do Sol, Fernandópolis – SP, 15600-348",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DOS AUTONOMISTAS, 1687, PARTE 1, VILA YARA, OSASCO – SP, 06020-015": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. dos Autonomistas, 1687, Parte 1, Vila Yara, Osasco – SP, 06020-015",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DOS AUTONOMISTAS 1687": {
+    "lat": -23.5365441,
+    "lon": -46.7806104,
+    "query": "AV DOS AUTONOMISTAS 1687",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA 4, 305, PARQUE INDUSTRIAL, SANTA GERTRUDES – SP, 13512-136": {
+    "lat": -22.4552905,
+    "lon": -47.531958,
+    "query": "Rua 4, 305, Parque Industrial, Santa Gertrudes – SP, 13512-136",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. CONSTANTE PERUCHI, 316, PEROBAS, CORDEIRÓPOLIS – SP, 13490-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. Constante Peruchi, 316, Perobas, Cordeirópolis – SP, 13490-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DOS COSTAS 1801": {
+    "lat": -22.4236497,
+    "lon": -47.5788644,
+    "query": "AV DOS COSTAS 1801",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SÃO LUÍS REI DE FRANÇA, S/N, AO LADO DA DROGASIL, TURU, SÃO LUÍS – MA, 65065-470": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. São Luís Rei de França, S/N, Ao Lado da Drogasil, Turu, São Luís – MA, 65065-470",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ESTRADA DE RIBAMAR, 5, LIMA VERDE, SÃO JOSÉ DE RIBAMAR – MA, 65110-000": {
+    "lat": -2.5536928,
+    "lon": -44.1906137,
+    "query": "Estrada de Ribamar, 5, Lima Verde, São José de Ribamar – MA, 65110-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DOS XAVANTES, 1905, LOTE 01, PITIMBU, NATAL – RN, 59067-600": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. dos Xavantes, 1905, Lote 01, Pitimbu, Natal – RN, 59067-600",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DOS HOLANDESES 02": {
+    "lat": -2.4909082,
+    "lon": -44.2300966,
+    "query": "AV DOS HOLANDESES 02",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DR. CLÁUDIO JOSÉ GUEIROS LEITE, 2597, JANGA, PAULISTA – PE, 53437-000": {
+    "lat": -7.9282773,
+    "lon": -34.8224653,
+    "query": "Av. Dr. Cláudio José Gueiros Leite, 2597, Janga, Paulista – PE, 53437-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DR. NILO PEÇANHA, 479, PARQUE SANTO AMARO, CAMPOS DOS GOYTACAZES – RJ, 28030-035": {
+    "lat": -21.7647299,
+    "lon": -41.3353534,
+    "query": "Av. Dr. Nilo Peçanha, 479, Parque Santo Amaro, Campos dos Goytacazes – RJ, 28030-035",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DR. THIMO BRUNO BELLUCI, 255, JARDIM AQUARIUS, MARÍLIA – SP, 17507-400": {
+    "lat": -22.1905984,
+    "lon": -49.9607823,
+    "query": "Av. Dr. Thimo Bruno Belluci, 255, Jardim Aquarius, Marília – SP, 17507-400",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DR. DURVAL DE GOIS MONTEIRO, 27, TABULEIRO DOS MARTINS, MACEIÓ – AL, 57061-110": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Dr. Durval de Gois Monteiro, 27, Tabuleiro dos Martins, Maceió – AL, 57061-110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DOUTOR CLAUDIO JOSE GUEIROS LEITE 2597": {
+    "lat": -7.9564567,
+    "lon": -34.8307687,
+    "query": "AV DOUTOR CLAUDIO JOSE GUEIROS LEITE 2597",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::R. DR. REINALDO SCHMITHAUSEN, 2126, CORDEIROS, ITAJAÍ – SC, 88310-200": {
+    "lat": -26.8882212,
+    "lon": -48.6857829,
+    "query": "R. Dr. Reinaldo Schmithausen, 2126, Cordeiros, Itajaí – SC, 88310-200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LEOPOLDO ZARLING, 1473, BOMBAS, BOMBINHAS – SC, 88215-000": {
+    "lat": -27.1387086,
+    "lon": -48.5099926,
+    "query": "Av. Leopoldo Zarling, 1473, Bombas, Bombinhas – SC, 88215-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DUQUE DE CAXIAS, 3200, SANTO ANTÔNIO, CAMPO GRANDE – MS, 79101-000": {
+    "lat": -20.4591139,
+    "lon": -54.6617929,
+    "query": "Av. Duque de Caxias, 3200, Santo Antônio, Campo Grande – MS, 79101-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. FÁBIO ZAHRAN, 7919, PARTE 1, JARDIM AMÉRICA, CAMPO GRANDE – MS, 79080-761": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Fábio Zahran, 7919, Parte 1, Jardim América, Campo Grande – MS, 79080-761",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DR DURVAL DE GOIS MONTEIRO 27": {
+    "lat": null,
+    "lon": null,
+    "query": "AV DR DURVAL DE GOIS MONTEIRO 27",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::MACEIÓ - AL": {
+    "lat": -9.6585925,
+    "lon": -35.7172813,
+    "query": "MACEIÓ - AL",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV DUQUE DE CAXIAS 3200": {
+    "lat": -30.033553,
+    "lon": -51.2288402,
+    "query": "AV DUQUE DE CAXIAS 3200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::V. EDUARDO FRÓES DA MOTA, S/N, CASEB, FEIRA DE SANTANA – BA, 44052-151": {
+    "lat": null,
+    "lon": null,
+    "query": "v. Eduardo Fróes da Mota, s/n, Caseb, Feira de Santana – BA, 44052-151",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV EDGARD SANTOS 300": {
+    "lat": -12.9604521,
+    "lon": -38.4398398,
+    "query": "AV EDGARD SANTOS 300",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. EDUARDO FRÓES DA MOTA, S/N, SOBRADINHO, FEIRA DE SANTANA – BA, 44021-215": {
+    "lat": -12.2303557,
+    "lon": -38.9651445,
+    "query": "Av. Eduardo Fróes da Mota, s/n, Sobradinho, Feira de Santana – BA, 44021-215",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. EDUARDO PRADO, 330, VILA NOVA, PORTO ALEGRE – RS, 91751-000": {
+    "lat": -30.1214006,
+    "lon": -51.2205794,
+    "query": "Av. Eduardo Prado, 330, Vila Nova, Porto Alegre – RS, 91751-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ELIZABETH MARQUES, QUADRA 12 LOTE 09, SETOR MAYSA, TRINDADE – GO, 75380-307": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Elizabeth Marques, Quadra 12 Lote 09, Setor Maysa, Trindade – GO, 75380-307",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV EDUARDO FROES DA MOTA SN": {
+    "lat": -12.2364998,
+    "lon": -38.9789674,
+    "query": "AV EDUARDO FROES DA MOTA SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ENGENHEIRO EMILIANO MACIEIRA, 20, RUA PROJETADA, PEDRINHAS, SÃO LUÍS – MA, 65095-602": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Engenheiro Emiliano Macieira, 20, Rua Projetada, Pedrinhas, São Luís – MA, 65095-602",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV EDUARDO PRADO 330": {
+    "lat": -30.1214006,
+    "lon": -51.2205794,
+    "query": "AV EDUARDO PRADO 330",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ENGENHEIRO EMILIANO MACIEIRA, S/N, MARACANÃ, SÃO LUÍS – MA, 65095-602": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Engenheiro Emiliano Macieira, s/n, Maracanã, São Luís – MA, 65095-602",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ELIZABETH MARQUES COM RUA BURITI ALEGRE 42": {
+    "lat": null,
+    "lon": null,
+    "query": "AV ELIZABETH MARQUES COM RUA BURITI ALEGRE 42",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::TRINDADE - GO": {
+    "lat": -16.6510164,
+    "lon": -49.5060455,
+    "query": "TRINDADE - GO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ENGENHEIRO EMILIANO MACIEIRA, S/N, KM 08, MARACANÃ, SÃO LUÍS – MA, 65095-602": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Engenheiro Emiliano Macieira, s/n, Km 08, Maracanã, São Luís – MA, 65095-602",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ENGENHEIRO EMILIANO MACIEIRA 20": {
+    "lat": -2.6531502,
+    "lon": -44.305202,
+    "query": "AV ENGENHEIRO EMILIANO MACIEIRA 20",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ENGENHEIRO EMILIANO MACIEIRA SN": {
+    "lat": -2.6531502,
+    "lon": -44.305202,
+    "query": "AV ENGENHEIRO EMILIANO MACIEIRA SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. EPHIGÊNIO SALLES, 2045, ALEIXO, MANAUS – AM, 69060-020": {
+    "lat": -3.0908185,
+    "lon": -59.9910001,
+    "query": "Av. Ephigênio Salles, 2045, Aleixo, Manaus – AM, 69060-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV FABIO ZAHRAN 7919": {
+    "lat": -20.4891013,
+    "lon": -54.6202718,
+    "query": "AV FABIO ZAHRAN 7919",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA QUINTINO BOCAIÚVA, 339, CENTRO, BRUMADINHO – MG,  35460-000": {
+    "lat": -20.1416423,
+    "lon": -44.2031977,
+    "query": "Rua Quintino Bocaiúva, 339, Centro, Brumadinho – MG,  35460-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LOURIVAL MELO MOTA, S/N, TABULEIRO DO MARTINS, MACEIÓ – AL, 57072-970": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Lourival Melo Mota, s/n, Tabuleiro do Martins, Maceió – AL, 57072-970",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV FERNANDES LIMA 3349": {
+    "lat": -9.6210292,
+    "lon": -35.7390682,
+    "query": "AV FERNANDES LIMA 3349",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. FERNANDO CORRÊA DA COSTA, 4875, PARQUE OHARA, CUIABÁ – MT, 78080-300": {
+    "lat": -15.6290575,
+    "lon": -56.0526548,
+    "query": "Av. Fernando Corrêa da Costa, 4875, Parque Ohara, Cuiabá – MT, 78080-300",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. FLORIANO PEIXOTO, 912, CENTRO, CAMPINA GRANDE – PB, 58400-180": {
+    "lat": -7.2181487,
+    "lon": -35.8809001,
+    "query": "Av. Floriano Peixoto, 912, Centro, Campina Grande – PB, 58400-180",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. FLORIPES CRISPIM, 1915, CIDADE JARDIM, SALINAS – MG, 39560-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Floripes Crispim, 1915, Cidade Jardim, Salinas – MG, 39560-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV FLORIPES CRISPIM 1915": {
+    "lat": -16.1661497,
+    "lon": -42.3125652,
+    "query": "AV FLORIPES CRISPIM 1915",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GENERAL DAVID SARNOFF, 3405, CIDADE INDUSTRIAL, CONTAGEM – MG, 32210-110": {
+    "lat": -19.9535287,
+    "lon": -44.0342552,
+    "query": "Av. General David Sarnoff, 3405, Cidade Industrial, Contagem – MG, 32210-110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GENERAL DAVID SARNOFF, 3445, JARDIM INDUSTRIAL, CONTAGEM – MG, 32210-110": {
+    "lat": -19.9657725,
+    "lon": -44.0152721,
+    "query": "Av. General David Sarnoff, 3445, Jardim Industrial, Contagem – MG, 32210-110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GENERAL MELLO, 2289, JARDIM TROPICAL, CUIABÁ – MT, 78070-500": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. General Mello, 2289, Jardim Tropical, Cuiabá – MT, 78070-500",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV GENERAL MELO 2289": {
+    "lat": -15.6294318,
+    "lon": -56.0746648,
+    "query": "AV GENERAL MELO 2289",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OSÓRIO DE PAIVA, 6554, SIQUEIRA, FORTALEZA – CE, 60542-122": {
+    "lat": -3.8108858,
+    "lon": -38.6091707,
+    "query": "Av. Osório de Paiva, 6554, Siqueira, Fortaleza – CE, 60542-122",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GETÚLIO VARGAS, 840, FUNCIONÁRIOS/SAVASSI, BELO HORIZONTE – MG, 30112-020": {
+    "lat": -19.9345802,
+    "lon": -43.9290165,
+    "query": "Av. Getúlio Vargas, 840, Funcionários/Savassi, Belo Horizonte – MG, 30112-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GODOFREDO MACIEL, 3190, MARAPONGA, FORTALEZA – CE, 60710-684": {
+    "lat": -3.8036629,
+    "lon": -38.5735723,
+    "query": "Av. Godofredo Maciel, 3190, Maraponga, Fortaleza – CE, 60710-684",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOV. CARLOS DE LIMA CAVALCANTI, 1306, BAIRRO NOVO, OLINDA – PE, 53130-515": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Gov. Carlos de Lima Cavalcanti, 1306, Bairro Novo, Olinda – PE, 53130-515",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV GOV CARLOS DE LIMA CAVALCANTI 1306": {
+    "lat": null,
+    "lon": null,
+    "query": "AV GOV CARLOS DE LIMA CAVALCANTI 1306",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::OLINDA - PE": {
+    "lat": -8.0050198,
+    "lon": -34.8681399,
+    "query": "OLINDA - PE",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOV. AGAMENON MAGALHÃES, 153, SANTO AMARO, RECIFE – PE, 50110-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Gov. Agamenon Magalhães, 153, Santo Amaro, Recife – PE, 50110-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV GOVERNADOR AGAMENON MAGALHAES 153": {
+    "lat": -8.0380464,
+    "lon": -34.8719356,
+    "query": "AV GOVERNADOR AGAMENON MAGALHAES 153",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOVERNADOR JORGE TEIXEIRA, 374, NOVA PORTO VELHO, PORTO VELHO – RO, 76820-894": {
+    "lat": -8.7608721,
+    "lon": -63.8853544,
+    "query": "Av. Governador Jorge Teixeira, 374, Nova Porto Velho, Porto Velho – RO, 76820-894",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOVERNADOR LUIZ ROCHA, 1, POTOSI, BALSAS – MA, 65800-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Governador Luiz Rocha, 1, Potosi, Balsas – MA, 65800-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV GOVERNADOR LUIZ ROCHA 01": {
+    "lat": -5.471672,
+    "lon": -44.0700653,
+    "query": "AV GOVERNADOR LUIZ ROCHA 01",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOVERNADOR LUIZ ROCHA, 1, LOTE 01 QUADRA 27, POTOSI, BALSAS – MA, 65800-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Governador Luiz Rocha, 1, Lote 01 Quadra 27, Potosi, Balsas – MA, 65800-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GOVERNADOR MAGALHÃES PINTO, 2500, NITERÓI, DIVINÓPOLIS – MG, 35500-220": {
+    "lat": -20.1410989,
+    "lon": -44.8793412,
+    "query": "Av. Governador Magalhães Pinto, 2500, Niterói, Divinópolis – MG, 35500-220",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GUAJAJARAS, 270, SÃO BERNARDO, SÃO LUÍS – MA, 65055-145": {
+    "lat": -2.5701604,
+    "lon": -44.2336592,
+    "query": "Av. Guajajaras, 270, São Bernardo, São Luís – MA, 65055-145",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AL-220, KM 03, S/N, ARAPIRACA – AL, 57300-000": {
+    "lat": null,
+    "lon": null,
+    "query": "AL-220, Km 03, s/n, Arapiraca – AL, 57300-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV HAMILTON DE BARROS SOUTINHO 797": {
+    "lat": null,
+    "lon": null,
+    "query": "AV HAMILTON DE BARROS SOUTINHO 797",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. HIDELBRANDO DE VASCONCELOS, S/N, RECIFE – PE, 52140-005": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Hidelbrando de Vasconcelos, s/n, Recife – PE, 52140-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV HILDEBRANDO DE VASCONCELOS 1016": {
+    "lat": -7.9882957,
+    "lon": -34.9178502,
+    "query": "AV HILDEBRANDO DE VASCONCELOS 1016",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. GEN. SAN MARTIN, 1449, BONGI, RECIFE – PE, 50761-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Gen. San Martin, 1449, Bongi, Recife – PE, 50761-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DA RECUPERAÇÃO, 1400, APIPUCOS, RECIFE – PE, 52071-000": {
+    "lat": -8.015795,
+    "lon": -34.9383005,
+    "query": "Av. da Recuperação, 1400, Apipucos, Recife – PE, 52071-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. HILTON SOUTO MAIOR, 3901, MANGABEIRA, JOÃO PESSOA – PB, 58055-018": {
+    "lat": -7.163473,
+    "lon": -34.8290639,
+    "query": "Av. Hilton Souto Maior, 3901, Mangabeira, João Pessoa – PB, 58055-018",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. INDUSTRIAL, 1850, JARDIM DAS ROSAS, IBIRITÉ – MG, 32400-001": {
+    "lat": -20.0003531,
+    "lon": -44.0940685,
+    "query": "Av. Industrial, 1850, Jardim das Rosas, Ibirité – MG, 32400-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. INDUSTRIAL CARLOS B, S/N, QD. 2 LT. 1, N. SRA. DO SOCORRO – SE, 49160-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Industrial Carlos B, s/n, Qd. 2 Lt. 1, N. Sra. do Socorro – SE, 49160-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV INDUSTRIAL CARLOS BARRETO S/N": {
+    "lat": -10.8472935,
+    "lon": -37.0840613,
+    "query": "AV INDUSTRIAL CARLOS BARRETO S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JACU-PÊSSEGO, 750, PARTE 1, VILA JACUÍ, SÃO PAULO – SP, 08050-099": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Jacu-Pêssego, 750, Parte 1, Vila Jacuí, São Paulo – SP, 08050-099",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JACU-PESSEGO (NOVA TRABALHADORES) 750": {
+    "lat": -23.564974,
+    "lon": -46.446525,
+    "query": "AV JACU-PESSEGO (NOVA TRABALHADORES) 750",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JERÔNIMO DE ALBUQUERQUE MARANHÃO, 37, RUA PARNAÍBA, RECANTO DOS VINHAIS, SÃO LUÍS – MA, 65070-076": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Jerônimo de Albuquerque Maranhão, 37, Rua Parnaíba, Recanto dos Vinhais, São Luís – MA, 65070-076",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JERONIMO DE ALBUQUERQUE MARANHAO 37": {
+    "lat": -23.1740952,
+    "lon": -46.8773621,
+    "query": "AV JERONIMO DE ALBUQUERQUE MARANHAO 37",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JERÔNIMO DIX-NEUF ROSADO, 468, CENTRO, MOSSORÓ – RN, 59610-280": {
+    "lat": -5.1924024,
+    "lon": -37.3334685,
+    "query": "Av. Jerônimo Dix-Neuf Rosado, 468, Centro, Mossoró – RN, 59610-280",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JK, S/N, BOCA DA MATA, IMPERATRIZ – MA, 65917-033": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. JK, s/n, Boca da Mata, Imperatriz – MA, 65917-033",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JK SN": {
+    "lat": -27.3931674,
+    "lon": -51.2191829,
+    "query": "AV JK SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA JOÃO CELSO FILHO, S/N, ASSÚ – RN, 59650-000": {
+    "lat": -5.5989574,
+    "lon": -36.9051986,
+    "query": "Rua João Celso Filho, s/n, Assú – RN, 59650-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOÃO CÉSAR DE OLIVEIRA, 4321, QUADRA 20 LOTE B2, NOVO ELDORADO, CONTAGEM – MG, 32341-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. João César de Oliveira, 4321, Quadra 20 Lote B2, Novo Eldorado, Contagem – MG, 32341-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOAO CESAR DE OLIVEIRA 4321": {
+    "lat": -19.937877,
+    "lon": -44.0604854,
+    "query": "AV JOAO CESAR DE OLIVEIRA 4321",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOÃO DO VALE, 1, SÃO FRANCISCO, PEDREIRAS – MA, 65725-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. João do Vale, 1, São Francisco, Pedreiras – MA, 65725-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOAO DO VALE 01": {
+    "lat": -2.5459505,
+    "lon": -44.2352164,
+    "query": "AV JOAO DO VALE 01",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOÃO DO VALE, S/N, SÃO FRANCISCO, PEDREIRAS – MA, 65725-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. João do Vale, s/n, São Francisco, Pedreiras – MA, 65725-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOÃO DO VALE, S/N, PEDREIRAS – MA, 65725-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. João do Vale, s/n, Pedreiras – MA, 65725-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOÃO RODRIGUES, 582, INDUSTRIAL, ARACAJU – SE, 49065-450": {
+    "lat": -10.8957365,
+    "lon": -37.0501172,
+    "query": "Av. João Rodrigues, 582, Industrial, Aracaju – SE, 49065-450",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOAQUIM CONSTANTINO, 3025, VILA NOVA PRUDENTE, PRESIDENTE PRUDENTE – SP, 19053-300": {
+    "lat": -22.1457677,
+    "lon": -51.398516,
+    "query": "Av. Joaquim Constantino, 3025, Vila Nova Prudente, Presidente Prudente – SP, 19053-300",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA JOAQUIM TEOTÔNIO SEGURADO, LOJA 0397 PALMAS TEOT. LJ176, PALMAS – TO": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Joaquim Teotônio Segurado, Loja 0397 Palmas Teot. LJ176, Palmas – TO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOAQUIM TEOTONIO SEGURADO S/N": {
+    "lat": -10.2342692,
+    "lon": -48.3334877,
+    "query": "AV JOAQUIM TEOTONIO SEGURADO S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA JORGE AMADO, S/N, JARDIM LIMOEIRO, CAMAÇARI – BA, 42802-580": {
+    "lat": -12.7027399,
+    "lon": -38.3035315,
+    "query": "Avenida Jorge Amado, S/N, Jardim Limoeiro, Camaçari – BA, 42802-580",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JORNALISTA ASSIS CHATEAUBRIAND, 1110, PARTE 1, LIBERDADE, CAMPINA GRANDE – PB, 58414-060": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Jornalista Assis Chateaubriand, 1110, PARTE 1, Liberdade, Campina Grande – PB, 58414-060",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JORNALISTA ASSIS CHATEAUBRIAND 1110": {
+    "lat": -27.5914929,
+    "lon": -48.5612118,
+    "query": "AV JORNALISTA ASSIS CHATEAUBRIAND 1110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA JORNALISTA ROBERTO MARINHO, 407, MUTONDO, SÃO GONÇALO – RJ, 24451-715": {
+    "lat": -22.8247457,
+    "lon": -43.0072151,
+    "query": "Avenida Jornalista Roberto Marinho, 407, Mutondo, São Gonçalo – RJ, 24451-715",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. CHESF, 01, PARQUE DOS FARÓIS, NOSSA SENHORA DO SOCORRO – SE, 49160-000": {
+    "lat": -10.9067826,
+    "lon": -37.1331757,
+    "query": "Av. Chesf, 01, Parque dos Faróis, Nossa Senhora do Socorro – SE, 49160-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOSÉ CARLOS DA COSTA, 470, LIBERDADE, RIBEIRÃO DAS NEVES – MG, 33822-722": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. José Carlos da Costa, 470, Liberdade, Ribeirão das Neves – MG, 33822-722",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOSE CARLOS COSTA 470": {
+    "lat": -19.8351547,
+    "lon": -44.0808796,
+    "query": "AV JOSE CARLOS COSTA 470",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOSÉ COUTINHO DE OLIVEIRA, 0, PARQUE SAGRADA FAMÍLIA, RONDONÓPOLIS – MT, 78735-327": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. José Coutinho de Oliveira, 0, Parque Sagrada Família, Rondonópolis – MT, 78735-327",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOSE COUTINHO DE OLIVEIRA 0": {
+    "lat": null,
+    "lon": null,
+    "query": "AV JOSE COUTINHO DE OLIVEIRA 0",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::RONDONÓPOLIS - MT": {
+    "lat": -16.4307368,
+    "lon": -54.6187035,
+    "query": "RONDONÓPOLIS - MT",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LUIZ LEMOS DE TOLEDO, 386, CENTRO, COLINA – SP, 14770-000": {
+    "lat": -20.7101781,
+    "lon": -48.5338065,
+    "query": "Av. Luiz Lemos de Toledo, 386, Centro, Colina – SP, 14770-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA JOSÉ FRANCISCO AZEDO, 51, JARDIM DO LAGO, COLINA – SP, 14770-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua José Francisco Azedo, 51, Jardim do Lago, Colina – SP, 14770-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOSE FRANCISCO AZEDO 51": {
+    "lat": -20.7251321,
+    "lon": -48.5265731,
+    "query": "AV JOSE FRANCISCO AZEDO 51",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANDRADE E SILVA, CENTRO, OLÍMPIA – SP, 15400-352": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Andrade e Silva, Centro, Olímpia – SP, 15400-352",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. QUARENTA E TRÊS, 685, BARRETOS – SP, 14780-972": {
+    "lat": -20.5549306,
+    "lon": -48.5825834,
+    "query": "Av. Quarenta e Três, 685, Barretos – SP, 14780-972",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA JOSÉ HERCULANO, 1086, JARDIM BRITÂNIA, CARAGUATATUBA – SP, 11666-000": {
+    "lat": -23.6541874,
+    "lon": -45.437064,
+    "query": "Avenida José Herculano, 1086, Jardim Britânia, Caraguatatuba – SP, 11666-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DR. JOSÉ TOMAZ D'ÁVILA NABUCO, 945, FAROLÂNDIA, ARACAJU – SE, 49030-270": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Dr. José Tomaz D'Ávila Nabuco, 945, Farolândia, Aracaju – SE, 49030-270",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV JOSE THOMAZ D AVILA NABUCO 945": {
+    "lat": null,
+    "lon": null,
+    "query": "AV JOSE THOMAZ D AVILA NABUCO 945",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JOSÉ THOMAZ D’ÁVILA NABUCO, 945, FAROLÂNDIA, ARACAJU – SE, 49030-270": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. José Thomaz D’Ávila Nabuco, 945, Farolândia, Aracaju – SE, 49030-270",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. JURACY MAGALHÃES, 701, BOA VISTA, VITÓRIA DA CONQUISTA – BA, 45026-090": {
+    "lat": -14.8713586,
+    "lon": -40.8445134,
+    "query": "Av. Juracy Magalhães, 701, Boa Vista, Vitória da Conquista – BA, 45026-090",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LACERDA AGOSTINHO, S/N, LOTE 3, VIRGEM SANTA, MACAÉ – RJ, 27948-005": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Lacerda Agostinho, s/n, Lote 3, Virgem Santa, Macaé – RJ, 27948-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV LACERDA AGOSTINHO S/N": {
+    "lat": -22.3260696,
+    "lon": -41.7717893,
+    "query": "AV LACERDA AGOSTINHO S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LIBERDADE, 2466A, BAYEUX – PB": {
+    "lat": -7.1261469,
+    "lon": -34.9292516,
+    "query": "Av. Liberdade, 2466A, Bayeux – PB",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LIBERDADE, 2466A, CENTRO, BAYEUX – PB, 58110-160": {
+    "lat": -7.1247731,
+    "lon": -34.9240372,
+    "query": "Av. Liberdade, 2466A, Centro, Bayeux – PB, 58110-160",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LIBERDADE, 2466A, SESI, BAYEUX – PB, 58111-400": {
+    "lat": -7.1224664,
+    "lon": -34.9145962,
+    "query": "Av. Liberdade, 2466A, Sesi, Bayeux – PB, 58111-400",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LUCIANO CARNEIRO, 1131, PARREÃO, FORTALEZA – CE, 60410-321": {
+    "lat": -3.7581109,
+    "lon": -38.5341989,
+    "query": "Av. Luciano Carneiro, 1131, Parreão, Fortaleza – CE, 60410-321",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA DO ALPISTE, 512, PENHA CIRCULAR, RIO DE JANEIRO – RJ, 21020-390": {
+    "lat": -22.817562,
+    "lon": -43.2723514,
+    "query": "Rua do Alpiste, 512, Penha Circular, Rio de Janeiro – RJ, 21020-390",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. LUÍS VIANA FILHO, 3056, IMBUÍ, SALVADOR – BA, 41720-200": {
+    "lat": -12.9537909,
+    "lon": -38.4264401,
+    "query": "Av. Luís Viana Filho, 3056, Imbuí, Salvador – BA, 41720-200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MACEIÓ, 226 – TABULEIRO DO MARTINS, MACEIÓ – AL, BRASIL": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Maceió, 226 – Tabuleiro do Martins, Maceió – AL, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MACEIO, 226": {
+    "lat": -23.4430626,
+    "lon": -46.4008293,
+    "query": "Av Maceio, 226",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MAGALHÃES DE CASTRO, 6118 – CIDADE JARDIM, SÃO PAULO – SP, 05676-120": {
+    "lat": -23.6058942,
+    "lon": -46.6989626,
+    "query": "Av. Magalhães de Castro, 6118 – Cidade Jardim, São Paulo – SP, 05676-120",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MAJOR SYLVIO DE MAGALHÃES PADILHA, 16741 – JARDIM FONTE DO MORUMBI, SÃO PAULO – SP, 05693-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Major Sylvio de Magalhães Padilha, 16741 – Jardim Fonte do Morumbi, São Paulo – SP, 05693-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MAGALHAES DE CASTRO 6118": {
+    "lat": -23.5795763,
+    "lon": -46.6956982,
+    "query": "AV MAGALHAES DE CASTRO 6118",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MAL. MASCARENHAS DE MORAES, 2525, ANDAR 1 SALA 10 – IMBIRIBEIRA, RECIFE – PE": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Mal. Mascarenhas de Moraes, 2525, Andar 1 Sala 10 – Imbiribeira, Recife – PE",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MAL MASCARENHAS DE MORAES 2525": {
+    "lat": -8.1103502,
+    "lon": -34.9118536,
+    "query": "AV MAL MASCARENHAS DE MORAES 2525",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MANOEL DIAS DA SILVA, 1175 – PITUBA, SALVADOR – BA, BRASIL": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Manoel Dias da Silva, 1175 – Pituba, Salvador – BA, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MANOEL DIAS DA SILVA 1175": {
+    "lat": -22.9125929,
+    "lon": -47.0731058,
+    "query": "AV MANOEL DIAS DA SILVA 1175",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MANOEL DIAS DA SILVA, 1175 – PITUBA, SALVADOR – BA, 41830-000": {
+    "lat": -13.0049147,
+    "lon": -38.4564051,
+    "query": "Av. Manoel Dias da Silva, 1175 – Pituba, Salvador – BA, 41830-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MAR VERMELHO, 89 – INTERMARES, CABEDELO – PB, 58102-120": {
+    "lat": -7.0445556,
+    "lon": -34.8435973,
+    "query": "Av. Mar Vermelho, 89 – Intermares, Cabedelo – PB, 58102-120",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MAL. RONDON, 1520 – CENTRO, RONDON DO PARÁ – PA, 68638-000": {
+    "lat": -4.7743667,
+    "lon": -48.0755665,
+    "query": "Av. Mal. Rondon, 1520 – Centro, Rondon do Pará – PA, 68638-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA ARAÇAGY – JARDIM DAS OLIVEIRAS, RAPOSA – MA, 65138-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rodovia Araçagy – Jardim das Oliveiras, Raposa – MA, 65138-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MARIO ANDREAZZA 20": {
+    "lat": -2.4987112,
+    "lon": -44.2298984,
+    "query": "AV MARIO ANDREAZZA 20",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. ARAÇAGY, S/N – JARDIM DAS OLIVEIRAS, RAPOSA – MA, 65138-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. Araçagy, s/n – Jardim das Oliveiras, Raposa – MA, 65138-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MÁRIO ANDREAZZA, 20, COND. MAISON CRISTALLY RESIDENCE, CASA 11 – TURU, SÃO LUÍS – MA, 65068-500": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Mário Andreazza, 20, Cond. Maison Cristally Residence, Casa 11 – Turu, São Luís – MA, 65068-500",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MÁRIO MELO, S/N – SETE DE SETEMBRO, XEXÉU – PE, 55555-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Mário Melo, s/n – Sete de Setembro, Xexéu – PE, 55555-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MARIO MELO S/N": {
+    "lat": -8.0548164,
+    "lon": -34.8803783,
+    "query": "AV MARIO MELO S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MÁRIO MELO, KM 202,9, MARGENS DA BR-101 SUL – XEXÉU – PE": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Mário Melo, km 202,9, margens da BR-101 Sul – Xexéu – PE",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MARTE, 624 – ALPHAVILLE (RESIDENCIAL ONZE), SANTANA DE PARNAÍBA – SP, BRASIL": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Marte, 624 – Alphaville (Residencial Onze), Santana de Parnaíba – SP, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MARTE 624": {
+    "lat": -19.9727096,
+    "lon": -44.0585571,
+    "query": "AV MARTE 624",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MARTE, 624 – ALPHAVILLE, SANTANA DE PARNAÍBA – SP, 06541-005": {
+    "lat": -23.4632817,
+    "lon": -46.8709472,
+    "query": "Av. Marte, 624 – Alphaville, Santana de Parnaíba – SP, 06541-005",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MATO GROSSO, 1959 – CRUZEIRO, CAMPO GRANDE – MS, BRASIL": {
+    "lat": -20.4519142,
+    "lon": -54.5936512,
+    "query": "Av. Mato Grosso, 1959 – Cruzeiro, Campo Grande – MS, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MATO GROSSO, 1959 – CRUZEIRO, CAMPO GRANDE – MS, 79020-200": {
+    "lat": -20.4519142,
+    "lon": -54.5936512,
+    "query": "Av. Mato Grosso, 1959 – Cruzeiro, Campo Grande – MS, 79020-200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MENINO MARCELO, 20, GALPÃO 20 LETRA A – ANTARES, MACEIÓ – AL, 57083-410": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Menino Marcelo, 20, Galpão 20 Letra A – Antares, Maceió – AL, 57083-410",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV MENINO MARCELO 20": {
+    "lat": -9.5631665,
+    "lon": -35.7454673,
+    "query": "AV MENINO MARCELO 20",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MINISTRO GERALDO BARRETO SOBRAL, 2277, JARDINS, ARACAJU – SE, 49026-010": {
+    "lat": -10.9500048,
+    "lon": -37.0650125,
+    "query": "Av. Ministro Geraldo Barreto Sobral, 2277, Jardins, Aracaju – SE, 49026-010",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. MONÇÃO, 02, JARDIM RENASCENÇA, SÃO LUÍS – MA, 65075-692": {
+    "lat": -2.5045333,
+    "lon": -44.2874233,
+    "query": "Av. Monção, 02, Jardim Renascença, São Luís – MA, 65075-692",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. DOS NAVEGANTES, 222 – CENTRO, PORTO SEGURO – BA, 45810-000": {
+    "lat": -16.4451642,
+    "lon": -39.0642989,
+    "query": "Av. dos Navegantes, 222 – Centro, Porto Seguro – BA, 45810-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. NORMA PIMENTEL DA COSTA, 809 – BENEDITO BENTES, MACEIÓ – AL, 57085-000": {
+    "lat": -9.5484537,
+    "lon": -35.7243653,
+    "query": "Av. Norma Pimentel da Costa, 809 – Benedito Bentes, Maceió – AL, 57085-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. NOSSA SENHORA DE FÁTIMA, 1270 – JARDIM BELA VISTA, CAMPINAS – SP, 13050-170": {
+    "lat": -22.7328743,
+    "lon": -47.3236099,
+    "query": "Av. Nossa Senhora de Fátima, 1270 – Jardim Bela Vista, Campinas – SP, 13050-170",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. NOSSA SENHORA DE FÁTIMA, 1270 – CAMPINAS – SP, 13050-170": {
+    "lat": -22.8789702,
+    "lon": -47.0445072,
+    "query": "Av. Nossa Senhora de Fátima, 1270 – Campinas – SP, 13050-170",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. NOSSA SENHORA DO CARMO, 1650 – CARMO, BELO HORIZONTE – MG, 30330-000": {
+    "lat": -19.94635,
+    "lon": -43.934771,
+    "query": "Av. Nossa Senhora do Carmo, 1650 – Carmo, Belo Horizonte – MG, 30330-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OCTÁVIO MANGABEIRA, S/N – PIATÃ, SALVADOR – BA, 41650-000": {
+    "lat": -12.9618184,
+    "lon": -38.3995881,
+    "query": "Av. Octávio Mangabeira, S/N – Piatã, Salvador – BA, 41650-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OCTÁVIO MANGABEIRA, S/N – BOCA DO RIO, SALVADOR – BA, 41706-690": {
+    "lat": -12.9754106,
+    "lon": -38.4191142,
+    "query": "Av. Octávio Mangabeira, S/N – Boca do Rio, Salvador – BA, 41706-690",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OCTÁVIO MANGABEIRA, 5490 – BOCA DO RIO, SALVADOR – BA, 41706-690": {
+    "lat": -12.9754106,
+    "lon": -38.4191142,
+    "query": "Av. Octávio Mangabeira, 5490 – Boca do Rio, Salvador – BA, 41706-690",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA AMÂNCIO DE ARAÚJO, 2135 – CENTRO, CONCEIÇÃO DO COITÉ – BA, 48730-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Amâncio de Araújo, 2135 – Centro, Conceição do Coité – BA, 48730-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV OLDACK AMANCIO ARAUJO 2135": {
+    "lat": null,
+    "lon": null,
+    "query": "AV OLDACK AMANCIO ARAUJO 2135",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::CONCEIÇÃO DO COITÉ - BA": {
+    "lat": -11.5607972,
+    "lon": -39.2856251,
+    "query": "CONCEIÇÃO DO COITÉ - BA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OLÍVIA FLORES, 2500 – UNIVERSIDADE, VITÓRIA DA CONQUISTA – BA, 45031-000": {
+    "lat": -14.877137,
+    "lon": -40.8177229,
+    "query": "Av. Olívia Flores, 2500 – Universidade, Vitória da Conquista – BA, 45031-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PADRE CÍCERO, S/N – SANTA TEREZA, JUAZEIRO – CE, 63050-423": {
+    "lat": -7.2218769,
+    "lon": -39.3256047,
+    "query": "Av. Padre Cícero, S/N – Santa Tereza, Juazeiro – CE, 63050-423",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PADRE CÍCERO, 4400 – JUAZEIRO DO NORTE – CE, 63024-015": {
+    "lat": -7.2264166,
+    "lon": -39.3473484,
+    "query": "Av. Padre Cícero, 4400 – Juazeiro do Norte – CE, 63024-015",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PADRE GUILHERME DECAMINADA, 2385 – SANTA CRUZ, RIO DE JANEIRO – RJ, 23575-000": {
+    "lat": -22.8975264,
+    "lon": -43.6779383,
+    "query": "Av. Padre Guilherme Decaminada, 2385 – Santa Cruz, Rio de Janeiro – RJ, 23575-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::V. PAU BRASIL, LOTE 13, LOJA 18 TÉRREO – SUL (ÁGUAS CLARAS), BRASÍLIA – DF, 71926-000": {
+    "lat": null,
+    "lon": null,
+    "query": "v. Pau Brasil, Lote 13, Loja 18 Térreo – Sul (Águas Claras), Brasília – DF, 71926-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PAU BRASIL, LOTE 13": {
+    "lat": -15.8407075,
+    "lon": -48.0276104,
+    "query": "AV PAU BRASIL, LOTE 13",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA SANTA CATARINA, 3086 – SANTA CATARINA, JOINVILLE – SC, 89211-300": {
+    "lat": -26.3503893,
+    "lon": -48.8489639,
+    "query": "Rua Santa Catarina, 3086 – Santa Catarina, Joinville – SC, 89211-300",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA BR-470, 6380 – CANTA GALO, RIO DO SUL – SC, 89163-244": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua BR-470, 6380 – Canta Galo, Rio do Sul – SC, 89163-244",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PAULISTA 1842": {
+    "lat": -23.5594802,
+    "lon": -46.6579879,
+    "query": "AV PAULISTA 1842",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALZIRA SANTANA, 1307 – CENTRO-SUL, VÁRZEA GRANDE – MT, 78135-626": {
+    "lat": -15.6620149,
+    "lon": -56.1339151,
+    "query": "Av. Alzira Santana, 1307 – Centro-Sul, Várzea Grande – MT, 78135-626",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA QUINZE DE NOVEMBRO, 5008 – VILA NOVA, JOINVILLE – SC, 89237-000": {
+    "lat": -26.2867506,
+    "lon": -48.908256,
+    "query": "Rua Quinze de Novembro, 5008 – Vila Nova, Joinville – SC, 89237-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA CORONEL FRANCISCO GOMES, 788-A – BUCAREIN, JOINVILLE – SC, 89202-250": {
+    "lat": -26.3188697,
+    "lon": -48.8414848,
+    "query": "Rua Coronel Francisco Gomes, 788-A – Bucarein, Joinville – SC, 89202-250",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. FRIDA PUXIAN, 501 – UNIVERSITÁRIO, CAMPO GRANDE – MS, 79060-700": {
+    "lat": -20.5141586,
+    "lon": -54.5816544,
+    "query": "Av. Frida Puxian, 501 – Universitário, Campo Grande – MS, 79060-700",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA PAUL FRITZ KUEHNRICH, 1400 – ITOUPAVA NORTE, BLUMENAU – SC, 89052-381": {
+    "lat": null,
+    "lon": null,
+    "query": "Rodovia Paul Fritz Kuehnrich, 1400 – Itoupava Norte, Blumenau – SC, 89052-381",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PAULISTA 2100": {
+    "lat": -23.5580816,
+    "lon": -46.6598019,
+    "query": "AV PAULISTA 2100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA BARÃO DE MELGAÇO, S/N – CENTRO-NORTE, CUIABÁ – MT, 78005-300": {
+    "lat": -15.5933026,
+    "lon": -56.0946454,
+    "query": "Rua Barão de Melgaço, S/N – Centro-Norte, Cuiabá – MT, 78005-300",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA ELESBÃO PINTO DA LUZ, 1183 – JARDIM ATLÂNTICO, FLORIANÓPOLIS – SC, BRASIL": {
+    "lat": -27.5854646,
+    "lon": -48.6023898,
+    "query": "Rua Elesbão Pinto da Luz, 1183 – Jardim Atlântico, Florianópolis – SC, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA ARY PAES BARRETO, 2376 – CRISTO REI, VÁRZEA GRANDE – MT, BRASIL": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Ary Paes Barreto, 2376 – Cristo Rei, Várzea Grande – MT, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA TUIUTI, 4157 – AVENTUREIRO, JOINVILLE – SC, BRASIL": {
+    "lat": -26.2373525,
+    "lon": -48.8189996,
+    "query": "Rua Tuiuti, 4157 – Aventureiro, Joinville – SC, Brasil",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::R. SEBASTIÃO FURTADO PEREIRA, S/N – BARREIROS, SÃO JOSÉ – SC, 88117-400": {
+    "lat": -27.5819307,
+    "lon": -48.61462,
+    "query": "R. Sebastião Furtado Pereira, s/n – Barreiros, São José – SC, 88117-400",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PEDRO TEIXEIRA, 241 – DOM PEDRO I, MANAUS – AM, 69040-000": {
+    "lat": -3.0913129,
+    "lon": -60.0444305,
+    "query": "Av. Pedro Teixeira, 241 – Dom Pedro I, Manaus – AM, 69040-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PETROBRÁS, S/N – MALHADO, ILHÉUS – BA, 45652-155": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Petrobrás, s/n – Malhado, Ilhéus – BA, 45652-155",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PETROBRAS S/N": {
+    "lat": -10.9942632,
+    "lon": -37.0982759,
+    "query": "AV PETROBRAS S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PETROBRÁS, S/N – CENTRO, ILHÉUS – BA, 45652-155": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Petrobrás, s/n – Centro, Ilhéus – BA, 45652-155",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PIAUÍ, 860 – CENTRO, TIMON – MA, 65630-030": {
+    "lat": -5.0972535,
+    "lon": -42.8207658,
+    "query": "Av. Piauí, 860 – Centro, Timon – MA, 65630-030",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PORTUGAL, 1110 – UNIVERSITÁRIO, CARUARU – PE, 55016-400": {
+    "lat": -8.2643186,
+    "lon": -35.9644758,
+    "query": "Av. Portugal, 1110 – Universitário, Caruaru – PE, 55016-400",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PREFEITO JOSÉ MONTEIRO, 1045 – JARDIM INDEPENDÊNCIA, SÃO VICENTE – SP, 11380-001": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Prefeito José Monteiro, 1045 – Jardim Independência, São Vicente – SP, 11380-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PREFEITO JOSE MONTEIRO 1045": {
+    "lat": -23.963227,
+    "lon": -46.3751089,
+    "query": "AV PREFEITO JOSE MONTEIRO 1045",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PREFEITO NICOLAU FALQUETTO, 96 – VENDA NOVA DO IMIGRANTE, VENDA NOVA DO IMIGRANTE – ES, 29375-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Prefeito Nicolau Falquetto, 96 – Venda Nova do Imigrante, Venda Nova do Imigrante – ES, 29375-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PREFEITO NICOLAU FALCHETTO, 96": {
+    "lat": null,
+    "lon": null,
+    "query": "AV PREFEITO NICOLAU FALCHETTO, 96",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::VENDA NOVA DO IMIGRANTE - ES": {
+    "lat": -20.3294782,
+    "lon": -41.1319237,
+    "query": "VENDA NOVA DO IMIGRANTE - ES",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE CASTELO BRANCO, 4223 – SÃO PAULO, SÃO PAULO – SP, 01142-200": {
+    "lat": -23.5206431,
+    "lon": -46.6400385,
+    "query": "Av. Presidente Castelo Branco, 4223 – São Paulo, São Paulo – SP, 01142-200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE CASTELO BRANCO, 4233 – PARQUE INDUSTRIAL TOMAS EDSON, SÃO PAULO – SP, 01142-200": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Presidente Castelo Branco, 4233 – Parque Industrial Tomas Edson, São Paulo – SP, 01142-200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PRES CASTELO BRANCO 4233": {
+    "lat": -23.5243156,
+    "lon": -46.6026801,
+    "query": "AV PRES CASTELO BRANCO 4233",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE KENNEDY, 3092 – PEIXINHOS, OLINDA – PE, 53260-640": {
+    "lat": -8.0116696,
+    "lon": -34.8745848,
+    "query": "Av. Presidente Kennedy, 3092 – Peixinhos, Olinda – PE, 53260-640",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE CASTELO BRANCO, 2395 – PARQUE INDUSTRIAL LAGOINHA, RIBEIRÃO PRETO – SP, 14095-000": {
+    "lat": -21.2017081,
+    "lon": -47.7633228,
+    "query": "Av. Presidente Castelo Branco, 2395 – Parque Industrial Lagoinha, Ribeirão Preto – SP, 14095-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE EPITÁCIO PESSOA, 1277 – ESTADOS, JOÃO PESSOA – PB, 58030-000": {
+    "lat": -7.1196159,
+    "lon": -34.8523678,
+    "query": "Av. Presidente Epitácio Pessoa, 1277 – Estados, João Pessoa – PB, 58030-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE GETÚLIO VARGAS, 5600 – JADERLÂNDIA, CASTANHAL – PA, 68745-000": {
+    "lat": -1.2956034,
+    "lon": -47.9081243,
+    "query": "Av. Presidente Getúlio Vargas, 5600 – Jaderlândia, Castanhal – PA, 68745-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PEDRO ALEIXO, 550 – CENTRO (CACHOEIRA DO CAMPO), OURO PRETO – MG, 35409-001": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Pedro Aleixo, 550 – Centro (Cachoeira do Campo), Ouro Preto – MG, 35409-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PRESIDENTE JUSCELINO KUBITSCHECK 132": {
+    "lat": -20.4517601,
+    "lon": -45.4170213,
+    "query": "AV PRESIDENTE JUSCELINO KUBITSCHECK 132",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE KENNEDY, 895 – CIDADE NOVA, INDAIATUBA – SP, 13333-000": {
+    "lat": -23.0819933,
+    "lon": -47.2057759,
+    "query": "Av. Presidente Kennedy, 895 – Cidade Nova, Indaiatuba – SP, 13333-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE MÉDICI, 4269 – VILA BIRIGUI, RONDONÓPOLIS – MT, 78705-000": {
+    "lat": -16.4663871,
+    "lon": -54.6437668,
+    "query": "Av. Presidente Médici, 4269 – Vila Birigui, Rondonópolis – MT, 78705-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE VARGAS, 1336 – PAPA JOÃO PAULO II, CAMPO GRANDE – MS, 79112-010": {
+    "lat": -20.4491463,
+    "lon": -54.6464161,
+    "query": "Av. Presidente Vargas, 1336 – Papa João Paulo II, Campo Grande – MS, 79112-010",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE VARGAS, 315 – RESIDENCIAL DONA TÚNICA, PARÁ DE MINAS – MG, 35660-970": {
+    "lat": -19.8658457,
+    "lon": -44.5995037,
+    "query": "Av. Presidente Vargas, 315 – Residencial Dona Túnica, Pará de Minas – MG, 35660-970",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRESIDENTE VARGAS, S/N – CENTRO, IMBITUBA – SC, 88780-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Presidente Vargas, s/n – Centro, Imbituba – SC, 88780-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PRESIDENTE VARGAS S/N": {
+    "lat": -15.5089347,
+    "lon": -41.2353845,
+    "query": "AV PRESIDENTE VARGAS S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRINCESA DIANA, 200 – LAGOA DOS INGLESES, NOVA LIMA – MG, 34000-001": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Princesa Diana, 200 – Lagoa dos Ingleses, Nova Lima – MG, 34000-001",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PRINCESA DIANA 200": {
+    "lat": -20.1593375,
+    "lon": -43.9608476,
+    "query": "AV PRINCESA DIANA 200",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRINCESA DIANA, 200 – LAGOA DOS INGLESES, NOVA LIMA – MG, 34018-006": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Princesa Diana, 200 – Lagoa dos Ingleses, Nova Lima – MG, 34018-006",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRINCESA ISABEL, 775 – SÃO CAETANO, ITABUNA – BA, 45607-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Princesa Isabel, 775 – São Caetano, Itabuna – BA, 45607-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PRINCESA ISABEL, Nº 775": {
+    "lat": -7.0421815,
+    "lon": -41.548898,
+    "query": "AV PRINCESA ISABEL, nº 775",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PRISCILIANA DE CASTILHO, 121 – CENTRO, CARAGUATATUBA – SP, 11660-330": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Prisciliana de Castilho, 121 – Centro, Caraguatatuba – SP, 11660-330",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PRISCILIANA DE CASTILHO 127 840": {
+    "lat": null,
+    "lon": null,
+    "query": "AV PRISCILIANA DE CASTILHO 127 840",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::CARAGUATATUBA - SP": {
+    "lat": -23.6814497,
+    "lon": -45.4345116,
+    "query": "CARAGUATATUBA - SP",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PROFESSOR CARVALHO PINTO, 149 – REGIÃO CENTRAL, CAIEIRAS – SP, 07700-210": {
+    "lat": -23.3651271,
+    "lon": -46.7499106,
+    "query": "Av. Professor Carvalho Pinto, 149 – Região Central, Caieiras – SP, 07700-210",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. PROFESSOR SIMÃO AMORIM DURANDO, 10 – SÃO GONÇALO, PETROLINA – PE, 56312-385": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Professor Simão Amorim Durando, 10 – São Gonçalo, Petrolina – PE, 56312-385",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV PROFESSOR SIMAO AMORIM DURANDO 10": {
+    "lat": null,
+    "lon": null,
+    "query": "AV PROFESSOR SIMAO AMORIM DURANDO 10",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::PETROLINA - PE": {
+    "lat": -9.4026734,
+    "lon": -40.5548749,
+    "query": "PETROLINA - PE",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::R. JOÃO PINHEIRO, 4 – CENTRO, ITABIRITO – MG, 35450-000": {
+    "lat": null,
+    "lon": null,
+    "query": "R. João Pinheiro, 4 – Centro, Itabirito – MG, 35450-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV QUEIROZ JUNIOR 485": {
+    "lat": -3.7549676,
+    "lon": -38.4888601,
+    "query": "AV QUEIROZ JUNIOR 485",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. ANHANGUERA, KM 110 Nº 1650 – JARDIM MANCHESTER (NOVA VENEZA), SUMARÉ – SP, 13181-900": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. Anhanguera, Km 110 nº 1650 – Jardim Manchester (Nova Veneza), Sumaré – SP, 13181-900",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV RAJA GABAGLIA 3320": {
+    "lat": -19.9612969,
+    "lon": -43.9572724,
+    "query": "AV RAJA GABAGLIA 3320",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. ADAUTO CAMPO DALL’ORTO, KM 1+650M – JARDIM SÃO JERÔNIMO, SUMARÉ – SP, 13181-900": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. Adauto Campo Dall’Orto, Km 1+650m – Jardim São Jerônimo, Sumaré – SP, 13181-900",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. RANULPHO MARQUES LEAL, 3680 – DISTRITO INDUSTRIAL II, TRÊS LAGOAS – MS, 79613-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ranulpho Marques Leal, 3680 – Distrito Industrial II, Três Lagoas – MS, 79613-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV RANULPHO MARQUES LEAL 3680": {
+    "lat": -20.7831295,
+    "lon": -51.6644225,
+    "query": "AV RANULPHO MARQUES LEAL 3680",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. RAUL LOPES, 2757 – NOIVOS, TERESINA – PI, 64049-560": {
+    "lat": -5.081986,
+    "lon": -42.7936149,
+    "query": "Av. Raul Lopes, 2757 – Noivos, Teresina – PI, 64049-560",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. RAUL LOPES, 2757 – ININGA, TERESINA – PI, 64049-560": {
+    "lat": -5.0594577,
+    "lon": -42.8063577,
+    "query": "Av. Raul Lopes, 2757 – Ininga, Teresina – PI, 64049-560",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. REITOR MIGUEL CALMON, 557 – CANELA, SALVADOR – BA, 40110-100": {
+    "lat": -12.9952393,
+    "lon": -38.5244446,
+    "query": "Av. Reitor Miguel Calmon, 557 – Canela, Salvador – BA, 40110-100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. REPÚBLICA DO LÍBANO, S/N – PINA, RECIFE – PE, 51110-160": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. República do Líbano, s/n – Pina, Recife – PE, 51110-160",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV REPUBLICA DO LIBANO 251": {
+    "lat": -8.0866497,
+    "lon": -34.8942249,
+    "query": "AV REPUBLICA DO LIBANO 251",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OLÍVIA FLORES, S/N – UNIVERSIDADE, VITÓRIA DA CONQUISTA – BA, 45000-000": {
+    "lat": -14.8848673,
+    "lon": -40.8104213,
+    "query": "Av. Olívia Flores, s/n – Universidade, Vitória da Conquista – BA, 45000-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. RUI BARBOSA, 1856 – CENTRO, RONDONÓPOLIS – MT, 78700-082": {
+    "lat": -16.46032,
+    "lon": -54.6235352,
+    "query": "Av. Rui Barbosa, 1856 – Centro, Rondonópolis – MT, 78700-082",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. RUI TEIXEIRA MENDES, 300 – TERRAS DE PIRACICABA, PIRACICABA – SP, 13403-825": {
+    "lat": -22.7258291,
+    "lon": -47.6721372,
+    "query": "Av. Rui Teixeira Mendes, 300 – Terras de Piracicaba, Piracicaba – SP, 13403-825",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. RUY PEREIRA DOS SANTOS, 590 – OLHO D'ÁGUA, SÃO GONÇALO DO AMARANTE – RN, 59295-444": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ruy Pereira dos Santos, 590 – Olho d'Água, São Gonçalo do Amarante – RN, 59295-444",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV RUY PEREIRA DOS SANTOS 590": {
+    "lat": null,
+    "lon": null,
+    "query": "AV RUY PEREIRA DOS SANTOS 590",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::SÃO GONÇALO DO AMARANTE - RN": {
+    "lat": -5.7803095,
+    "lon": -35.3134705,
+    "query": "SÃO GONÇALO DO AMARANTE - RN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SANTA LEOPOLDINA, 2700 – COQUEIRAL DE ITAPARICA, VILA VELHA – ES, 29102-385": {
+    "lat": -20.3656878,
+    "lon": -40.3034531,
+    "query": "Av. Santa Leopoldina, 2700 – Coqueiral de Itaparica, Vila Velha – ES, 29102-385",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SANTIAGO DE COMPOSTELA, 425 – PARQUE BELA VISTA, SALVADOR – BA, 40279-150": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Santiago de Compostela, 425 – Parque Bela Vista, Salvador – BA, 40279-150",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SANTIAGO DE COMPOSTELA 425": {
+    "lat": -12.9791418,
+    "lon": -38.470428,
+    "query": "AV SANTIAGO DE COMPOSTELA 425",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SANTO AMARO DE IPITANGA, 419 – VIDA NOVA, LAURO DE FREITAS – BA, 42717-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Santo Amaro de Ipitanga, 419 – Vida Nova, Lauro de Freitas – BA, 42717-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SANTO AMARO DE IPITANGA, 419 – JARDIM MEU IDEAL, LAURO DE FREITAS – BA, 42717-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Santo Amaro de Ipitanga, 419 – Jardim Meu Ideal, Lauro de Freitas – BA, 42717-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SANTO AMARO DE IPITANGA 419": {
+    "lat": null,
+    "lon": null,
+    "query": "AV SANTO AMARO DE IPITANGA 419",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::LAURO DE FREITAS - BA": {
+    "lat": -12.8751773,
+    "lon": -38.3399593,
+    "query": "LAURO DE FREITAS - BA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SANTO AMARO, S/N – PETRÓPOLIS, MACEIÓ – AL, 57071-180": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Santo Amaro, s/n – Petrópolis, Maceió – AL, 57071-180",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SANTO AMARO S/N": {
+    "lat": -23.60025,
+    "lon": -46.673857,
+    "query": "AV SANTO AMARO S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::R. ORLANDO MOSCOU, 226 – BOCA DO RIO, SALVADOR – BA, 41706-035": {
+    "lat": null,
+    "lon": null,
+    "query": "R. Orlando Moscou, 226 – Boca do Rio, Salvador – BA, 41706-035",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SANTOS DUMONT, 5772 – ESTRADA DO COCO, LAURO DE FREITAS – BA, 42700-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Santos Dumont, 5772 – Estrada do Coco, Lauro de Freitas – BA, 42700-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SANTOS DUMONT 1883": {
+    "lat": -23.3174012,
+    "lon": -51.1490907,
+    "query": "AV SANTOS DUMONT 1883",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SÃO LUÍS REI DE FRANÇA, S/N – TURU, SÃO LUÍS – MA, 65065-470": {
+    "lat": -2.5231547,
+    "lon": -44.2260173,
+    "query": "Av. São Luís Rei de França, s/n – Turu, São Luís – MA, 65065-470",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SÃO PAULO, 2717 – ALÉM PONTE, SOROCABA – SP, 18013-000": {
+    "lat": -23.4970784,
+    "lon": -47.440185,
+    "query": "Av. São Paulo, 2717 – Além Ponte, Sorocaba – SP, 18013-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SARGENTO HERMÍNIO SAMPAIO, 4760 – PADRE ANDRADE, FORTALEZA – CE, 60356-392": {
+    "lat": -3.7309927,
+    "lon": -38.5779459,
+    "query": "Av. Sargento Hermínio Sampaio, 4760 – Padre Andrade, Fortaleza – CE, 60356-392",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SARGENTO HERMÍNIO SAMPAIO, S/N – PRESIDENTE KENNEDY, FORTALEZA – CE, 60355-503": {
+    "lat": -3.7281756,
+    "lon": -38.5705022,
+    "query": "Av. Sargento Hermínio Sampaio, s/n – Presidente Kennedy, Fortaleza – CE, 60355-503",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SENADOR TEOTÔNIO VILELA, 8699 – JARDIM CASA GRANDE, SÃO PAULO – SP, 04890-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Senador Teotônio Vilela, 8699 – Jardim Casa Grande, São Paulo – SP, 04890-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SARGENTO HERMINIO SAMPAIO SN": {
+    "lat": -3.7262818,
+    "lon": -38.5597706,
+    "query": "AV SARGENTO HERMINIO SAMPAIO SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SEN TEOTONIO VILELA 8699": {
+    "lat": -23.7414568,
+    "lon": -46.7060545,
+    "query": "AV SEN TEOTONIO VILELA 8699",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SEN. LEMOS, 435 – UMARIZAL, BELÉM – PA, 66055-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Sen. Lemos, 435 – Umarizal, Belém – PA, 66055-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SENADOR SALGADO FILHO, 3700 – CANDELÁRIA, NATAL – RN, 59064-000": {
+    "lat": -5.8331367,
+    "lon": -35.2124249,
+    "query": "Av. Senador Salgado Filho, 3700 – Candelária, Natal – RN, 59064-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::ROD. BR-101, S/N – NATAL, NATAL – RN, 59037-155": {
+    "lat": null,
+    "lon": null,
+    "query": "Rod. BR-101, s/n – Natal, Natal – RN, 59037-155",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV SENADOR SALGADO FILHO 3700": {
+    "lat": -25.4756151,
+    "lon": -49.2286221,
+    "query": "AV SENADOR SALGADO FILHO 3700",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SETE DE SETEMBRO, 1839 – VITÓRIA, SALVADOR – BA, 40080-002": {
+    "lat": -12.9899711,
+    "lon": -38.5236927,
+    "query": "Av. Sete de Setembro, 1839 – Vitória, Salvador – BA, 40080-002",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA KEPLER, 375 – SANTA LÚCIA, BELO HORIZONTE – MG, 30360-190": {
+    "lat": -19.9637996,
+    "lon": -43.949628,
+    "query": "Rua Kepler, 375 – Santa Lúcia, Belo Horizonte – MG, 30360-190",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA SOUZA RAMOS, 24 – CIDADE TIRADENTES, SÃO PAULO – SP, 08490-490": {
+    "lat": -23.5821434,
+    "lon": -46.4100411,
+    "query": "Avenida Souza Ramos, 24 – Cidade Tiradentes, São Paulo – SP, 08490-490",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA STEPHAN HOUAT, S/N – JARDIM MARCO ZERO, MACAPÁ – AP, 68903-193": {
+    "lat": 0.0051793,
+    "lon": -51.0759207,
+    "query": "Avenida Stephan Houat, s/n – Jardim Marco Zero, Macapá – AP, 68903-193",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA JOSMAR CHAVES PINTO, 3 – JARDIM MARCO ZERO, MACAPÁ – AP, 68903-193": {
+    "lat": 0.0034295,
+    "lon": -51.0748216,
+    "query": "Rodovia Josmar Chaves Pinto, 3 – Jardim Marco Zero, Macapá – AP, 68903-193",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA TAMANDARÉ, S/N – ANGELIM, PARAGOMINAS – PA, 68625-140": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Tamandaré, s/n – Angelim, Paragominas – PA, 68625-140",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV TAMANDARE S/N": {
+    "lat": -22.0101075,
+    "lon": -50.3867048,
+    "query": "AV TAMANDARE S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA BA-052, KM 274, 2766 – COLIBRI, MORRO DO CHAPÉU – BA, 44850-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rodovia BA-052, KM 274, 2766 – Colibri, Morro do Chapéu – BA, 44850-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV TANCREDO NEVES 000620": {
+    "lat": -25.421435,
+    "lon": -54.5858501,
+    "query": "AV TANCREDO NEVES 000620",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA TANCREDO NEVES, 4050 – NOSSA SENHORA DA VITÓRIA, ILHÉUS – BA, 45655-650": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Tancredo Neves, 4050 – Nossa Senhora da Vitória, Ilhéus – BA, 45655-650",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV TANCREDO NEVES 4050": {
+    "lat": -25.421435,
+    "lon": -54.5858501,
+    "query": "AV TANCREDO NEVES 4050",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALIOMAR BALEEIRO, S/N – CAMPINAS DE PIRAJÁ, SALVADOR – BA, 41310-000": {
+    "lat": -12.917572,
+    "lon": -38.4583378,
+    "query": "Av. Aliomar Baleeiro, s/n – Campinas de Pirajá, Salvador – BA, 41310-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA TANCREDO NEVES, S/N – CENTRO, RIO VERDE, PARAUAPEBAS – PA, 68639-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Tancredo Neves, s/n – Centro, Rio Verde, Parauapebas – PA, 68639-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV TANCREDO NEVES S/N": {
+    "lat": -1.1920043,
+    "lon": -47.1807224,
+    "query": "AV TANCREDO NEVES S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. TANCREDO NEVES, S/N – RIO VERDE, GOIANÉSIA DO PARÁ – PA, 68639-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Tancredo Neves, s/n – Rio Verde, Goianésia do Pará – PA, 68639-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. TUCUNARÉ, 80 – ALPHAVILLE, BARUERI – SP, 06460-020": {
+    "lat": -23.4997262,
+    "lon": -46.8372435,
+    "query": "Av. Tucunaré, 80 – Alphaville, Barueri – SP, 06460-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ULYSSES GUIMARÃES, S/N – SUSSUARANA, SALVADOR – BA, 41213-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ulysses Guimarães, s/n – Sussuarana, Salvador – BA, 41213-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV ULYSSES GUIMARAES 004594": {
+    "lat": -23.5820389,
+    "lon": -46.8094995,
+    "query": "AV ULYSSES GUIMARAES 004594",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ULYSSES GUIMARÃES, 4594 – SUSSUARANA, SALVADOR – BA, 41213-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Ulysses Guimarães, 4594 – Sussuarana, Salvador – BA, 41213-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. UNIÃO DOS FERROVIÁRIOS, 2940 – PONTE DE CAMPINAS, JUNDIAÍ – SP, 13201-160": {
+    "lat": -23.1878008,
+    "lon": -46.8787905,
+    "query": "Av. União dos Ferroviários, 2940 – Ponte de Campinas, Jundiaí – SP, 13201-160",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. VEREADOR MANOEL DOS SANTOS, 854 – CENTRO, BOMBINHAS – SC, 88215-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. Vereador Manoel dos Santos, 854 – Centro, Bombinhas – SC, 88215-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV VEREADOR MANOEL JOSE DOS SANTOS 854": {
+    "lat": -27.148043,
+    "lon": -48.4944195,
+    "query": "AV VEREADOR MANOEL JOSE DOS SANTOS 854",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. WALLACE SIMONSEN, 155 – NOVA PETRÓPOLIS, SÃO BERNARDO DO CAMPO – SP, 09771-210": {
+    "lat": -23.702365,
+    "lon": -46.5457286,
+    "query": "Av. Wallace Simonsen, 155 – Nova Petrópolis, São Bernardo do Campo – SP, 09771-210",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ZEQUINHA FREIRE, 1350 – URUGUAI, TERESINA – PI, 64073-020": {
+    "lat": -5.0743361,
+    "lon": -42.7494902,
+    "query": "Av. Zequinha Freire, 1350 – Uruguai, Teresina – PI, 64073-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA MARGINAL LESTE BR-101, S/N – CENTRO, BALNEÁRIO CAMBORIÚ – SC": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Marginal Leste BR-101, s/n – Centro, Balneário Camboriú – SC",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AV. MARGINAL LESTE BR101, S/N": {
+    "lat": null,
+    "lon": null,
+    "query": "AV. MARGINAL LESTE BR101, S/N",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::BALNEÁRIO CAMBORIÚ - SC": {
+    "lat": -26.9982837,
+    "lon": -48.6259119,
+    "query": "BALNEÁRIO CAMBORIÚ - SC",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OCEÂNICA, 1025 – CENTRO, BARRA DOS COQUEIROS – SE, 49140-970": {
+    "lat": -10.906997,
+    "lon": -37.0278539,
+    "query": "Av. Oceânica, 1025 – Centro, Barra dos Coqueiros – SE, 49140-970",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. OLIVEIRA PAIVA, 1350 – CIDADE DOS FUNCIONÁRIOS, FORTALEZA – CE, 60822-130": {
+    "lat": -3.7959487,
+    "lon": -38.4906397,
+    "query": "Av. Oliveira Paiva, 1350 – Cidade dos Funcionários, Fortaleza – CE, 60822-130",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. SILVIO TEIXEIRA, 831 – JARDINS, ARACAJU – SE, 49025-100": {
+    "lat": -10.9402235,
+    "lon": -37.0583898,
+    "query": "Av. Silvio Teixeira, 831 – Jardins, Aracaju – SE, 49025-100",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA 02 DE DEZEMBRO, 1081 – CENTRO, OLHO D’ÁGUA DAS FLORES – AL, 57442-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida 02 de Dezembro, 1081 – Centro, Olho d’Água das Flores – AL, 57442-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA 02 DE DEZEMBRO 1081": {
+    "lat": -29.6925346,
+    "lon": -53.8587403,
+    "query": "AVENIDA 02 DE DEZEMBRO 1081",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. 2, 1873 – RESIDENCIAL PARQUE PARICÁ, PARAGOMINAS – PA, 68630-718": {
+    "lat": null,
+    "lon": null,
+    "query": "Av. 2, 1873 – Residencial Parque Paricá, Paragominas – PA, 68630-718",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA 02 SN": {
+    "lat": -18.8954505,
+    "lon": -48.319712,
+    "query": "AVENIDA 02 SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA 16 DE MAIO, 531 – CENTRO, IGREJA NOVA – AL, 57280-000": {
+    "lat": -10.1297955,
+    "lon": -36.6533147,
+    "query": "Avenida 16 de Maio, 531 – Centro, Igreja Nova – AL, 57280-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA 24 DE OUTUBRO, 536 – PARQUE TURF CLUB, CAMPOS DOS GOYTACAZES – RJ, 28015-020": {
+    "lat": -21.773507,
+    "lon": -41.3100192,
+    "query": "Avenida 24 de Outubro, 536 – Parque Turf Club, Campos dos Goytacazes – RJ, 28015-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA 9, 44 – VILA NOVA, CAMPO GRANDE – MS, 79104-260": {
+    "lat": -20.460543,
+    "lon": -54.6875198,
+    "query": "Avenida 9, 44 – Vila Nova, Campo Grande – MS, 79104-260",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ACADÊMICO NILO FIGUEIREDO, 2495 – VILA JOANA D’ARC, LAGOA SANTA – MG, 33239-210": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Acadêmico Nilo Figueiredo, 2495 – Vila Joana d’Arc, Lagoa Santa – MG, 33239-210",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ACADEMICO NILO FIGUEIREDO 2495": {
+    "lat": -19.6362068,
+    "lon": -43.9038179,
+    "query": "AVENIDA ACADEMICO NILO FIGUEIREDO 2495",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA AFONSO OLINDENSE, 377 – VÁRZEA, RECIFE – PE, 50810-000": {
+    "lat": -8.0408147,
+    "lon": -34.9580326,
+    "query": "Avenida Afonso Olindense, 377 – Várzea, Recife – PE, 50810-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA AFRÂNIO PEIXOTO, 39 – LOBATO, SALVADOR – BA, 40470-630": {
+    "lat": -12.9081155,
+    "lon": -38.4784089,
+    "query": "Avenida Afrânio Peixoto, 39 – Lobato, Salvador – BA, 40470-630",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AV. ALBERTO TORRES, 450 – CENTRO, CAMPOS DOS GOYTACAZES – RJ, 28035-582": {
+    "lat": -21.7509711,
+    "lon": -41.3360191,
+    "query": "Av. Alberto Torres, 450 – Centro, Campos dos Goytacazes – RJ, 28035-582",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RODOVIA BR-262, 222 – KM 7, MÓDULO 8 – VILA BETHÂNIA, VIANA – ES, 29136-010": {
+    "lat": null,
+    "lon": null,
+    "query": "Rodovia BR-262, 222 – KM 7, Módulo 8 – Vila Bethânia, Viana – ES, 29136-010",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ALCACIBAS FURTADO 800": {
+    "lat": -20.3598177,
+    "lon": -40.4446978,
+    "query": "AVENIDA ALCACIBAS FURTADO 800",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ALCINDO CACELA, 1848 – NAZARÉ, BELÉM – PA, 66040-020": {
+    "lat": -1.4524832,
+    "lon": -48.4777468,
+    "query": "Avenida Alcindo Cacela, 1848 – Nazaré, Belém – PA, 66040-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ALCINDO CACELA, NAZARÉ, BELÉM – PA, 66040-020": {
+    "lat": -1.451215,
+    "lon": -48.4776638,
+    "query": "Avenida Alcindo Cacela, Nazaré, Belém – PA, 66040-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA GENERAL DAVID SARNOFF, 3185 – CIDADE INDUSTRIAL, CONTAGEM – MG, 32210-110": {
+    "lat": -19.9506744,
+    "lon": -44.0322448,
+    "query": "Avenida General David Sarnoff, 3185 – Cidade Industrial, Contagem – MG, 32210-110",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ALZIRA SANTANA, 1307 – JARDIM IMPERADOR, VÁRZEA GRANDE – MT, 78125-726": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Alzira Santana, 1307 – Jardim Imperador, Várzea Grande – MT, 78125-726",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ALZIRA SANTANA, 1307": {
+    "lat": -15.6620149,
+    "lon": -56.1339151,
+    "query": "Avenida Alzira Santana, 1307",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTONIO CABRAL DE SOUZA, 1660 – MARANGUAPE I, PAULISTA – PE, 53444-360": {
+    "lat": -7.947631,
+    "lon": -34.870484,
+    "query": "Avenida Antonio Cabral de Souza, 1660 – Maranguape I, Paulista – PE, 53444-360",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA RUTE FERRAZ DE ANGELIS, 886 – LOTEAMENTO RESIDENCIAL VILA BELLA, CAMPINAS – SP, 13087-729": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Rute Ferraz de Angelis, 886 – Loteamento Residencial Vila Bella, Campinas – SP, 13087-729",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ANTONIO CARLOS COUTO DE BARROS 475": {
+    "lat": -22.8815861,
+    "lon": -46.9702338,
+    "query": "AVENIDA ANTONIO CARLOS COUTO DE BARROS 475",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTONIO CARLOS MAGALHÃES, 4479 – BROTAS, SALVADOR – BA, 40280-000": {
+    "lat": -12.9875532,
+    "lon": -38.4671922,
+    "query": "Avenida Antonio Carlos Magalhães, 4479 – Brotas, Salvador – BA, 40280-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTONIO CARLOS MAGALHÃES, 3410 – PITUBA, SALVADOR – BA, 41800-700": {
+    "lat": -12.9964594,
+    "lon": -38.4662863,
+    "query": "Avenida Antonio Carlos Magalhães, 3410 – Pituba, Salvador – BA, 41800-700",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTÔNIO FAZANARO, 95 – PAULICEIA, PIRACICABA – SP, 13424-022": {
+    "lat": -22.7453295,
+    "lon": -47.6376197,
+    "query": "Avenida Antônio Fazanaro, 95 – Pauliceia, Piracicaba – SP, 13424-022",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA FLORENCIO ALVES FORTE ESQUINA RUA NASSER WELLINGTON MARTINS, S/N – QD 07 LT 13, HIDROLÂNDIA – GO, CEP NÃO ENCONTRADO": {
+    "lat": null,
+    "lon": null,
+    "query": "Rua Florencio Alves Forte esquina Rua Nasser Wellington Martins, S/N – Qd 07 Lt 13, Hidrolândia – GO, CEP NÃO ENCONTRADO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ANTONIO MENDONCA 479": {
+    "lat": -16.9611713,
+    "lon": -49.2353001,
+    "query": "AVENIDA ANTONIO MENDONCA 479",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTONIO MENDONÇA, 479 – CENTRO (VILA GRIMPAS), HIDROLÂNDIA – GO, 75340-000": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Antonio Mendonça, 479 – Centro (Vila Grimpas), Hidrolândia – GO, 75340-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTONIO PEREIRA ARAGÃO, S/N – CENTRO, SÃO MATEUS DO MARANHÃO – MA, CEP NÃO ENCONTRADO": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Antonio Pereira Aragão, S/N – Centro, São Mateus do Maranhão – MA, CEP NÃO ENCONTRADO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ANTONIO PEREIRA ARAGAO SN": {
+    "lat": null,
+    "lon": null,
+    "query": "AVENIDA ANTONIO PEREIRA ARAGAO SN",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::SÃO MATEUS DO MARANHÃO - MA": {
+    "lat": -4.0289169,
+    "lon": -44.4667342,
+    "query": "SÃO MATEUS DO MARANHÃO - MA",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ANTÔNIO SALES, 3700 – NOVO JUAZEIRO, JUAZEIRO DO NORTE – CE, CEP NÃO ENCONTRADO": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Antônio Sales, 3700 – Novo Juazeiro, Juazeiro do Norte – CE, CEP NÃO ENCONTRADO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ANTONIO SALES 3700": {
+    "lat": -3.7497064,
+    "lon": -38.4905219,
+    "query": "AVENIDA ANTONIO SALES 3700",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA AROEIRA, 476 – CENTRO, RUBIATABA – GO, 76350-000": {
+    "lat": -15.1629685,
+    "lon": -49.8022368,
+    "query": "Avenida Aroeira, 476 – Centro, Rubiataba – GO, 76350-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA ASSEDIPE, 840 – DISTRITO INDUSTRIAL, ABREU E LIMA – PE, 53520-785": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Assedipe, 840 – Distrito Industrial, Abreu e Lima – PE, 53520-785",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA ASSEDIPE 840": {
+    "lat": null,
+    "lon": null,
+    "query": "AVENIDA ASSEDIPE 840",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::ABREU E LIMA - PE": {
+    "lat": -7.9227979,
+    "lon": -34.9057518,
+    "query": "ABREU E LIMA - PE",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA CHESF, 01 – PARQUE DOS FARÓIS, NOSSA SENHORA DO SOCORRO – SE, 49160-000": {
+    "lat": -10.9067826,
+    "lon": -37.1331757,
+    "query": "Avenida Chesf, 01 – Parque dos Faróis, Nossa Senhora do Socorro – SE, 49160-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA AYRTON SENNA, 2300 – BARRA DA TIJUCA, RIO DE JANEIRO – RJ, 22775-003": {
+    "lat": -22.9900295,
+    "lon": -43.3656331,
+    "query": "Avenida Ayrton Senna, 2300 – Barra da Tijuca, Rio de Janeiro – RJ, 22775-003",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA AYRTON SENNA, 490 – NOVA PARNAMIRIM, PARNAMIRIM – RN, 59151-610": {
+    "lat": -5.8870912,
+    "lon": -35.1997529,
+    "query": "Avenida Ayrton Senna, 490 – Nova Parnamirim, Parnamirim – RN, 59151-610",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA AYRTON SENNA DA SILVA, 1511 – XIXOVÁ, PRAIA GRANDE – SP, 11726-500": {
+    "lat": -23.9989209,
+    "lon": -46.4058861,
+    "query": "Avenida Ayrton Senna da Silva, 1511 – Xixová, Praia Grande – SP, 11726-500",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA SENADOR SARAIVA, 835 – CENTRO, CAMPINAS – SP, 13013-061": {
+    "lat": -22.9041226,
+    "lon": -47.0651901,
+    "query": "Avenida Senador Saraiva, 835 – Centro, Campinas – SP, 13013-061",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BACHAREL TOMAZ LANDIM, 26 – IGAPÓ, SÃO GONÇALO DO AMARANTE – RN, CEP NÃO ENCONTRADO": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Bacharel Tomaz Landim, 26 – Igapó, São Gonçalo do Amarante – RN, CEP NÃO ENCONTRADO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA BACHAREL TOMAZ LANDIM 1905": {
+    "lat": -5.7774431,
+    "lon": -35.249778,
+    "query": "AVENIDA BACHAREL TOMAZ LANDIM 1905",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BEIRA RIO, 115 – BARRA LONGA – MG, 35447-000": {
+    "lat": -20.2821868,
+    "lon": -43.0432559,
+    "query": "Avenida Beira Rio, 115 – Barra Longa – MG, 35447-000",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BELMIRO DE ALBUQUERQUE, 3164 – JARDIM BOTÂNICO, PONTA PORÃ – MS, 79900-404": {
+    "lat": -22.504544,
+    "lon": -55.7311124,
+    "query": "Avenida Belmiro de Albuquerque, 3164 – Jardim Botânico, Ponta Porã – MS, 79900-404",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BEZERRA DE MENEZES, 171 – SÃO GERARDO, FORTALEZA – CE, 60325-003": {
+    "lat": -3.7320134,
+    "lon": -38.5474375,
+    "query": "Avenida Bezerra de Menezes, 171 – São Gerardo, Fortaleza – CE, 60325-003",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BOA VENTURA DO PUXIM, 65 – JARDIM GONÇALVES, ANÁPOLIS – GO, 75123-370": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Boa Ventura do Puxim, 65 – Jardim Gonçalves, Anápolis – GO, 75123-370",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA BOA VENTURA DO PUXIM ESQ C/ RUA SAO PEDRO 65": {
+    "lat": null,
+    "lon": null,
+    "query": "AVENIDA BOA VENTURA DO PUXIM ESQ C/ RUA SAO PEDRO 65",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "CIDADE::ANÁPOLIS - GO": {
+    "lat": -16.261728,
+    "lon": -48.9488909,
+    "query": "ANÁPOLIS - GO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA MATO VERDE, QD 30 LT 08 – JIBRAN EL HADJ, ANÁPOLIS – GO, CEP NÃO ENCONTRADO": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Mato Verde, Qd 30 Lt 08 – Jibran El Hadj, Anápolis – GO, CEP NÃO ENCONTRADO",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BRASIL, 1313 – VILA SÃO PEDRO, AMERICANA – SP, 13465-240": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Brasil, 1313 – Vila São Pedro, Americana – SP, 13465-240",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA BRASIL 1313": {
+    "lat": -22.8852543,
+    "lon": -47.0696162,
+    "query": "AVENIDA BRASIL 1313",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BRASIL, LOJ A 55300 – SANTA CRUZ, RIO DE JANEIRO – RJ, 23575-202": {
+    "lat": null,
+    "lon": null,
+    "query": "Avenida Brasil, Loj A 55300 – Santa Cruz, Rio de Janeiro – RJ, 23575-202",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "END::AVENIDA BRASIL 55300": {
+    "lat": -22.8476339,
+    "lon": -43.2480526,
+    "query": "AVENIDA BRASIL 55300",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BRASIL, 64 – CENTRO, SÃO ROQUE – SP, 18130-485": {
+    "lat": -23.5258544,
+    "lon": -47.1315051,
+    "query": "Avenida Brasil, 64 – Centro, São Roque – SP, 18130-485",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BRASÍLIA, 201 – SÃO BENEDITO, SANTA LUZIA – MG, 33120-483": {
+    "lat": -19.7867875,
+    "lon": -43.9277864,
+    "query": "Avenida Brasília, 201 – São Benedito, Santa Luzia – MG, 33120-483",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::RUA ESTÁCIO GONZAGA, 726 – HORTO FLORESTAL, SALVADOR – BA, 40295-020": {
+    "lat": -13.0027171,
+    "lon": -38.4899337,
+    "query": "Rua Estácio Gonzaga, 726 – Horto Florestal, Salvador – BA, 40295-020",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  },
+  "LOCAL::AVENIDA BRIGADEIRO FARIA LIMA, 2232 – PINHEIROS, SÃO PAULO – SP, 01489-900": {
+    "lat": -23.5771992,
+    "lon": -46.6880485,
+    "query": "Avenida Brigadeiro Faria Lima, 2232 – Pinheiros, São Paulo – SP, 01489-900",
+    "cidade_geocode": null,
+    "uf_geocode": null
+  }
+}

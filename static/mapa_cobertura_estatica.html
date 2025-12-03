@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>LEDAX - Cobertura Geográfica (Estática)</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    
+    <style>
+        body { margin: 0; }
+        .map { height: 100vh; width: 100%; }
+        .sidebar { z-index: 1000; }
+        .sidebar.collapsed { transform: translateX(-100%); }
+    </style>
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="title-wrap">
+            <h1>LEDAX</h1>
+            <p class="subtitle">Mapa Estático — Cobertura Geográfica</p>
+        </div>
+        <button id="btnToggleSidebar" class="icon-btn" aria-label="Abrir/Fechar painel">☰</button>
+    </header>
+
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-inner">
+
+            <h2>Painel de Cobertura</h2>
+
+            <div class="filter-group">
+                <h3>🗺️ Filtros de Cobertura</h3>
+
+                <div class="form-group">
+                    <label class="label">Regional (Área Cobertura)</label>
+                    <select id="filtroRegionalCobertura">
+                        <option value="">Todas as Regionais (Padrão)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="label">Representante (Área Cobertura)</label>
+                    <select id="filtroRepresentanteCobertura">
+                        <option value="">Todos Representantes</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="btn-row">
+                <button id="btnAplicar" class="primary">Aplicar Cobertura</button>
+                <button id="btnLimpar" class="ghost">Limpar Cobertura</button>
+            </div>
+
+            <hr />
+
+            <div class="legend">
+                <div class="legend-title">Cores da Cobertura Regional</div>
+                <div id="cobertura-legend" class="legend-bar">
+                    </div>
+            </div>
+            
+        </div>
+    </aside>
+
+    <main id="map" class="map"></main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="mapa_cobertura_estatica.js"></script>
+
+</body>
+
+</html>
