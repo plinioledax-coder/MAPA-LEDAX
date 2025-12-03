@@ -2,19 +2,14 @@
 from fastapi import FastAPI, Depends, Query
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from sqlalchemy import or_ # 🚨 NOVO: Importa 'or_' para combinar filtros LIKE
+from sqlalchemy import or_
 from database import SessionLocal
 from models import Cliente
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse # 🚨 NOVO: Importa para servir o index.html
-from datetime import date
-from typing import Optional, List
+from datetime import date 
+from typing import Optional, List # Mantido para compatibilidade
 
 app = FastAPI(title="LEDAX MAPA API")
-
-# -------------------------------
-# 1. Configurações Iniciais
-# -------------------------------
 
 # CORS - libera acesso ao front
 app.add_middleware(
@@ -24,8 +19,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Monta o diretório 'static'
-# Arquivos estáticos serão servidos em /static/
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Dependency
@@ -36,41 +29,35 @@ def get_db():
     finally:
         db.close()
 
-# -------------------------------
-# 2. ENDPOINT RAIZ (/) - SERVIR O MAPA HTML
-# -------------------------------
-@app.get("/", response_class=FileResponse)
-async def serve_map_index():
-    """
-    Serve o arquivo index.html que contém o mapa, na rota raiz (/).
-    """
-    # Assumimos que o index.html está em 'static/index.html'
-    return FileResponse("static/index.html")
-
-# -------------------------------
-# 3. FUNÇÃO AUXILIAR PARA FILTROS
-# -------------------------------
-
 # Função auxiliar para aplicar todos os filtros em uma query base
 def apply_filters_to_query(query, rede, tipo_cliente, funil, representante, regiao, responsavel, data_inicio, data_fim, busca_texto):
-
+    
     # -----------------------------
-    # 1. Filtros de Seleção (in_)
+    # 1. Filtros de Seleção Múltipla (Todos agora usam .in_() se houver valores)
     # -----------------------------
+    # Se a variável for uma lista (com itens), aplica o filtro IN
+    
     if rede:
-        query = query.filter(Cliente.rede.in_(rede)) if isinstance(rede, list) else query.filter(Cliente.rede == rede)
+        # Simplificado: o in_() funciona se 'rede' for uma lista
+        query = query.filter(Cliente.rede.in_(rede)) 
+        
     if tipo_cliente:
-        query = query.filter(Cliente.tipo_cliente.in_(tipo_cliente)) if isinstance(tipo_cliente, list) else query.filter(Cliente.tipo_cliente == tipo_cliente)
+        # Simplificado
+        query = query.filter(Cliente.tipo_cliente.in_(tipo_cliente))
+        
     if funil:
-        query = query.filter(Cliente.funil.in_(funil)) if isinstance(funil, list) else query.filter(Cliente.funil == funil)
-            
-    # Filtros de Seleção Única
+        # Simplificado
+        query = query.filter(Cliente.funil.in_(funil))
+        
+    # Filtros de Seleção que ERAM ÚNICA, AGORA MÚLTIPLA (USANDO .in_())
     if representante:
-        query = query.filter(Cliente.representante == representante)
+        query = query.filter(Cliente.representante.in_(representante)) # 🚨 CORRIGIDO para .in_()
+        
     if regiao:
-        query = query.filter(Cliente.regiao == regiao)
+        query = query.filter(Cliente.regiao.in_(regiao)) # 🚨 CORRIGIDO para .in_()
+        
     if responsavel:
-        query = query.filter(Cliente.responsavel == responsavel)
+        query = query.filter(Cliente.responsavel.in_(responsavel)) # 🚨 CORRIGIDO para .in_()
 
     # Filtros de Data
     if data_inicio:
@@ -100,7 +87,7 @@ def apply_filters_to_query(query, rede, tipo_cliente, funil, representante, regi
 
 
 # -------------------------------
-# 4. ENDPOINT /filtros - Filtros dinâmicos e Cascata
+# ENDPOINT 2 - Filtros dinâmicos e Cascata
 # -------------------------------
 @app.get("/filtros")
 def get_filtros(
@@ -108,11 +95,14 @@ def get_filtros(
     rede: Optional[List[str]] = Query(None),
     tipo_cliente: Optional[List[str]] = Query(None),
     funil: Optional[List[str]] = Query(None),
-    representante: Optional[str] = Query(None),
-    regiao: Optional[str] = Query(None),
-    responsavel: Optional[str] = Query(None),
+    # 🚨 CORRIGIDO para List[str]
+    representante: Optional[List[str]] = Query(None),
+    regiao: Optional[List[str]] = Query(None),
+    responsavel: Optional[List[str]] = Query(None),
+    
     data_inicio: Optional[date] = Query(None),
     data_fim: Optional[date] = Query(None),
+    
     # Adiciona o campo de busca aqui para afetar a cascata
     busca_texto: Optional[str] = Query(None), 
     db: Session = Depends(get_db)
@@ -141,20 +131,20 @@ def get_filtros(
     }
 
 
-# -------------------------------
-# 5. ENDPOINT /clientes/filtrar - Filtragem principal
-# -------------------------------
+# -------------------------------\
+# ENDPOINT 3 - Filtragem
+# -------------------------------\
 @app.get("/clientes/filtrar")
 def filtrar(
-    # Filtros de seleção múltipla (mantido como List[str])
+    # Filtros de seleção múltipla (Mantido como List[str])
     rede: Optional[List[str]] = Query(None),
     tipo_cliente: Optional[List[str]] = Query(None),
     funil: Optional[List[str]] = Query(None),
     
-    # Filtros de seleção única
-    representante: Optional[str] = Query(None),
-    regiao: Optional[str] = Query(None),
-    responsavel: Optional[str] = Query(None),
+    # Filtros de seleção única 🚨 CORRIGIDO para List[str]
+    representante: Optional[List[str]] = Query(None),
+    regiao: Optional[List[str]] = Query(None),
+    responsavel: Optional[List[str]] = Query(None),
     
     # Filtros de data
     data_inicio: Optional[date] = Query(None, description="Data de início (YYYY-MM-DD)"),
@@ -171,7 +161,7 @@ def filtrar(
     return query.all()
 
 # -------------------------------
-# 6. ENDPOINT /clientes - Todos os clientes
+# ENDPOINT 1 - Todos os clientes (Mantido)
 # -------------------------------
 @app.get("/clientes")
 def get_clientes(db: Session = Depends(get_db)):
