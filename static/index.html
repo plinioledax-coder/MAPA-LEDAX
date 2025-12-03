@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
-  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -30,157 +30,147 @@
     <button id="btnToggleSidebar" class="icon-btn" aria-label="Abrir/Fechar painel">☰</button>
   </header>
 
-  <!-- Sidebar -->
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-inner">
 
-      <h2>Filtros</h2>
+    <h2>Filtros</h2>
 
-      <div class="form-group">
-        <label class="label">Busca Rápida</label>
-        <input type="text" id="filtroBuscaTexto" placeholder="Buscar por Título, Rede" />
-      </div>
-      <div class="form-group">
-        <label class="label">Intervalo de Data das Vendas</label>
-        <div class="date-range">
-          <input type="date" id="filtroDataInicio" placeholder="dd/mm/aaaa">
-          <label for="filtroDataInicio">Início</label>
-        </div>
-        <div class="date-range">
-          <input type="date" id="filtroDataFim" placeholder="dd/mm/aaaa">
-          <label for="filtroDataFim">Final</label>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label class="label">Funil</label>
-        <select id="filtroFunil">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label class="label">Rede</label>
-        <select id="filtroRede">
-          <option value="">Todas</option>
-        </select>
-      </div>
-
-      <div class=" form-group">
-        <label class="label">Classificação de Cliente</label>
-        <select id="filtroTipoCliente">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label class="label">Representante</label>
-        <select id="filtroRepresentante">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label class="label">Região</label>
-        <select id="filtroRegiao">
-          <option value="">Todas</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label class="label">Regional</label>
-        <select id="filtroRegional">
-          <option value="">Todas</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label class="label">Responsável</label>
-        <select id="filtroResponsavel">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="btn-row">
-        <button id="btnAplicar" class="primary">Aplicar</button>
-        <button id="btnLimpar" class="ghost">Limpar</button>
-      </div>
-
-      <hr />
-
-      <h3>Camadas</h3>
-      <div class="checkbox-row">
-        <input type="checkbox" id="toggleClusters" checked />
-        <label for="toggleClusters">Clusters</label>
-      </div>
-
-      <div class="checkbox-row">
-        <input type="checkbox" id="toggleHeat" />
-        <label for="toggleHeat">Heatmap (densidade)</label>
-      </div>
-
-      <div class="checkbox-row">
-        <input type="checkbox" id="toggleChoropleth" />
-        <label for="toggleChoropleth">Choropleth (Vendas)</label>
-      </div>
-
-
-      <hr />
-
-      <!-- Painel qualitativo -->
-      <section id="dashboard" class="dashboard">
-        <h3>Resumo qualitativo</h3>
-
-        <div class="kpi-grid">
-          <div class="kpi">
-            <div class="kpi-label">Total de vendas</div>
-            <div class="kpi-value" id="kp_totalClientes">0</div>
-          </div>
-
-          <div class="kpi">
-            <div class="kpi-label">Regiões com presença</div>
-            <div class="kpi-value" id="kp_regioesPresenca">0</div>
-          </div>
-
-          <div class="kpi">
-            <div class="kpi-label">Redes com presença</div>
-            <div class="kpi-value" id="kp_redesPresenca">0</div>
-          </div>
-
-          <div class="kpi">
-            <div class="kpi-label">Representantes ativos</div>
-            <div class="kpi-value" id="kp_repsAtivos">0</div>
-          </div>
-        </div>
-
-        <div class="mini-lists">
-          <div class="mini-list">
-            <div class="mini-title">Presença por região</div>
-            <ul id="list_presenca_regiao" class="list-presenca"></ul>
-          </div>
-
-          <div class="mini-list">
-            <div class="mini-title">Presença por rede</div>
-            <ul id="list_presenca_rede" class="list-presenca"></ul>
-          </div>
-        </div>
-
-        <!-- Choropleth legend -->
-        <div class="legend">
-          <div class="legend-title">Choropleth (Negócios)</div>
-          <div class="legend-bar">
-            <span class="legend-label">Mais negócios</span>
-            <div class="gradient"></div>
-            <span class="legend-label">Menos negócios</span>
-          </div>
-          <div class="legend-note">Tonelagem qualitativa — sem valores monetários.</div>
-        </div>
-      </section>
-
-      <div style="height:24px"></div>
-
+    <div class="form-group">
+      <label class="label">Busca Rápida</label>
+      <input type="text" id="filtroBuscaTexto" placeholder="Buscar por Título, Rede" />
     </div>
-  </aside>
+    <div class="form-group">
+      <label class="label">Intervalo de Data das Vendas</label>
+      <div class="date-range">
+        <input type="date" id="filtroDataInicio" placeholder="dd/mm/aaaa">
+        <label for="filtroDataInicio">Início</label>
+      </div>
+      <div class="date-range">
+        <input type="date" id="filtroDataFim" placeholder="dd/mm/aaaa">
+        <label for="filtroDataFim">Final</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="label">Funil</label>
+      <div id="filtroFunilContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label class="label">Rede</label>
+      <div id="filtroRedeContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class=" form-group">
+      <label class="label">Classificação de Cliente</label>
+      <div id="filtroTipoClienteContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label class="label">Representante</label>
+      <div id="filtroRepresentanteContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label class="label">Região</label>
+      <div id="filtroRegiaoContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label class="label">Regional</label>
+      <div id="filtroRegionalContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class="form-group">
+      <label class="label">Responsável</label>
+      <div id="filtroResponsavelContainer" class="checkbox-group">
+        </div>
+    </div>
+
+    <div class="btn-row">
+      <button id="btnAplicar" class="primary">Aplicar</button>
+      <button id="btnLimpar" class="ghost">Limpar</button>
+    </div>
+
+    <hr />
+
+    <h3>Camadas</h3>
+    <div class="checkbox-row">
+      <input type="checkbox" id="toggleClusters" checked />
+      <label for="toggleClusters">Clusters</label>
+    </div>
+
+    <div class="checkbox-row">
+      <input type="checkbox" id="toggleHeat" />
+      <label for="toggleHeat">Heatmap (densidade)</label>
+    </div>
+
+    <div class="checkbox-row">
+      <input type="checkbox" id="toggleChoropleth" />
+      <label for="toggleChoropleth">Choropleth (Vendas)</label>
+    </div>
+
+
+    <hr />
+
+    <section id="dashboard" class="dashboard">
+      <h3>Resumo qualitativo</h3>
+
+      <div class="kpi-grid">
+        <div class="kpi">
+          <div class="kpi-label">Total de vendas</div>
+          <div class="kpi-value" id="kp_totalClientes">0</div>
+        </div>
+
+        <div class="kpi">
+          <div class="kpi-label">Regiões com presença</div>
+          <div class="kpi-value" id="kp_regioesPresenca">0</div>
+        </div>
+
+        <div class="kpi">
+          <div class="kpi-label">Redes com presença</div>
+          <div class="kpi-value" id="kp_redesPresenca">0</div>
+        </div>
+
+        <div class="kpi">
+          <div class="kpi-label">Representantes ativos</div>
+          <div class="kpi-value" id="kp_repsAtivos">0</div>
+        </div>
+      </div>
+
+      <div class="mini-lists">
+        <div class="mini-list">
+          <div class="mini-title">Presença por região</div>
+          <ul id="list_presenca_regiao" class="list-presenca"></ul>
+        </div>
+
+        <div class="mini-list">
+          <div class="mini-title">Presença por rede</div>
+          <ul id="list_presenca_rede" class="list-presenca"></ul>
+        </div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-title">Choropleth (Negócios)</div>
+        <div class="legend-bar">
+          <span class="legend-label">Mais negócios</span>
+          <div class="gradient"></div>
+          <span class="legend-label">Menos negócios</span>
+        </div>
+        <div class="legend-note">Tonelagem qualitativa — sem valores monetários.</div>
+      </div>
+    </section>
+
+    <div style="height:24px"></div>
+
+  </div>
+</aside>
 
   <!-- Map container -->
   <main id="map" class="map"></main>
@@ -191,7 +181,8 @@
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
 
   <!-- Main script -->
-<script src="/static/script.js"></script>
+  <script src="script.js"></script>
+
 </body>
 
 </html>
