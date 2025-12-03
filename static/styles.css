@@ -186,3 +186,72 @@ button.ghost{ background: transparent; color:var(--accent); border:1px solid #e6
     margin-bottom: 8px;
     color: #333;
 }
+
+/* 🚨 NOVO: Estilo para grupo de checkboxes */
+.checkbox-group {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  background: white;
+}
+
+.checkbox-group .checkbox-row {
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-group .checkbox-row:hover {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.checkbox-group label {
+  cursor: pointer;
+  margin: 0;
+  flex: 1;
+  user-select: none;
+}
+
+/* 🚨 NOVO: Estilo para o container de checkboxes */
+.checkbox-group {
+  max-height: 200px; /* Limita a altura do container */
+  overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo exceder a altura */
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para cada item/linha de checkbox */
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Estilo ao passar o mouse */
+.checkbox-item:hover {
+  background-color: #eee;
+}
+
+/* Estilo do input (quadrado) */
+.checkbox-item input[type="checkbox"] {
+  margin-right: 8px;
+  min-width: 16px; /* Garante que o input não suma */
+  min-height: 16px;
+}
