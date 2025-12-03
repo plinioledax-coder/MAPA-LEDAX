@@ -1,7 +1,7 @@
 // =========================
 // CONFIGURAÇÕES DO BACKEND
 // =========================
-const API = "http://localhost:8000";
+const API = "https://mapa-ledax.onrender.com";
 // =========================
 // VARIÁVEIS GLOBAIS
 // =========================
