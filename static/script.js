@@ -116,7 +116,7 @@ async function carregarClientes() {
   atualizarKPIs(clientes);
 }
 
-// 🚨 Função genérica para renderizar um grupo de checkboxes
+// 🚨 Função genérica para renderizar um grupo de checkboxes (para filtros de DADOS)
 function renderizarCheckboxes(containerId, lista) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -149,6 +149,92 @@ function renderizarCheckboxes(containerId, lista) {
     });
 }
 
+// 🚨 NOVO: Função auxiliar para configurar o evento de "Marcar/Desmarcar Todos"
+function setupToggleAll(toggleId, containerId) {
+    const toggleInput = document.getElementById(toggleId);
+    const container = document.getElementById(containerId); // É o container com os itens
+
+    if (toggleInput && container) {
+        toggleInput.onchange = function() {
+            const isChecked = this.checked;
+            container.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = isChecked;
+            });
+            // Filtro de cobertura é visual, aciona aplicarFiltros para redesenhar
+            aplicarFiltros(); 
+        };
+    }
+}
+
+// 🚨 NOVA FUNÇÃO: Renderiza um grupo de checkboxes E inclui um toggle "Marcar Todos" (Para filtros visuais)
+function renderizarCheckboxesComToggle(containerId, lista, toggleId, labelToggle) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    // Limpa o container principal antes de renderizar
+    container.innerHTML = ""; 
+    container.classList.add("checkbox-group-wrapper");
+
+    // 1. Cria o toggle "Marcar Todos"
+    const toggleDiv = document.createElement("div");
+    toggleDiv.className = "checkbox-item toggle-all-container";
+    
+    const toggleInput = document.createElement("input");
+    toggleInput.type = "checkbox";
+    toggleInput.id = toggleId;
+    toggleInput.value = "__ALL__";
+    toggleInput.checked = true; // 🚨 Inicia MARCADO POR PADRÃO
+    
+    const label = document.createElement("label");
+    label.setAttribute("for", toggleId);
+    label.textContent = labelToggle;
+    
+    toggleDiv.appendChild(toggleInput);
+    toggleDiv.appendChild(label);
+    container.appendChild(toggleDiv);
+
+    // 2. Cria o container específico para os itens (para isolar o toggle)
+    const itemsContainer = document.createElement("div");
+    itemsContainer.id = containerId + "Items"; // NOVO ID: Ex: "filtroRepresentanteContainerItems"
+    itemsContainer.classList.add("checkbox-group");
+    container.appendChild(itemsContainer);
+
+    // 3. Renderiza os Checkboxes (todos marcados inicialmente)
+    itemsContainer.innerHTML = "";
+    lista.forEach(v => {
+        const itemLabel = document.createElement("label");
+        itemLabel.className = "checkbox-item";
+        
+        const input = document.createElement("input");
+        input.type = "checkbox";
+        input.value = v;
+        input.name = containerId; 
+        input.checked = true; // 🚨 INICIA MARCADO POR PADRÃO
+        
+        // Adiciona um evento onchange para que, ao desmarcar/marcar, acione o filtro
+        input.onchange = () => {
+            // Se algum for desmarcado, desmarca o toggle "Todos"
+            const allCheckboxes = itemsContainer.querySelectorAll('input[type="checkbox"]');
+            const checkedCheckboxes = itemsContainer.querySelectorAll('input[type="checkbox"]:checked');
+            
+            if (checkedCheckboxes.length < allCheckboxes.length) {
+                toggleInput.checked = false;
+            } else {
+                toggleInput.checked = true;
+            }
+            aplicarFiltros(); // Aciona o filtro visual
+        }
+
+        itemLabel.appendChild(input);
+        itemLabel.appendChild(document.createTextNode(v));
+        itemsContainer.appendChild(itemLabel);
+    });
+
+    // 4. Configura o evento do Toggle, apontando para o container de itens
+    setupToggleAll(toggleId, itemsContainer.id);
+}
+
+
 // 🚨 Carrega filtros de dados (Rede, Funil, etc) no startup, usando o backend
 async function preencherFiltrosIniciais() {
   const res = await fetch(`${API}/filtros`);
@@ -159,20 +245,16 @@ async function preencherFiltrosIniciais() {
   renderizarCheckboxes("filtroTipoClienteContainer", dados.tipo_cliente);
   renderizarCheckboxes("filtroFunilContainer", dados.funil);
   
-  // REMOVIDO: Filtro Representante daqui para torná-lo estático
+  // REMOVIDO: Filtro Representante e Regional são estáticos e tratados com toggle
   
   renderizarCheckboxes("filtroRegiaoContainer", dados.regiao);
   renderizarCheckboxes("filtroResponsavelContainer", dados.responsavel);
-    
-    // O filtro regional é estático e carregado aqui também
-    const regionais = Object.keys(coberturaRegional).filter(reg => reg !== "Regional sem GR");
-    renderizarCheckboxes("filtroRegionalContainer", regionais);
 }
 
 // 🚨 Atualiza os filtros de dados em cascata (chamada após aplicarFiltros)
 async function atualizarFiltrosEmCascata(currentParams) {
   // Faz a requisição ao backend com os filtros aplicados
-  // O currentParams AGORA NÃO INCLUI O REPRESENTANTE
+  // O currentParams AGORA NÃO INCLUI O REPRESENTANTE (nem regional)
   const res = await fetch(`${API}/filtros?` + currentParams.toString());
   const dados = await res.json();
 
@@ -181,7 +263,7 @@ async function atualizarFiltrosEmCascata(currentParams) {
   renderizarCheckboxes("filtroTipoClienteContainer", dados.tipo_cliente);
   renderizarCheckboxes("filtroFunilContainer", dados.funil);
   
-  // REMOVIDO: Filtro Representante daqui
+  // REMOVIDO: Filtro Representante e Regional
   
   renderizarCheckboxes("filtroRegiaoContainer", dados.regiao);
   renderizarCheckboxes("filtroResponsavelContainer", dados.responsavel);
@@ -194,7 +276,8 @@ async function atualizarFiltrosEmCascata(currentParams) {
 // FUNÇÃO AUXILIAR PARA ADICIONAR FILTRO (AGORA LENDO APENAS CHECKBOXES)
 // ================================
 function addFiltro(params, backendField, htmlField) {
-    const element = document.getElementById(htmlField);
+    // 🚨 AJUSTE: Tenta encontrar o container de itens primeiro (para filtros com toggle)
+    const element = document.getElementById(htmlField + "Items") || document.getElementById(htmlField);
     if (!element) return;
 
     // 🚨 Lógica para pegar valores de um grupo de checkboxes (o ID é o do container DIV)
@@ -203,8 +286,10 @@ function addFiltro(params, backendField, htmlField) {
             .map(input => input.value);
 
         selectedOptions.forEach(value => {
-            // Repete o parâmetro na URL (e.g., representante=A&representante=B)
-            params.append(backendField, value);
+            // O valor "__ALL__" é usado no toggle, mas não deve ser enviado como filtro.
+            if (value !== "__ALL__") { 
+                params.append(backendField, value);
+            }
         });
     } else {
         // Lógica para inputs de texto (Busca) ou data.
@@ -224,16 +309,18 @@ async function aplicarFiltros() {
   // Parâmetros principais: Filtra clientes, afeta KPIs, e atualiza cascata
   const paramsPrincipais = new URLSearchParams();
 
-  // Função auxiliar para coletar seleções de um grupo de checkboxes
+  // Função auxiliar para coletar seleções de um grupo de checkboxes (AJUSTADA)
   const getSelectedCheckboxValues = (containerId) => {
-        const container = document.getElementById(containerId);
-        if (!container) return [];
-        return Array.from(container.querySelectorAll('input[type="checkbox"]:checked'))
+        // 🚨 NOVO: Tenta pegar o container de itens (que contém os checkboxes individuais)
+        const element = document.getElementById(containerId + "Items") || document.getElementById(containerId);
+        if (!element) return [];
+        
+        return Array.from(element.querySelectorAll('input[type="checkbox"]:checked'))
             .map(input => input.value);
     };
   
 
-  // --- 1. COLETA DOS PARÂMETROS PRINCIPAIS ---
+  // --- 1. COLETA DOS PARÂMETROS PRINCIPAIS (APENAS FILTROS DE DADOS) ---
   
   // Filtros DINÂMICOS (todos, exceto o Representante)
   const filtrosPrincipais = [
@@ -242,7 +329,7 @@ async function aplicarFiltros() {
     { backend: "funil", html: "filtroFunilContainer" },
     { backend: "regiao", html: "filtroRegiaoContainer" },
     { backend: "responsavel", html: "filtroResponsavelContainer" },
-    { backend: "regional_cobertura", html: "filtroRegionalContainer" },
+    // O Regional não está mais aqui para não interferir na filtragem de clientes
     { backend: "busca_texto", html: "filtroBuscaTexto" },
     { backend: "data_inicio", html: "filtroDataInicio" },
     { backend: "data_fim", html: "filtroDataFim" },
@@ -255,7 +342,7 @@ async function aplicarFiltros() {
 
   
   // --- 2. FILTRA OS CLIENTES (MAPA/KPIs) ---
-  // Usa paramsPrincipais. O Representante NÃO está incluído aqui, isolando os dados.
+  // Usa paramsPrincipais. O Representante e Regional NÃO estão incluídos aqui.
   const res = await fetch(`${API}/clientes/filtrar?` + paramsPrincipais.toString());
   const filtrados = await res.json();
 
@@ -269,9 +356,8 @@ async function aplicarFiltros() {
 
   // 5. Desenho das camadas de cobertura (FILTROS VIZUAIS)
     
-    // Coleta as seleções dos filtros visuais.
+    // Coleta as seleções dos filtros visuais do container de ITENS
     const regionaisSelecionados = getSelectedCheckboxValues("filtroRegionalContainer");
-    // LÊ O FILTRO DE REPRESENTANTE APENAS AQUI.
     const representantesSelecionados = getSelectedCheckboxValues("filtroRepresentanteContainer");
 
     // ------------------------------------------
@@ -307,6 +393,10 @@ async function aplicarFiltros() {
 function limparFiltros() {
   // 🚨 NOVO: Limpa grupos de checkbox (desmarca tudo)
   document.querySelectorAll(".checkbox-group input[type='checkbox']").forEach(c => c.checked = false);
+  // Desmarca os toggles "Todos"
+  document.getElementById("toggleRegionalAll").checked = false;
+  document.getElementById("toggleRepresentanteAll").checked = false;
+
 
   // Limpa campos de data
   const dataInicio = document.getElementById("filtroDataInicio");
@@ -328,7 +418,6 @@ function limparFiltros() {
   if (buscaTexto) buscaTexto.value = "";
 
   // Recarrega todos os clientes e filtros em cascata
-  // Isso chamará aplicarFiltros() com todos os filtros vazios
   aplicarFiltros();
 }
 
@@ -799,19 +888,30 @@ document.getElementById("toggleClusters").onchange = () => {
 // ================================
 
 (async function () {
+  // 1. Carrega clientes (para a primeira atualização do mapa)
   await carregarClientes();
-
-  // Carrega o filtro Regional (lista estática)
+  
+  // 2. Carrega o filtro Regional (lista estática) com o NOVO TOGGLE
   const regionais = Object.keys(coberturaRegional).filter(reg => reg !== "Regional sem GR");
-  renderizarCheckboxes("filtroRegionalContainer", regionais);
+  renderizarCheckboxesComToggle(
+    "filtroRegionalContainer", 
+    regionais, 
+    "toggleRegionalAll", 
+    "Marcar/Desmarcar Todos os Regionais"
+  );
 
-  // 🚨 Carrega o filtro de Representante (lista estática e filtrada) APENAS AQUI.
+  // 3. Carrega o filtro de Representante (lista estática) com o NOVO TOGGLE
   const representantesMapeados = Object.keys(coberturaRepresentante).filter(
     rep => rep !== "SEM COBERTURA" && rep !== "RESTO"
   );
-  renderizarCheckboxes("filtroRepresentanteContainer", representantesMapeados);
+  renderizarCheckboxesComToggle(
+    "filtroRepresentanteContainer", 
+    representantesMapeados, 
+    "toggleRepresentanteAll", 
+    "Marcar/Desmarcar Todos os Representantes"
+  );
 
-  // Carrega os filtros de dados dinâmicos (Rede, Funil, etc)
+  // 4. Carrega os filtros de dados dinâmicos (Rede, Funil, etc)
   await preencherFiltrosIniciais();
 
   geoJSONestados = await fetch("https://mapa-ledax.onrender.com/static/brasil_estados.geojson")
