@@ -868,9 +868,6 @@ function desenharCoberturaRepresentante(representanteInput) {
 // CONTROLES DA SIDEBAR (MANTIDO)
 // ================================
 
-document.getElementById("btnToggleSidebar").onclick = () => {
-  document.getElementById("sidebar").classList.toggle("collapsed");
-};
 
 document.getElementById("btnAplicar").onclick = aplicarFiltros;
 document.getElementById("btnLimpar").onclick = limparFiltros;
