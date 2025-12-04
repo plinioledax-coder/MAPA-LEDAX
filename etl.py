@@ -94,7 +94,7 @@ def geocode_with_priority(row):
     Retorna:
     lat, lon, endereco_usado, cidade_geocode, uf_geocode
     """
-
+    end_a_considerar = row.get("endere_o_a_considerar")
     local = row.get("local_de_entrega")
     end = row.get("endere_o_do_cliente")
     cidade = row.get("cidade_do_cliente")
@@ -103,6 +103,9 @@ def geocode_with_priority(row):
     cep = limpar_cep(row.get("cep_do_cliente"))
 
     candidates = []
+    
+    if isinstance(local, str) and local.strip():
+        candidates.append(("end_a_considerar", end_a_considerar.strip()))    
 
     if isinstance(local, str) and local.strip():
         candidates.append(("LOCAL", local.strip()))
@@ -203,7 +206,7 @@ def processar_excel(path_excel=EXCEL_PATH):
     
         # Tentativa de converter para Float, se for nulo, será None.
         valor_venda = float(valor_venda_raw) if pd.notna(valor_venda_raw) else None
-
+        
         local_entrega = row.get("local_de_entrega")
         endereco_cliente = row.get("endere_o_do_cliente")
         cep_raw = limpar_cep(row.get("cep_do_cliente"))
