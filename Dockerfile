@@ -1,34 +1,31 @@
-FROM python:3.11-slim
+# Use a imagem oficial Python 3.10
+FROM python:3.10-slim
 
-ENV PYTHONUNBUFFERED 1
-ENV APP_HOME /app
-WORKDIR $APP_HOME
+# Define o diretório de trabalho dentro do contêiner
+WORKDIR /app
 
-# Cria a estrutura de pastas
-RUN mkdir -p /app/data
-RUN mkdir -p /app/static
-
-# Copia as dependências e instala
+# Instala as dependências, usa --no-cache-dir para reduzir o tamanho da imagem
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia todos os arquivos do backend
-COPY main.py .
-COPY etl.py .
-COPY database.py .
-COPY models.py .
+# Copia o código da aplicação (main.py, etl.py, database.py, models.py) 
+# e a pasta de dados/ (que contém o Excel e o geocache.json)
+COPY . .
 
-# COPIA DADOS E ARQUIVOS ESTÁTICOS
-# Isso garante que as fontes de dados e os arquivos do mapa estejam no contêiner
-# O Render ou o Docker ignoram o arquivo 'ledax.db' (se presente) e ele é recriado pelo etl.py
-COPY data/ /app/data/
-COPY static/ /app/static/
+# Garante que a pasta 'data' exista (para o cache e o DB)
+RUN mkdir -p data
 
-# Porta que o Uvicorn vai usar
+# ** PASSO CRÍTICO: Executa o ETL durante a construção (BUILD TIME) **
+# Isso garante que 'data/ledax.db' (com todos os clientes) e 
+# 'data/geocache.json' estejam preenchidos ANTES do servidor ser iniciado.
+RUN echo "Iniciando ETL para preencher o banco de dados. Isso pode levar alguns minutos na primeira vez..." && \
+    python etl.py
+
+# Porta padrão do Uvicorn
+ENV PORT 8000
 EXPOSE 8000
 
-# 🚨 CORREÇÃO PRINCIPAL AQUI:
-# 1. Usa "/bin/bash", "-c" para permitir comandos sequenciais.
-# 2. Executa 'python etl.py' para popular o banco de dados.
-# 3. Usa '&&' para garantir que o Uvicorn SÓ inicie se o ETL for bem-sucedido.
-CMD ["/bin/bash", "-c", "python etl.py && uvicorn main:app --host 0.0.0.0 --port 8000"]
+# ** PASSO FINAL: O comando de inicialização (CMD) agora apenas inicia o servidor web **
+# Como o banco de dados já foi preenchido, o servidor subirá INSTANTANEAMENTE
+# pronto para atender requisições, resolvendo o problema de timeout.
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
