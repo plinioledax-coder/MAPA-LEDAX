@@ -16,7 +16,7 @@ let regionalLayer = null;
 let representanteLayer = null;
 let map;
 
-// 🚨 NOVO: Cor de sobreposição para quando houver 2 ou mais representantes no mesmo estado (UF)
+// 🚨 Cor de sobreposição para quando houver 2 ou mais representantes no mesmo estado (UF)
 const COR_SOBREPOSICAO = "rgba(255, 102, 0, 0.8)"; // Laranja forte / Vermelho
 
 
@@ -50,7 +50,6 @@ const coberturaRepresentante = {
   "RENATO PEREIRA": ["MT"],
   "RODRIGO LISBOA": ["MG"],
   "DANIEL DE EQUIP.": ["PE", "RN"],
-  "VICTOR MOURA": ["MA", "CE", "PI", "RN"],
   "CLECIO SALVIANO": ["SP"],
   "HAMILTON MORAES": ["GO", "MS"],
   "MARCOS BARIANI": ["SP", "AL"],
@@ -61,7 +60,6 @@ const coberturaRepresentante = {
   "JOSÉ LOBO": ["BA"],
   "PEDRO AMORIM": ["RJ"],
   "CRYSTIANO SILVA": ["AM"],
-  "ROGÉRIO CASAGRANDE": ["MG", "SP"],
   "ERNESTO (LLAMPE)": ["SC", "PR"],
   "SEM COBERTURA": "RESTO" // Para estados não cobertos
 };
@@ -73,7 +71,6 @@ const coresRepresentante = {
   "RENATO PEREIRA": "rgba(255, 105, 180, 0.7)",
   "RODRIGO LISBOA": "rgba(0, 191, 255, 0.7)",
   "DANIEL DE EQUIP.": "rgba(255, 69, 0, 0.7)",
-  "VICTOR MOURA": "rgba(50, 205, 50, 0.7)",
   "CLECIO SALVIANO": "rgba(147, 112, 219, 0.7)",
   "HAMILTON MORAES": "rgba(255, 215, 0, 0.7)",
   "MARCOS BARIANI": "rgba(0, 255, 255, 0.7)",
@@ -84,7 +81,6 @@ const coresRepresentante = {
   "JOSÉ LOBO": "rgba(255, 140, 0, 0.7)",
   "PEDRO AMORIM": "rgba(70, 130, 180, 0.7)",
   "CRYSTIANO SILVA": "rgba(0, 0, 255, 0.7)",
-  "ROGÉRIO CASAGRANDE": "rgba(128, 0, 0, 0.7)",
   "ERNESTO (LLAMPE)": "rgba(0, 128, 15, 0.58)",
   "SEM COBERTURA": "rgba(180, 180, 180, 0.55)"
 };
@@ -120,40 +116,126 @@ async function carregarClientes() {
   atualizarKPIs(clientes);
 }
 
-// 🚨 NOVO: Função genérica para renderizar um grupo de checkboxes
+// 🚨 Função genérica para renderizar um grupo de checkboxes (para filtros de DADOS)
 function renderizarCheckboxes(containerId, lista) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    // 1. Coletar valores selecionados (para preservar o estado)
+    const currentValues = Array.from(container.querySelectorAll('input[type="checkbox"]:checked'))
+        .map(input => input.value);
+    
+    container.innerHTML = "";
+    container.classList.add("checkbox-group"); // Garante a classe CSS
+
+    // 2. Renderizar Checkboxes
+    lista.forEach(v => {
+        const label = document.createElement("label");
+        label.className = "checkbox-item";
+        
+        const input = document.createElement("input");
+        input.type = "checkbox";
+        input.value = v;
+        input.name = containerId; // Nome para agrupamento lógico
+        
+        // Preservar estado
+        if (currentValues.includes(v)) {
+            input.checked = true;
+        }
+
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(v));
+        container.appendChild(label);
+    });
+}
+
+// 🚨 NOVO: Função auxiliar para configurar o evento de "Marcar/Desmarcar Todos"
+function setupToggleAll(toggleId, containerId) {
+    const toggleInput = document.getElementById(toggleId);
+    const container = document.getElementById(containerId); // É o container com os itens
+
+    if (toggleInput && container) {
+        toggleInput.onchange = function() {
+            const isChecked = this.checked;
+            container.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = isChecked;
+            });
+            // Filtro de cobertura é visual, aciona aplicarFiltros para redesenhar
+            aplicarFiltros(); 
+        };
+    }
+}
+
+// 🚨 NOVA FUNÇÃO: Renderiza um grupo de checkboxes E inclui um toggle "Marcar Todos" (Para filtros visuais)
+function renderizarCheckboxesComToggle(containerId, lista, toggleId, labelToggle) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
-    // 1. Coletar valores selecionados (para preservar o estado)
-    const currentValues = Array.from(container.querySelectorAll('input[type="checkbox"]:checked'))
-        .map(input => input.value);
-    
-    container.innerHTML = "";
-    container.classList.add("checkbox-group"); // Garante a classe CSS
+    // Limpa o container principal antes de renderizar
+    container.innerHTML = ""; 
+    container.classList.add("checkbox-group-wrapper");
 
-    // 2. Renderizar Checkboxes
+    // 1. Cria o toggle "Marcar Todos"
+    const toggleDiv = document.createElement("div");
+    toggleDiv.className = "checkbox-item toggle-all-container";
+    
+    const toggleInput = document.createElement("input");
+    toggleInput.type = "checkbox";
+    toggleInput.id = toggleId;
+    toggleInput.value = "__ALL__";
+    toggleInput.checked = true; // 🚨 Inicia MARCADO POR PADRÃO
+    
+    const label = document.createElement("label");
+    label.setAttribute("for", toggleId);
+    label.textContent = labelToggle;
+    
+    toggleDiv.appendChild(toggleInput);
+    toggleDiv.appendChild(label);
+    container.appendChild(toggleDiv);
+
+    // 2. Cria o container específico para os itens (para isolar o toggle)
+    const itemsContainer = document.createElement("div");
+    itemsContainer.id = containerId + "Items"; // NOVO ID: Ex: "filtroRepresentanteContainerItems"
+    itemsContainer.classList.add("checkbox-group");
+    container.appendChild(itemsContainer);
+
+    // 3. Renderiza os Checkboxes (todos marcados inicialmente)
+    itemsContainer.innerHTML = "";
     lista.forEach(v => {
-        const label = document.createElement("label");
-        label.className = "checkbox-item";
+        const itemLabel = document.createElement("label");
+        itemLabel.className = "checkbox-item";
         
         const input = document.createElement("input");
         input.type = "checkbox";
         input.value = v;
-        input.name = containerId; // Nome para agrupamento lógico
+        input.name = containerId; 
+        input.checked = true; // 🚨 INICIA MARCADO POR PADRÃO
         
-        // Preservar estado
-        if (currentValues.includes(v)) {
-            input.checked = true;
+        // Adiciona um evento onchange para que, ao desmarcar/marcar, acione o filtro
+        input.onchange = () => {
+            // Se algum for desmarcado, desmarca o toggle "Todos"
+            const allCheckboxes = itemsContainer.querySelectorAll('input[type="checkbox"]');
+            const checkedCheckboxes = itemsContainer.querySelectorAll('input[type="checkbox"]:checked');
+            
+            if (checkedCheckboxes.length < allCheckboxes.length) {
+                toggleInput.checked = false;
+            } else {
+                toggleInput.checked = true;
+            }
+            aplicarFiltros(); // Aciona o filtro visual
         }
 
-        label.appendChild(input);
-        label.appendChild(document.createTextNode(v));
-        container.appendChild(label);
+        itemLabel.appendChild(input);
+        itemLabel.appendChild(document.createTextNode(v));
+        itemsContainer.appendChild(itemLabel);
     });
+
+    // 4. Configura o evento do Toggle, apontando para o container de itens
+    setupToggleAll(toggleId, itemsContainer.id);
 }
 
-// 🚨 NOVO: Carrega filtros de dados (Rede, Funil, etc) no startup, usando o backend
+
+// 🚨 Carrega filtros de dados (Rede, Funil, etc) no startup, usando o backend
 async function preencherFiltrosIniciais() {
   const res = await fetch(`${API}/filtros`);
   const dados = await res.json();
@@ -162,18 +244,17 @@ async function preencherFiltrosIniciais() {
   renderizarCheckboxes("filtroRedeContainer", dados.rede);
   renderizarCheckboxes("filtroTipoClienteContainer", dados.tipo_cliente);
   renderizarCheckboxes("filtroFunilContainer", dados.funil);
-  renderizarCheckboxes("filtroRepresentanteContainer", dados.representante);
+  
+  // REMOVIDO: Filtro Representante e Regional são estáticos e tratados com toggle
+  
   renderizarCheckboxes("filtroRegiaoContainer", dados.regiao);
   renderizarCheckboxes("filtroResponsavelContainer", dados.responsavel);
-    
-    // O filtro regional é estático e carregado aqui também
-    const regionais = Object.keys(coberturaRegional);
-    renderizarCheckboxes("filtroRegionalContainer", regionais);
 }
 
-// 🚨 NOVO: Atualiza os filtros de dados em cascata (chamada após aplicarFiltros)
+// 🚨 Atualiza os filtros de dados em cascata (chamada após aplicarFiltros)
 async function atualizarFiltrosEmCascata(currentParams) {
   // Faz a requisição ao backend com os filtros aplicados
+  // O currentParams AGORA NÃO INCLUI O REPRESENTANTE (nem regional)
   const res = await fetch(`${API}/filtros?` + currentParams.toString());
   const dados = await res.json();
 
@@ -181,11 +262,13 @@ async function atualizarFiltrosEmCascata(currentParams) {
   renderizarCheckboxes("filtroRedeContainer", dados.rede);
   renderizarCheckboxes("filtroTipoClienteContainer", dados.tipo_cliente);
   renderizarCheckboxes("filtroFunilContainer", dados.funil);
-  renderizarCheckboxes("filtroRepresentanteContainer", dados.representante);
+  
+  // REMOVIDO: Filtro Representante e Regional
+  
   renderizarCheckboxes("filtroRegiaoContainer", dados.regiao);
   renderizarCheckboxes("filtroResponsavelContainer", dados.responsavel);
-    
-    // Não renderiza o filtro regional em cascata pois ele é estático (sempre o mesmo)
+    
+    // Não renderiza o filtro regional em cascata pois ele é estático (sempre o mesmo)
 }
 
 
@@ -193,71 +276,89 @@ async function atualizarFiltrosEmCascata(currentParams) {
 // FUNÇÃO AUXILIAR PARA ADICIONAR FILTRO (AGORA LENDO APENAS CHECKBOXES)
 // ================================
 function addFiltro(params, backendField, htmlField) {
-    const element = document.getElementById(htmlField);
-    if (!element) return;
+    // 🚨 AJUSTE: Tenta encontrar o container de itens primeiro (para filtros com toggle)
+    const element = document.getElementById(htmlField + "Items") || document.getElementById(htmlField);
+    if (!element) return;
 
-    // 🚨 NOVO: Lógica para pegar valores de um grupo de checkboxes (o ID é o do container DIV)
-    if (element.classList.contains('checkbox-group')) {
-        const selectedOptions = Array.from(element.querySelectorAll('input[type="checkbox"]:checked'))
-            .map(input => input.value);
+    // 🚨 Lógica para pegar valores de um grupo de checkboxes (o ID é o do container DIV)
+    if (element.classList.contains('checkbox-group')) {
+        const selectedOptions = Array.from(element.querySelectorAll('input[type="checkbox"]:checked'))
+            .map(input => input.value);
 
-        selectedOptions.forEach(value => {
-            // Repete o parâmetro na URL (e.g., representante=A&representante=B)
-            params.append(backendField, value);
-        });
-    } else {
-        // Lógica para inputs de texto (Busca) ou data.
-        const value = element.value;
-        if (value) {
-            params.append(backendField, value);
-        }
-    }
+        selectedOptions.forEach(value => {
+            // O valor "__ALL__" é usado no toggle, mas não deve ser enviado como filtro.
+            if (value !== "__ALL__") { 
+                params.append(backendField, value);
+            }
+        });
+    } else {
+        // Lógica para inputs de texto (Busca) ou data.
+        const value = element.value;
+        if (value) {
+            params.append(backendField, value);
+        }
+    }
 }
 
 
 // ================================
-// APLICAR FILTROS (ATUALIZADO - LENDO NOVOS IDs de Containers)
+// APLICAR FILTROS (MODIFICADO PARA ISOLAMENTO)
 // ================================
 
 async function aplicarFiltros() {
-  const params = new URLSearchParams();
+  // Parâmetros principais: Filtra clientes, afeta KPIs, e atualiza cascata
+  const paramsPrincipais = new URLSearchParams();
 
-  // 1. Coleta os parâmetros de filtragem (AGORA USANDO OS IDs DO CONTAINER DIV)
-  addFiltro(params, "rede", "filtroRedeContainer");
-  addFiltro(params, "tipo_cliente", "filtroTipoClienteContainer");
-  addFiltro(params, "funil", "filtroFunilContainer");
-  addFiltro(params, "representante", "filtroRepresentanteContainer");
-  addFiltro(params, "regiao", "filtroRegiaoContainer");
-  addFiltro(params, "regional_cobertura", "filtroRegionalContainer"); // Passa o array de regionais para o backend (opcionalmente)
-  addFiltro(params, "responsavel", "filtroResponsavelContainer");
-  addFiltro(params, "busca_texto", "filtroBuscaTexto");
-  addFiltro(params, "data_inicio", "filtroDataInicio");
-  addFiltro(params, "data_fim", "filtroDataFim");
+  // Função auxiliar para coletar seleções de um grupo de checkboxes (AJUSTADA)
+  const getSelectedCheckboxValues = (containerId) => {
+        // 🚨 NOVO: Tenta pegar o container de itens (que contém os checkboxes individuais)
+        const element = document.getElementById(containerId + "Items") || document.getElementById(containerId);
+        if (!element) return [];
+        
+        return Array.from(element.querySelectorAll('input[type="checkbox"]:checked'))
+            .map(input => input.value);
+    };
+  
 
-  // 2. Filtra os clientes
-  const res = await fetch(`${API}/clientes/filtrar?` + params.toString());
+  // --- 1. COLETA DOS PARÂMETROS PRINCIPAIS (APENAS FILTROS DE DADOS) ---
+  
+  // Filtros DINÂMICOS (todos, exceto o Representante)
+  const filtrosPrincipais = [
+    { backend: "rede", html: "filtroRedeContainer" },
+    { backend: "tipo_cliente", html: "filtroTipoClienteContainer" },
+    { backend: "funil", html: "filtroFunilContainer" },
+    { backend: "regiao", html: "filtroRegiaoContainer" },
+    { backend: "responsavel", html: "filtroResponsavelContainer" },
+    // O Regional não está mais aqui para não interferir na filtragem de clientes
+    { backend: "busca_texto", html: "filtroBuscaTexto" },
+    { backend: "data_inicio", html: "filtroDataInicio" },
+    { backend: "data_fim", html: "filtroDataFim" },
+  ];
+
+  // Adiciona os filtros principais (Região, Rede, etc.)
+  filtrosPrincipais.forEach(f => {
+    addFiltro(paramsPrincipais, f.backend, f.html);
+  });
+
+  
+  // --- 2. FILTRA OS CLIENTES (MAPA/KPIs) ---
+  // Usa paramsPrincipais. O Representante e Regional NÃO estão incluídos aqui.
+  const res = await fetch(`${API}/clientes/filtrar?` + paramsPrincipais.toString());
   const filtrados = await res.json();
 
   // 3. Atualiza o mapa e KPIs
   atualizarMapa(filtrados);
   atualizarKPIs(filtrados);
 
-  // 4. ATUALIZA OS DROPDOWNS DE FILTROS EM CASCATA
-  await atualizarFiltrosEmCascata(params);
+  // --- 4. ATUALIZA OS DROPDOWNS DE FILTROS EM CASCATA ---
+  // Usa paramsPrincipais.
+  await atualizarFiltrosEmCascata(paramsPrincipais);
 
-  // 5. Desenho das camadas de cobertura
-
-    // Função auxiliar para coletar seleções de um grupo de checkboxes
-    const getSelectedCheckboxValues = (containerId) => {
-        const container = document.getElementById(containerId);
-        if (!container) return [];
-        return Array.from(container.querySelectorAll('input[type="checkbox"]:checked'))
-            .map(input => input.value);
-    };
-
-    // Coleta as seleções. Retorna um array de nomes
+  // 5. Desenho das camadas de cobertura (FILTROS VIZUAIS)
+    
+    // Coleta as seleções dos filtros visuais do container de ITENS
     const regionaisSelecionados = getSelectedCheckboxValues("filtroRegionalContainer");
-    const representantesSelecionados = getSelectedCheckboxValues("filtroRepresentanteContainer");
+    const representantesSelecionados = getSelectedCheckboxValues("filtroRepresentanteContainer");
 
     // ------------------------------------------
     // Desenho Regional
@@ -292,6 +393,10 @@ async function aplicarFiltros() {
 function limparFiltros() {
   // 🚨 NOVO: Limpa grupos de checkbox (desmarca tudo)
   document.querySelectorAll(".checkbox-group input[type='checkbox']").forEach(c => c.checked = false);
+  // Desmarca os toggles "Todos"
+  document.getElementById("toggleRegionalAll").checked = false;
+  document.getElementById("toggleRepresentanteAll").checked = false;
+
 
   // Limpa campos de data
   const dataInicio = document.getElementById("filtroDataInicio");
@@ -392,8 +497,30 @@ function atualizarMapa(lista) {
   atualizarChoropleth(lista);
 }
 
+// ================================
+// ATUALIZAR KPIS (INCLUINDO TOTAL DE VENDAS)
+// ================================
 function atualizarKPIs(lista) {
   document.getElementById("kp_totalClientes").textContent = lista.length;
+
+  // 🚨 Cálculo e exibição do Total de Vendas
+  const totalVendas = lista.reduce((sum, cliente) => {
+    // Garante que apenas números válidos sejam somados
+    const valor = parseFloat(cliente.valor_venda) || 0;
+    return sum + valor;
+  }, 0);
+
+  const totalVendasDisplay = new Intl.NumberFormat('pt-BR', { 
+    style: 'currency', 
+    currency: 'BRL' 
+  }).format(totalVendas);
+  
+  // Certifique-se de que o seu HTML tem um elemento com ID 'kp_totalVendas'
+  const elementoVendas = document.getElementById("kp_totalVendas");
+  if (elementoVendas) {
+    elementoVendas.textContent = totalVendasDisplay;
+  }
+
 
   const regioes = new Set(lista.map(c => c.regiao).filter(Boolean));
   const redes = new Set(lista.map(c => c.rede).filter(Boolean));
@@ -508,9 +635,9 @@ function desenharCoberturaRegional(regionalInput) {
     return;
   }
 
-  if (regionaisParaDesenhar.length === 0) {
-    return;
-  }
+  if (regionaisParaDesenhar.length === 0) {
+    return;
+  }
 
   const ufsComCor = {};
   const todosEstados = new Set(
@@ -616,11 +743,11 @@ function desenharCoberturaRepresentante(representanteInput) {
   } else {
     return;
   }
-  
-  if (representantesParaDesenhar.length === 0) {
-    return;
-  }
-  
+  
+  if (representantesParaDesenhar.length === 0) {
+    return;
+  }
+  
   // 2. Coleta de Cobertura por UF
   const ufsComCobertura = {};
   const todosEstados = new Set(
@@ -677,8 +804,8 @@ function desenharCoberturaRepresentante(representanteInput) {
         finalWeight = 2;
 
         if (representantesParaDesenhar.length === 1) {
-            // Seleção Única: Usa a cor do único representante
-            finalColor = coresRepresentante[representantesParaDesenhar[0]];
+            // Seleção Única: Usa a cor do único representante
+            finalColor = coresRepresentante[representantesParaDesenhar[0]];
         } else {
           // Seleção Múltipla ou "__ALL__": Aplica lógica de sobreposição
           if (repNames.length >= 2) {
@@ -757,18 +884,34 @@ document.getElementById("toggleClusters").onchange = () => {
 };
 
 // ================================
-// INICIALIZAÇÃO (MANTIDO)
+// INICIALIZAÇÃO (MODIFICADO)
 // ================================
 
 (async function () {
+  // 1. Carrega clientes (para a primeira atualização do mapa)
   await carregarClientes();
+  
+  // 2. Carrega o filtro Regional (lista estática) com o NOVO TOGGLE
+  const regionais = Object.keys(coberturaRegional).filter(reg => reg !== "Regional sem GR");
+  renderizarCheckboxesComToggle(
+    "filtroRegionalContainer", 
+    regionais, 
+    "toggleRegionalAll", 
+    "Marcar/Desmarcar Todos os Regionais"
+  );
 
-  // Carrega o filtro Regional (lista estática) AGORA VIA CHECKBOXES
-  // OBS: A chamada para preencherFiltrosIniciais abaixo também renderiza o Regional, mas vou manter esta aqui por convenção.
-  const regionais = Object.keys(coberturaRegional);
-  renderizarCheckboxes("filtroRegionalContainer", regionais);
+  // 3. Carrega o filtro de Representante (lista estática) com o NOVO TOGGLE
+  const representantesMapeados = Object.keys(coberturaRepresentante).filter(
+    rep => rep !== "SEM COBERTURA" && rep !== "RESTO"
+  );
+  renderizarCheckboxesComToggle(
+    "filtroRepresentanteContainer", 
+    representantesMapeados, 
+    "toggleRepresentanteAll", 
+    "Marcar/Desmarcar Todos os Representantes"
+  );
 
-  // Carrega os filtros de dados (Rede, Funil, etc)
+  // 4. Carrega os filtros de dados dinâmicos (Rede, Funil, etc)
   await preencherFiltrosIniciais();
 
   geoJSONestados = await fetch("https://mapa-ledax.onrender.com/static/brasil_estados.geojson")
