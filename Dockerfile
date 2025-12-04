@@ -1,31 +1,31 @@
-# Use a imagem oficial Python 3.10
-FROM python:3.10-slim
+# Dockerfile
+FROM python:3.11-slim
 
-# Define o diretório de trabalho dentro do contêiner
-WORKDIR /app
+ENV PYTHONUNBUFFERED 1
+ENV APP_HOME /app
+WORKDIR $APP_HOME
 
-# Instala as dependências, usa --no-cache-dir para reduzir o tamanho da imagem
+# Cria a estrutura de pastas
+RUN mkdir -p /app/data
+RUN mkdir -p /app/static
+
+# Copia as dependências e instala
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia o código da aplicação (main.py, etl.py, database.py, models.py) 
-# e a pasta de dados/ (que contém o Excel e o geocache.json)
-COPY . .
+# Copia todos os arquivos do backend
+COPY main.py .
+COPY etl.py .
+COPY database.py .
+COPY models.py .
 
-# Garante que a pasta 'data' exista (para o cache e o DB)
-RUN mkdir -p data
+# COPIA DADOS E ARQUIVOS ESTÁTICOS
+# Isso garante que as fontes de dados e os arquivos do mapa estejam no contêiner
+COPY data/ /app/data/
+COPY static/ /app/static/
 
-# ** PASSO CRÍTICO: Executa o ETL durante a construção (BUILD TIME) **
-# Isso garante que 'data/ledax.db' (com todos os clientes) e 
-# 'data/geocache.json' estejam preenchidos ANTES do servidor ser iniciado.
-RUN echo "Iniciando ETL para preencher o banco de dados. Isso pode levar alguns minutos na primeira vez..." && \
-    python etl.py
-
-# Porta padrão do Uvicorn
-ENV PORT 8000
+# Porta que o Uvicorn vai usar
 EXPOSE 8000
 
-# ** PASSO FINAL: O comando de inicialização (CMD) agora apenas inicia o servidor web **
-# Como o banco de dados já foi preenchido, o servidor subirá INSTANTANEAMENTE
-# pronto para atender requisições, resolvendo o problema de timeout.
+# Comando de inicialização do servidor
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
