@@ -6,20 +6,11 @@ from sqlalchemy import or_
 from database import SessionLocal
 from models import Cliente
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import JSONResponse # Certifique-se de importar no topo
 from fastapi.responses import FileResponse # ✅ CORRIGIDO: Importado para servir o HTML
 from datetime import date
 from typing import Optional, List
 
 app = FastAPI(title="LEDAX MAPA API")
-
-# -------------------------------
-# ENDPOINT 0 - Rota Raiz (Health Check e Resposta GET)
-# -------------------------------
-@app.get("/")
-def read_root():
-    """Endpoint básico para verificação de saúde e rota GET raiz."""
-    return JSONResponse(content={"status": "ok", "message": "API de Mapeamento LEDAX rodando"}, status_code=200)
 
 # -------------------------------
 # 1. Configurações Iniciais
