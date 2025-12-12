@@ -1,257 +1,284 @@
-/* Reset mínimo */
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; }
+/* =========================================
+   1. VARIÁVEIS E RESET (Design System)
+   ========================================= */
+:root {
+  /* Paleta de Cores */
+  --primary: #2563eb;          /* Azul Royal (Interativo) */
+  --primary-hover: #1d4ed8;
+  --primary-light: #eff6ff;    /* Fundo azul muito claro para badges */
+  
+  --text-main: #1e293b;        /* Slate 800 - Texto Principal */
+  --text-secondary: #64748b;   /* Slate 500 - Texto Secundário */
+  --text-muted: #94a3b8;       /* Slate 400 - Desabilitado/Placeholder */
 
-:root{
-  --sidebar-w: 360px;
-  --accent: #0f62fe;
-  --muted: #6b7280;
-  --bg: #f7f8fa;
-  --card-bg: #ffffff;
-  --glass: rgba(255,255,255,0.7);
+  --bg-body: #f1f5f9;          /* Slate 100 - Fundo da Página */
+  --bg-surface: #ffffff;       /* Branco - Fundo de Cards/Sidebar */
+  --border: #e2e8f0;           /* Slate 200 - Bordas sutis */
+
+  --sidebar-w: 380px;          /* Largura da Sidebar */
+  --header-h: 60px;            /* Altura do Topo */
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --radius: 8px;               /* Arredondamento padrão */
 }
+
+* { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
+
+body {
+  font-family: 'Inter', "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  height: 100vh;
+  overflow: hidden; /* O mapa controla o scroll */
+}
+
+/* =========================================
+   2. SCROLLBAR MODERNA (Estilo Clean)
+   ========================================= */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* =========================================
+   3. LAYOUT (Topo, Sidebar, Mapa)
+   ========================================= */
 
 /* Topbar */
-.topbar{
+.topbar {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 56px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding: 0 16px;
-  background: linear-gradient(90deg, rgba(255,255,255,0.9), rgba(250,250,252,0.9));
-  border-bottom: 1px solid #eee;
-  z-index: 1002;
+  top: 0; left: 0; right: 0;
+  height: var(--header-h);
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 2000;
+  box-shadow: var(--shadow-sm);
 }
-.title-wrap h1{ font-size:18px; letter-spacing:1px; color:#111827; }
-.title-wrap .subtitle{ font-size:12px; color:var(--muted); margin-top:2px; }
+
+.title-wrap h1 { font-size: 16px; font-weight: 700; color: var(--text-main); letter-spacing: -0.02em; }
+.title-wrap .subtitle { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
 
 /* Sidebar */
-.sidebar{
+.sidebar {
   position: fixed;
-  top:56px;
-  left: 0;
+  top: var(--header-h);
+  left: 0; bottom: 0;
   width: var(--sidebar-w);
-  bottom: 0;
-  background: var(--card-bg);
-  border-right: 1px solid #e6e9ef;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border);
+  z-index: 1500;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex; flex-direction: column;
+}
+
+.sidebar.collapsed { transform: translateX(-100%); }
+
+.sidebar-inner {
+  padding: 24px;
   overflow-y: auto;
-  padding: 18px;
-  z-index: 1001;
-  transition: transform .28s ease;
+  height: 100%;
 }
-.sidebar .sidebar-inner{ max-width: 320px; margin: 0 auto; }
 
-/* Collapsed state (use JS to toggle 'collapsed' class on #sidebar) */
-#sidebar.collapsed{ transform: translateX(-102%); }
-
-/* Map takes rest of screen */
-.map{
+/* Mapa */
+.map {
   position: absolute;
-  top: 56px;
+  top: var(--header-h);
   left: var(--sidebar-w);
-  right: 0;
-  bottom: 0;
+  right: 0; bottom: 0;
+  background: #e5e5e5;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
 }
-#sidebar.collapsed + .map{ left: 0; }
+/* Ajuste mapa quando sidebar fecha */
+#sidebar.collapsed + .map { left: 0; }
 
-/* Forms */
-.label{ font-weight:600; display:block; margin-bottom:6px; color:#111827; font-size:13px; }
-input[type="file"], input[type="search"], select{ width:100%; padding:8px 10px; border-radius:6px; border:1px solid #e5e7eb; background:#fff; margin-bottom:10px; font-size:13px; }
-hr{ border: none; border-top:1px solid #f1f3f6; margin:12px 0; }
 
-/* Buttons */
-.btn-row{ display:flex; gap:8px; margin-top:8px; }
-button{ padding:8px 10px; border-radius:8px; border: none; cursor:pointer; font-weight:600; }
-button.primary{ background:var(--accent); color:#fff; box-shadow: 0 1px 2px rgba(2,6,23,0.08); }
-button.ghost{ background: transparent; color:var(--accent); border:1px solid #e6eefc; }
-.icon-btn{ background:transparent; border:none; font-size:20px; cursor:pointer; padding:6px; }
-
-/* KPIs */
-.dashboard h3{ margin-bottom:10px; color:#0f1724; font-size:15px; }
-.kpi-grid{ display:grid; grid-template-columns: repeat(2,1fr); gap:10px; margin-bottom:12px; }
-.kpi{ background: var(--bg); padding:10px; border-radius:8px; border:1px solid #f0f2f5; }
-.kpi-label{ font-size:12px; color:var(--muted); margin-bottom:6px; }
-.kpi-value{ font-size:18px; font-weight:700; color:#111827; }
-
-/* Mini lists */
-.mini-lists{ display:flex; gap:10px; }
-.mini-list{ flex:1; background:#fff; border-radius:8px; padding:8px; border:1px solid #f0f2f5; }
-.mini-title{ font-size:13px; color:#111827; margin-bottom:8px; }
-.list-presenca{ list-style:none; max-height:160px; overflow:auto; padding-right:6px; }
-.list-presenca li{ display:flex; justify-content:space-between; padding:6px 4px; font-size:13px; border-radius:6px; }
-.list-presenca li + li{ margin-top:6px; }
-
-/* badge */
-.badge{ background:#eef2ff; color:#0f2fe8; padding:4px 8px; border-radius:999px; font-weight:700; font-size:12px; }
-
-/* Legend */
-.legend{ margin-top:12px; font-size:12px; color:var(--muted); }
-.legend-bar{ display:flex; align-items:center; gap:8px; margin-top:8px; }
-.legend-label{ font-size:11px; color:var(--muted); width:80px; text-align:center; }
-.gradient{ flex:1; height:12px; border-radius:6px; background: linear-gradient(90deg,#f7fbff,#b6d4ff,#1f6fff); border:1px solid #e6eefc; }
-
-/* Small utilities */
-.checkbox-row{ margin:6px 0; font-size:14px; color:#111827; display:flex; gap:8px; align-items:center; }
-.export-row{ display:flex; gap:8px; margin-top:8px; }
-
-/* Responsive adjustments */
-@media (max-width: 900px){
-  :root{ --sidebar-w: 320px; }
-  .map{ left: var(--sidebar-w); }
-  #sidebar.collapsed + .map{ left: 0; }
-}
-@media (max-width: 640px){
-  .mini-lists{ flex-direction:column; }
-  .kpi-grid{ grid-template-columns: 1fr 1fr; }
-  .sidebar{ width: 100%; transform: translateY(0); top:56px; left:0; z-index:1100; }
-}
-
-/* styles.css (Adicione ao final ou na seção de forms) */
-
-.date-input {
-    width: 48%; /* Para caber dois inputs lado a lado */
-    display: inline-block;
-    box-sizing: border-box;
-    margin-right: 2%; /* Espaçamento entre os campos */
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-/* ================================================= */
-/* ESTILOS ESPECÍFICOS PARA FILTROS (Busca e Data) */
-/* ================================================= */
-
-/* Garante que o input de Busca Rápida ocupe a largura total */
-#filtroBuscaTexto {
-    width: 100%;
-    padding: 8px 12px;
-    border: 2px solid #ddd; /* Borda leve */
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Sombra suave */
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-/* Efeito de foco para o input de busca */
-#filtroBuscaTexto:focus {
-    border-color: #3f51b5; /* Cor primária para foco */
-    box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
-    outline: none;
-}
-
-/* ------------------------------------------------- */
-/* Estilo para o Intervalo de Data (.date-range)     */
-/* ------------------------------------------------- */
-
-.date-range {
-    /* Define o layout para cada par Input + Label */
-    display: flex;
-    align-items: center;
-    gap: 8px; /* Espaço entre o input e o label */
-    margin-bottom: 8px; /* Espaço entre os dois grupos de data */
-}
-
-.date-range label {
-    /* Estilo para as palavras "Início" e "Final" */
-    font-size: 0.85em;
-    color: #666;
-    min-width: 40px; /* Garante que o label não encolha */
-    text-align: right;
-    order: 2; /* Coloca o label depois do input */
-}
-
-.date-range input[type="date"] {
-    /* Estilo para os inputs de data */
-    flex-grow: 1; /* Permite que o input ocupe o máximo de espaço */
-    padding: 8px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1em;
-    order: 1; /* Coloca o input antes do label */
-}
-
-/* Se for necessário, ajuste o container principal (.form-group) */
-.form-group {
-    margin-bottom: 20px;
-    padding: 0 10px; /* Adiciona padding lateral se a sidebar não tiver */
-}
+/* =========================================
+   4. FORMULÁRIOS E INPUTS (Uniformizados)
+   ========================================= */
 
 .label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #333;
+  display: block; font-size: 13px; font-weight: 600;
+  color: var(--text-main); margin-bottom: 8px;
 }
 
-/* 🚨 NOVO: Estilo para grupo de checkboxes */
+/* Estilo Base para todos os inputs */
+input[type="text"], 
+input[type="search"], 
+input[type="date"], 
+select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--text-main);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-surface);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  height: 40px; /* Altura consistente */
+}
+
+input:focus, select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-group { margin-bottom: 20px; }
+
+/* Datas (Ajuste para ficarem lado a lado ou em grupo) */
+.date-range {
+  display: flex; gap: 10px; align-items: center;
+  margin-bottom: 8px;
+}
+.date-range label {
+  font-size: 12px; color: var(--text-secondary); min-width: 30px;
+}
+
+/* =========================================
+   5. CHECKBOXES (Container com Scroll)
+   ========================================= */
+
+/* Wrapper cinza externo (opcional, para agrupar) */
 .checkbox-group {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #f8fafc; /* Fundo interno levemente cinza */
+  padding: 8px;
   max-height: 200px;
   overflow-y: auto;
-  border: 1px solid #ddd;
+  display: flex; flex-direction: column; gap: 2px;
+}
+
+/* Linha do Checkbox Individual */
+.checkbox-item, .checkbox-row { /* Mantendo compatibilidade com seu HTML antigo */
+  display: flex; align-items: center;
+  padding: 6px 8px;
   border-radius: 4px;
-  padding: 8px;
-  background: white;
-}
-
-.checkbox-group .checkbox-row {
-  padding: 4px 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.checkbox-group .checkbox-row:hover {
-  background-color: #f5f5f5;
-  border-radius: 4px;
-}
-
-.checkbox-group input[type="checkbox"] {
   cursor: pointer;
-  width: 16px;
-  height: 16px;
-  margin: 0;
-}
-
-.checkbox-group label {
-  cursor: pointer;
-  margin: 0;
-  flex: 1;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: background 0.15s;
   user-select: none;
+  width: 100%;
 }
 
-/* 🚨 NOVO: Estilo para o container de checkboxes */
-.checkbox-group {
-  max-height: 200px; /* Limita a altura do container */
-  overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo exceder a altura */
-  border: 1px solid #ddd;
-  padding: 8px;
-  border-radius: 4px;
-  background-color: #f9f9f9;
+.checkbox-item:hover, .checkbox-row:hover {
+  background: #e2e8f0; color: var(--text-main);
 }
 
-/* Estilo para cada item/linha de checkbox */
-.checkbox-item {
-  display: flex;
-  align-items: center;
-  margin: 4px 0;
-  cursor: pointer;
-  padding: 2px 4px;
-  border-radius: 3px;
-  font-size: 0.9em;
+.checkbox-item input[type="checkbox"], 
+.checkbox-row input[type="checkbox"] {
+  accent-color: var(--primary);
+  width: 16px; height: 16px; margin-right: 10px;
+  cursor: pointer; flex-shrink: 0;
 }
 
-/* Estilo ao passar o mouse */
-.checkbox-item:hover {
-  background-color: #eee;
+.checkbox-item label, .checkbox-row label {
+  cursor: pointer; flex: 1; margin: 0; font-size: 13px;
 }
 
-/* Estilo do input (quadrado) */
-.checkbox-item input[type="checkbox"] {
-  margin-right: 8px;
-  min-width: 16px; /* Garante que o input não suma */
-  min-height: 16px;
+/* Toggle container "Todos" */
+.toggle-all-container {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px; margin-bottom: 6px;
+}
+
+/* =========================================
+   6. BOTÕES
+   ========================================= */
+.btn-row { display: flex; gap: 10px; margin-top: 16px; }
+
+button {
+  height: 40px; padding: 0 16px;
+  border: none; border-radius: 6px;
+  font-weight: 600; font-size: 14px; cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+button:active { transform: scale(0.98); }
+
+button.primary, #btnAplicar {
+  background: var(--primary); color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1); flex: 2;
+}
+button.primary:hover { background: var(--primary-hover); }
+
+button.ghost, #btnLimpar {
+  background: white; border: 1px solid var(--border); color: var(--text-secondary); flex: 1;
+}
+button.ghost:hover { border-color: var(--text-secondary); color: var(--text-main); }
+
+.icon-btn {
+  width: 36px; height: 36px; padding: 0;
+  background: transparent; color: var(--text-secondary);
+}
+.icon-btn:hover { background: var(--bg-body); color: var(--primary); }
+
+/* =========================================
+   7. DASHBOARD & KPIS
+   ========================================= */
+.dashboard h3 {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+  font-weight: 700; color: var(--text-muted); margin-bottom: 12px;
+}
+
+.kpi-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  margin-bottom: 20px;
+}
+
+.kpi, .kpi-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: var(--shadow-sm);
+  display: flex; flex-direction: column;
+}
+
+.kpi-label, .kpi-title { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; }
+.kpi-value { font-size: 20px; font-weight: 700; color: var(--text-main); }
+
+/* Mini Listas */
+.mini-lists { display: flex; gap: 12px; margin-bottom: 20px; }
+.mini-list {
+  flex: 1; background: white; border: 1px solid var(--border);
+  border-radius: 8px; padding: 12px;
+}
+.mini-title { font-size: 12px; font-weight: 600; margin-bottom: 10px; color: var(--text-main); }
+
+.list-presenca { list-style: none; max-height: 150px; overflow-y: auto; }
+.list-presenca li {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 12px; color: var(--text-secondary); padding: 6px 0;
+  border-bottom: 1px solid var(--bg-body);
+}
+.badge {
+  background: var(--primary-light); color: var(--primary);
+  padding: 2px 8px; border-radius: 12px; font-weight: 700; font-size: 11px;
+}
+
+/* =========================================
+   8. UTILITÁRIOS E RESPONSIVO
+   ========================================= */
+hr, .divider { border: 0; border-top: 1px solid var(--border); margin: 24px 0; }
+
+.legend { margin-top: 16px; font-size: 12px; color: var(--text-secondary); }
+.legend-bar { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.gradient { flex: 1; height: 12px; border-radius: 6px; background: linear-gradient(90deg, #f7fbff, #1f6fff); }
+
+@media (max-width: 900px) {
+  :root { --sidebar-w: 320px; }
+}
+
+@media (max-width: 640px) {
+  .sidebar { width: 100%; transform: translateY(0); z-index: 2500; }
+  .map { left: 0; bottom: 0; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .mini-lists { flex-direction: column; }
 }

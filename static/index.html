@@ -6,183 +6,187 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>LEDAX - Mapa Dinâmico - Connect</title>
 
-  <!-- Leaflet CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
-  <!-- MarkerCluster CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
-  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
   <header class="topbar">
-    <div class="title-wrap">
-      <h1>LEDAX</h1>
-      <p class="subtitle">Mapa Dinâmico — visão qualitativa</p>
+    <div class="brand" style="display:flex; align-items:center; gap:12px;">
+      <div style="width:32px; height:32px; background:var(--primary); color:white; border-radius:8px; display:flex; align-items:center; justify-content:center; font-weight:700;">L</div>
+      
+      <div class="title-wrap">
+        <h1>LEDAX</h1>
+        <p class="subtitle">Mapa Dinâmico — visão qualitativa</p>
+      </div>
     </div>
 
-    <a href="mapa_cobertura_estatica.html" class="topbar-link" title="Mudar para Mapa Estático de Cobertura">
-      🗺️ Ver Cobertura Estática (BETA)
-    </a>
-    <button id="btnToggleSidebar" class="icon-btn" aria-label="Abrir/Fechar painel">☰</button>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="mapa_cobertura_estatica.html" class="topbar-link" title="Mudar para Mapa Estático" style="font-size:13px; text-decoration:none; color:var(--text-secondary); border:1px solid var(--border); padding:6px 12px; border-radius:6px; display:flex; align-items:center; gap:6px;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+        <span>Cobertura Estática</span>
+      </a>
+      
+      <button id="btnToggleSidebar" class="icon-btn" aria-label="Abrir/Fechar painel">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
   </header>
 
-<aside id="sidebar" class="sidebar">
-  <div class="sidebar-inner">
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
 
-    <h2>Filtros</h2>
-
-    <div class="form-group">
-      <label class="label">Busca Rápida</label>
-      <input type="text" id="filtroBuscaTexto" placeholder="Buscar por Título, Rede" />
-    </div>
-    <div class="form-group">
-      <label class="label">Intervalo de Data das Vendas</label>
-      <div class="date-range">
-        <input type="date" id="filtroDataInicio" placeholder="dd/mm/aaaa">
-        <label for="filtroDataInicio">Início</label>
+      <div style="margin-bottom:20px;">
+        <h2 style="font-size:18px; font-weight:600; color:var(--text-main);">Filtros</h2>
       </div>
-      <div class="date-range">
-        <input type="date" id="filtroDataFim" placeholder="dd/mm/aaaa">
-        <label for="filtroDataFim">Final</label>
+
+      <div class="form-group">
+        <label class="label">Busca Rápida</label>
+        <input type="text" id="filtroBuscaTexto" placeholder="Buscar por Título, Rede..." />
       </div>
-    </div>
 
-    <div class="form-group">
-      <label class="label">Funil</label>
-      <div id="filtroFunilContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class="form-group">
-      <label class="label">Rede</label>
-      <div id="filtroRedeContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class=" form-group">
-      <label class="label">Classificação de Cliente</label>
-      <div id="filtroTipoClienteContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class="form-group">
-      <label class="label">Representante</label>
-      <div id="filtroRepresentanteContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class="form-group">
-      <label class="label">Região</label>
-      <div id="filtroRegiaoContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class="form-group">
-      <label class="label">Regional</label>
-      <div id="filtroRegionalContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class="form-group">
-      <label class="label">Responsável</label>
-      <div id="filtroResponsavelContainer" class="checkbox-group">
-        </div>
-    </div>
-
-    <div class="btn-row">
-      <button id="btnAplicar" class="primary">Aplicar</button>
-      <button id="btnLimpar" class="ghost">Limpar</button>
-    </div>
-
-    <hr />
-
-    <h3>Camadas</h3>
-    <div class="checkbox-row">
-      <input type="checkbox" id="toggleClusters" checked />
-      <label for="toggleClusters">Clusters</label>
-    </div>
-
-    <div class="checkbox-row">
-      <input type="checkbox" id="toggleHeat" />
-      <label for="toggleHeat">Heatmap (densidade)</label>
-    </div>
-
-    <div class="checkbox-row">
-      <input type="checkbox" id="toggleChoropleth" />
-      <label for="toggleChoropleth">Choropleth (Vendas)</label>
-    </div>
-
-
-    <hr />
-
-    <section id="dashboard" class="dashboard">
-      <h3>Resumo qualitativo</h3>
-
-      <div class="kpi-grid">
-        <div class="kpi">
-          <div class="kpi-label">Total de vendas</div>
-          <div class="kpi-value" id="kp_totalClientes">0</div>
-        </div>
-
-        <div class="kpi">
-          <div class="kpi-label">Regiões com presença</div>
-          <div class="kpi-value" id="kp_regioesPresenca">0</div>
-        </div>
-
-        <div class="kpi">
-          <div class="kpi-label">Redes com presença</div>
-          <div class="kpi-value" id="kp_redesPresenca">0</div>
-        </div>
-
-        <div class="kpi">
-          <div class="kpi-label">Representantes ativos</div>
-          <div class="kpi-value" id="kp_repsAtivos">0</div>
+      <div class="form-group">
+        <label class="label">Intervalo de Vendas</label>
+        <div class="date-range">
+          <div style="flex:1">
+            <label for="filtroDataInicio" style="display:block; margin-bottom:4px; font-size:11px;">Início</label>
+            <input type="date" id="filtroDataInicio">
+          </div>
+          <div style="flex:1">
+            <label for="filtroDataFim" style="display:block; margin-bottom:4px; font-size:11px;">Final</label>
+            <input type="date" id="filtroDataFim">
+          </div>
         </div>
       </div>
 
-      <div class="mini-lists">
-        <div class="mini-list">
-          <div class="mini-title">Presença por região</div>
-          <ul id="list_presenca_regiao" class="list-presenca"></ul>
+      <hr class="divider" />
+
+      <div class="form-group">
+        <label class="label">Funil</label>
+        <div id="filtroFunilContainer" class="checkbox-group"></div>
+      </div>
+
+      <div class="form-group">
+        <label class="label">Rede</label>
+        <div id="filtroRedeContainer" class="checkbox-group"></div>
+      </div>
+
+      <div class="form-group">
+        <label class="label">Classificação de Cliente</label>
+        <div id="filtroTipoClienteContainer" class="checkbox-group"></div>
+      </div>
+
+      <div class="form-group">
+        <label class="label">Representante</label>
+        <div id="filtroRepresentanteContainer" class="checkbox-group"></div>
+      </div>
+
+      <div class="form-group">
+        <label class="label">Regional</label>
+        <div id="filtroRegionalContainer" class="checkbox-group"></div>
+      </div>
+
+      <div class="form-group">
+        <label class="label">Responsável</label>
+        <div id="filtroResponsavelContainer" class="checkbox-group"></div>
+      </div>
+
+      <div class="btn-row">
+        <button id="btnAplicar" class="primary">Aplicar Filtros</button>
+        <button id="btnLimpar" class="ghost">Limpar</button>
+      </div>
+
+      <hr class="divider" />
+
+      <div style="margin-bottom:24px;">
+        <h3 style="font-size:12px; text-transform:uppercase; color:var(--text-muted); font-weight:700; margin-bottom:12px;">Camadas do Mapa</h3>
+        
+        <div class="checkbox-row">
+          <input type="checkbox" id="toggleClusters" checked />
+          <label for="toggleClusters">Agrupar Clusters</label>
         </div>
 
-        <div class="mini-list">
-          <div class="mini-title">Presença por rede</div>
-          <ul id="list_presenca_rede" class="list-presenca"></ul>
+        <div class="checkbox-row">
+          <input type="checkbox" id="toggleHeat" />
+          <label for="toggleHeat">Mapa de Calor (Densidade)</label>
+        </div>
+
+        <div class="checkbox-row">
+          <input type="checkbox" id="toggleChoropleth" />
+          <label for="toggleChoropleth">Mapa Coroplético (Vendas)</label>
         </div>
       </div>
 
-      <div class="legend">
-        <div class="legend-title">Choropleth (Negócios)</div>
-        <div class="legend-bar">
-          <span class="legend-label">Mais negócios</span>
-          <div class="gradient"></div>
-          <span class="legend-label">Menos negócios</span>
+      <hr class="divider" />
+
+      <section id="dashboard" class="dashboard">
+        <h3>Resumo Qualitativo</h3>
+
+        <div class="kpi-grid">
+          <div class="kpi">
+            <div class="kpi-label">Total de Vendas</div>
+            <div class="kpi-value" id="kp_totalClientes">0</div>
+          </div>
+
+          <div class="kpi">
+            <div class="kpi-label">Regiões</div>
+            <div class="kpi-value" id="kp_regioesPresenca">0</div>
+          </div>
+
+          <div class="kpi">
+            <div class="kpi-label">Redes Ativas</div>
+            <div class="kpi-value" id="kp_redesPresenca">0</div>
+          </div>
+
+          <div class="kpi">
+            <div class="kpi-label">Reps. Ativos</div>
+            <div class="kpi-value" id="kp_repsAtivos">0</div>
+          </div>
         </div>
-        <div class="legend-note">Tonelagem qualitativa — sem valores monetários.</div>
-      </div>
-    </section>
 
-    <div style="height:24px"></div>
+        <div class="mini-lists">
+          <div class="mini-list">
+            <div class="mini-title">Top Regiões</div>
+            <ul id="list_presenca_regiao" class="list-presenca"></ul>
+          </div>
 
-  </div>
-</aside>
+          <div class="mini-list">
+            <div class="mini-title">Top Redes</div>
+            <ul id="list_presenca_rede" class="list-presenca"></ul>
+          </div>
+        </div>
 
-  <!-- Map container -->
+        <div class="legend">
+          <div class="legend-title" style="font-weight:600; margin-bottom:5px;">Intensidade (Choropleth)</div>
+          <div class="legend-bar">
+            <span class="legend-label">Alto</span>
+            <div class="gradient"></div>
+            <span class="legend-label">Baixo</span>
+          </div>
+          <div class="legend-note" style="margin-top:4px; font-style:italic;">*Dados qualitativos</div>
+        </div>
+      </section>
+
+      <div style="height:40px"></div>
+    </div>
+  </aside>
+
   <main id="map" class="map"></main>
 
-  <!-- Libraries -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
 
-  <!-- Main script -->
-  <script src="/static/script.js"></script>
+  <script src="script.js"></script>
 
 </body>
-
 </html>

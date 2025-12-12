@@ -1,14 +1,14 @@
 // =========================
 // CONFIGURAÇÕES DO BACKEND
 // =========================
-const API = "https://mapa-ledax.onrender.com";
+const API = "http://localhost:8000";
 // =========================
 // VARIÁVEIS GLOBAIS
 // =========================
 let clientes = [];
-let markersLayer = L.layerGroup();            // marcadores sem cluster
-let clusterGroup = L.markerClusterGroup();    // marcadores com cluster
-let clustersAtivos = true;                    // controle do checkbox
+let markersLayer = L.layerGroup();            // marcadores sem cluster
+let clusterGroup = L.markerClusterGroup();    // marcadores com cluster
+let clustersAtivos = true;                    // controle do checkbox
 let heatLayer = null;
 let choroplethLayer = null;
 let geoJSONestados = null;
@@ -914,7 +914,7 @@ document.getElementById("toggleClusters").onchange = () => {
   // 4. Carrega os filtros de dados dinâmicos (Rede, Funil, etc)
   await preencherFiltrosIniciais();
 
-  geoJSONestados = await fetch("https://mapa-ledax.onrender.com/static/brasil_estados.geojson")
+  geoJSONestados = await fetch("http://localhost:8000/static/brasil_estados.geojson")
     .then(r => r.json())
     .catch(err => console.error("Erro ao carregar GeoJSON:", err));
 })();
