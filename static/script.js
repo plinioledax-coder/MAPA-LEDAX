@@ -522,11 +522,9 @@ function atualizarKPIs(lista) {
   }
 
 
-  const regioes = new Set(lista.map(c => c.regiao).filter(Boolean));
   const redes = new Set(lista.map(c => c.rede).filter(Boolean));
   const reps = new Set(lista.map(c => c.representante).filter(Boolean));
 
-  document.getElementById("kp_regioesPresenca").textContent = regioes.size;
   document.getElementById("kp_redesPresenca").textContent = redes.size;
   document.getElementById("kp_repsAtivos").textContent = reps.size;
 
@@ -534,7 +532,6 @@ function atualizarKPIs(lista) {
 }
 
 function atualizarListasQualitativas(lista) {
-  atualizarLista("list_presenca_regiao", "regiao", lista);
   atualizarLista("list_presenca_rede", "rede", lista);
 }
 
@@ -919,4 +916,5 @@ document.getElementById("toggleClusters").onchange = () => {
     .catch(err => console.error("Erro ao carregar GeoJSON:", err));
 
 })();
+
 
